@@ -9,7 +9,7 @@
 		<graphicData>
 			<texPath>Things/Item/DragonScales</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(40,40,40)</color>
+			
 		</graphicData>
 		<statBases>
 			<MarketValue>4.2</MarketValue>
