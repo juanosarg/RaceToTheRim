@@ -6,27 +6,27 @@
     <appliesToAll>true</appliesToAll>
     <variants>
       <skin>
-        <commonality>1</commonality>
+        <commonality>0.05</commonality>
         <texName>Fury_A</texName>
       </skin>
       
       <skin>
-        <commonality>1</commonality>
+        <commonality>0.65</commonality>
         <texName>Fury_B</texName>
       </skin>
       
       <skin>
-        <commonality>1</commonality>
+        <commonality>0.65</commonality>
         <texName>Fury_C</texName>
       </skin>
       
       <skin>
-        <commonality>1</commonality>
+        <commonality>0.1</commonality>
         <texName>Fury_D</texName>
       </skin>
       
       <skin>
-        <commonality>1</commonality>
+        <commonality>0.1</commonality>
         <texName>Fury_E</texName>
       </skin>
       
