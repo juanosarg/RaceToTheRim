@@ -5,7 +5,7 @@
 		<operations>
 			<li Class="ModCheck.isModLoaded">
 				<modName>A Dog Said... Animal Prosthetics</modName>
-				<yourMod>Magical Menagerie</yourMod>
+				<yourMod>Race to the Rim</yourMod>
 			</li>
 
 
@@ -15,17 +15,8 @@
 				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalStomach"]/recipeUsers</xpath>
 				<value>
 
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+					<li>RttR_Fury</li>
+					
 		
 				</value>
 			</li>
@@ -33,17 +24,8 @@
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalKidney surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalKidney"]/recipeUsers</xpath>
 				<value>
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+										<li>RttR_Fury</li>
+
 					
 				</value>
 			</li>
@@ -51,17 +33,8 @@
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalLiver surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLiver"]/recipeUsers</xpath>
 				<value>
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+									<li>RttR_Fury</li>
+
 					
 				</value>
 			</li>
@@ -69,17 +42,8 @@
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalLung surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLung"]/recipeUsers</xpath>
 				<value>
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+									<li>RttR_Fury</li>
+
 					
 				</value>
 			</li>
@@ -87,17 +51,8 @@
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalHeart surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalHeart"]/recipeUsers</xpath>
 				<value>
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+									<li>RttR_Fury</li>
+
 				</value>
 			</li>
 
@@ -105,17 +60,8 @@
 				<xpath>/Defs/RecipeDef[defName = "InstallAnimalBrainStimulator"]/recipeUsers</xpath>
 				<value>
 
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+									<li>RttR_Fury</li>
+
 					
 				</value>
 			</li>
@@ -124,17 +70,8 @@
 				<xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalBionic" or "InstallSpineAnimalSimple"]/recipeUsers</xpath>
 				<value>
 
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+										<li>RttR_Fury</li>
+
 					
 					
 				</value>
@@ -145,17 +82,8 @@
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallJawAnimalBionic surgery <recipeUsers> -->
 				<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic" or "InstallJawAnimalSimple"]/recipeUsers</xpath>
 				<value>
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+									<li>RttR_Fury</li>
+
 				</value>
 			</li>
 			
@@ -166,34 +94,16 @@
 				<xpath>/Defs/RecipeDef[defName = "InstallNoseAnimalSimple"]/recipeUsers</xpath>
 				<value>
 
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+										<li>RttR_Fury</li>
+
 				</value>
 			</li>
 
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicEyeAnimal surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[defName = "InstallBionicEyeAnimal"]/recipeUsers</xpath>
 				<value>
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+										<li>RttR_Fury</li>
+
 				</value>
 			</li>
 
@@ -201,17 +111,8 @@
 				<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple" or "InstallEarAnimalBionic"]/recipeUsers</xpath>
 				<value>
 
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
+										<li>RttR_Fury</li>
+
 				</value>
 			</li>
 
@@ -223,18 +124,8 @@
 				<xpath>/Defs/RecipeDef[defName = "InstallPegLegAnimal" or "InstallSimpleProstheticLegAnimal" or "InstallBionicLegAnimal"]/recipeUsers</xpath>
 				<value>
 
-					<li>MM_Ahuizotl</li>
-					<li>MM_Chimera</li>
-					<li>MM_ErymanthianBoar</li>
-					<li>MM_Griffin</li>
-					<li>MM_Kitsune</li>
-					<li>MM_LernaeanHydra</li>
-					<li>MM_Manticore</li>
-					<li>MM_Pegasus</li>
-					<li>MM_Qilin</li>
-					<li>MM_Unicorn</li>
-					<li>MM_WildMinotaur</li>
-					
+									<li>RttR_Fury</li>
+
 				
 				</value>
 			</li>
@@ -252,10 +143,8 @@
 				<value>
 
 					
-					
-					<li>MM_Kitsune</li>
-					
-					<li>MM_Manticore</li>
+										<li>RttR_Fury</li>
+
 					
 					
 					

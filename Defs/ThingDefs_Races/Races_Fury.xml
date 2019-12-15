@@ -9,7 +9,7 @@
 		<label>fury</label>
 		<description>Description goes here.\n\nSpecial Abilities: .</description>
 		<statBases>
-			<MoveSpeed>9</MoveSpeed>
+			<MoveSpeed>7</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 			<MarketValue>1000</MarketValue>
@@ -92,6 +92,16 @@
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>5</woolAmount>
 			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>RttR_EggFuryFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>20</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>1</max>
+				</eggCountRange>
+			</li>
 		</comps>
 		<verbs>
 			<li>
@@ -134,7 +144,7 @@
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
 			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
-			<herdAnimal>false</herdAnimal>
+			<herdAnimal>true</herdAnimal>
 			<baseBodySize>2.5</baseBodySize>
 			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>2</baseHealthScale>
@@ -142,7 +152,7 @@
 			<wildness>0.90</wildness>
 			<trainability>Advanced</trainability>
 			<leatherDef>Leather_Lizard</leatherDef>
-			<gestationPeriodDays>27</gestationPeriodDays>
+			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 
@@ -183,6 +193,10 @@
 		<race>RttR_Fury</race>
 		<combatPower>450</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<wildGroupSize>
+			<min>1</min>
+			<max>3</max>
+		</wildGroupSize>
 		<lifeStages>
 			<li>
 
