@@ -27,5 +27,30 @@
     </comps>
   </ThingDef>
   
+    <!-- Gronckle Egg -->
+
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>RttR_EggGronckleFertilized</defName>
+    <label>gronckle egg (fert.)</label>
+    <description>Fertilized gronckle egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a gronckle.</description>
+	<tradeability>None</tradeability>
+    <statBases>
+      <MarketValue>9.0</MarketValue>
+   	         <Nutrition>.25</Nutrition>
+
+    </statBases>
+	 <graphicData>
+	  <texPath>Things/Item/EggDragon</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>RttR_Gronckle</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
    
 </Defs>

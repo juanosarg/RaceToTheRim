@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>RttR_IngestWeird</defName>
+		<driverClass>RttRAnimalBehaviours.JobDriver_IngestWeird</driverClass>
+		<reportString>consuming TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>RttR_AnimalResource</defName>
+		<driverClass>RttRAnimalBehaviours.JobDriver_AnimalResource</driverClass>
+		<reportString>gathering animal resource from TargetA.</reportString>
+	</JobDef>
+
+</Defs>

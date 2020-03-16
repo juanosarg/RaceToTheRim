@@ -299,9 +299,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompDigWhenHungry.cs" />
-    <Compile Include="CompProperties_DigWhenHungry.cs" />
+    <Compile Include="Comps\CompAnimalProduct.cs" />
+    <Compile Include="Comps\CompDigWhenHungry.cs" />
+    <Compile Include="Comps\CompEatWeirdFood.cs" />
+    <Compile Include="Comps\CompProperties_AnimalProduct.cs" />
+    <Compile Include="Comps\CompProperties_DigWhenHungry.cs" />
+    <Compile Include="Comps\CompProperties_EatWeirdFood.cs" />
+    <Compile Include="JobDriver_AnimalResource.cs" />
+    <Compile Include="JobDriver_IngestWeird.cs" />
+    <Compile Include="JobGiver_GetWeirdFood.cs" />
+    <Compile Include="JobDriver_IngestWeirdBU.cs" />
+    <Compile Include="LocalJobDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkGiver_AnimalResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
