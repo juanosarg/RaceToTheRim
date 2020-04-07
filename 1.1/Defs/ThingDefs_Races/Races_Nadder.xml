@@ -5,18 +5,15 @@
 
 	<ThingDef ParentName="AnimalThingBase">
 
-		<defName>RttR_Gronckle</defName>
-		<label>gronckle</label>
+		<defName>RttR_Nadder</defName>
+		<label>deadly nadder</label>
+		<thingClass>RttRAnimalBehaviours.Pawn_Spiky</thingClass>
 		<description>Description goes here.\n\nSpecial Abilities: .</description>
 		<statBases>
-			<MoveSpeed>1.75</MoveSpeed>
+			<MoveSpeed>6</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 			<MarketValue>1000</MarketValue>
-			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
-			      <ToxicSensitivity>30</ToxicSensitivity>
-
 		</statBases>
 		<tools>
 			<li>
@@ -24,14 +21,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>6</power>
+				<power>9.35</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>14</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -41,14 +38,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>6</power>
+				<power>9.35</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>14</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -57,7 +54,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>11</power>
+				<power>18.7</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
@@ -65,7 +62,7 @@
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>24</amount>
+							<amount>20</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -76,7 +73,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>5</power>
+				<power>7.65</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -85,56 +82,19 @@
 		</tools>
 		<comps>
 
-		
-			<li Class="RttRAnimalBehaviours.CompProperties_EatWeirdFood">
+			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
 
-				<customThingToEat>
-					<li>ChunkSandstone</li>
-					<li>ChunkGranite</li>
-					<li>ChunkLimestone</li>
-					<li>ChunkSlate</li>
-					<li>ChunkMarble</li>
-					<li>GU_ChunkRoseQuartz</li>
-					<li>AB_ChunkCragstone</li>
-					<li>AB_ChunkObsidian</li>
-					<li>AB_ChunkMudstone</li>
-					<li>AB_ChunkSlimeStone</li>
-				</customThingToEat>
-				<nutrition>2</nutrition>
-				<digThingIfMapEmpty>true</digThingIfMapEmpty>
-				<thingToDigIfMapEmpty>ChunkSandstone</thingToDigIfMapEmpty>
-				<customAmountToDig>2</customAmountToDig>
-				
-			</li>
-			
-			
-			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">
-				<resourceDef>RttR_GronckleIron</resourceDef>
-				<gatheringIntervalDays>1</gatheringIntervalDays>
-				<resourceAmount>10</resourceAmount>
-				<customResourceString>RttR_GronckleIron</customResourceString>
-				<hasAditional>true</hasAditional>
-				<additionalItemsProb>2</additionalItemsProb>
-				<additionalItemsNumber>10</additionalItemsNumber>
-				<additionalItems>
-					<li>Gold</li>
-					<li>Jade</li>
-					<li>Silver</li>
-					<li>Uranium</li>
-				</additionalItems>
+				<customThingToDig>RttR_RawFish</customThingToDig>
+				<customAmountToDig>10</customAmountToDig>
 
 			</li>
-			
-
-		
-			
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_DragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>5</woolAmount>
 			</li>
 			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>RttR_EggGronckleFertilized</eggFertilizedDef>
+				<eggFertilizedDef>RttR_EggNadderFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>25</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -147,22 +107,23 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
-				<accuracyTouch>1</accuracyTouch>
-				<accuracyShort>1</accuracyShort>
-				<accuracyMedium>1</accuracyMedium>
-				<accuracyLong>1</accuracyLong>
+				<accuracyTouch>0.9</accuracyTouch>
+				<accuracyShort>0.9</accuracyShort>
+				<accuracyMedium>0.9</accuracyMedium>
+				<accuracyLong>0.9</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<defaultProjectile>RttR_FlameBreathNadder</defaultProjectile>
+				<warmupTime>1.6</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>
-				<range>18</range>
+				<range>12</range>
 				<forcedMissRadius>2</forcedMissRadius>
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>1</commonality>
 			</li>
+			
 
 
 		</verbs>
@@ -182,35 +143,34 @@
 				<Desert>0.07</Desert>
 				<ExtremeDesert>0.1</ExtremeDesert>
 			</wildBiomes>
-			<thinkTreeMain>RttR_AnimalWeirdEater</thinkTreeMain>
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
 			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>2.5</baseBodySize>
 			<baseHungerRate>0.3</baseHungerRate>
-			<baseHealthScale>2</baseHealthScale>
+			<baseHealthScale>1</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<wildness>0.90</wildness>
 			<trainability>Advanced</trainability>
 			<leatherDef>Leather_Lizard</leatherDef>
 			<packAnimal>true</packAnimal>
-			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
-
-			<lifeExpectancy>275</lifeExpectancy>
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.025</manhunterOnDamageChance>
+			<nuzzleMtbHours>32</nuzzleMtbHours>
+			<lifeExpectancy>100</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
-					<minAge>0</minAge>
+					<minAge>2</minAge>
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.4</minAge>
+					<minAge>4</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.8</minAge>
+					<minAge>6</minAge>
 					<soundWounded>Pawn_Cougar_Injured</soundWounded>
 					<soundDeath>Pawn_Cougar_Death</soundDeath>
 					<soundAngry>Pawn_Cougar_Angry</soundAngry>
@@ -229,43 +189,41 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>RttR_Gronckle</defName>
-		<label>gronckle</label>
+		<defName>RttR_Nadder</defName>
+		<label>deadly nadder</label>
 		
-		<race>RttR_Gronckle</race>
-		<combatPower>450</combatPower>
+		<race>RttR_Nadder</race>
+		<combatPower>350</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
-		<wildGroupSize>
-			<min>1</min>
-			<max>3</max>
-		</wildGroupSize>
+		
 
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
-			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/Gronckle_A</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/Gronckle_B</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/Gronckle_C</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/Gronckle_D</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/Gronckle_E</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Nadder/Nadder_A</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Nadder/Nadder_B</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Nadder/Nadder_C</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Nadder/Nadder_D</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Nadder/Nadder_E</texPath></li>
+
 		</alternateGraphics>
 
 		<lifeStages>
 			<li>
 
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Gronckle/Gronckle_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Nadder/Nadder_A</texPath>
 					<drawSize>1.8</drawSize>
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Gronckle/Dessicated_Gronckle</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Nadder/Dessicated_Nadder</texPath>
 					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Gronckle/Gronckle_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Nadder/Nadder_A</texPath>
 					<drawSize>2.4</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -273,13 +231,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Gronckle/Dessicated_Gronckle</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Nadder/Dessicated_Nadder</texPath>
 					<drawSize>2.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Gronckle/Gronckle_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Nadder/Nadder_A</texPath>
 					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -287,7 +245,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Gronckle/Dessicated_Gronckle</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Nadder/Dessicated_Nadder</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
