@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!-- Fury Egg -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggFuryFertilized</defName>
+		<label>fury egg (fert.)</label>
+		<description>Fertilized fury egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a fury.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggFury</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>10</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Fury</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Gronckle Egg -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggGronckleFertilized</defName>
+		<label>gronckle egg (fert.)</label>
+		<description>Fertilized gronckle egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a gronckle.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggGronckle</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(76,64,54)</color>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Gronckle</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
+		<!-- Nadder Egg -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggNadderFertilized</defName>
+		<label>deadly nadder egg (fert.)</label>
+		<description>Fertilized deadly nadder egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a deadly nadder.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggNadder</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Nadder</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
+		<!-- Nightmare Egg -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggNightmareFertilized</defName>
+		<label>monstruous nightmare egg (fert.)</label>
+		<description>Fertilized monstruous nightmare egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a monstruous nightmare.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggNightmare</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Nightmare</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Zippleback Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggZipplebackFertilized</defName>
+		<label>hideous zippleback egg (fert.)</label>
+		<description>Fertilized hideous zippleback egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a hideous zippleback.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggNightmare</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Zippleback</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>
