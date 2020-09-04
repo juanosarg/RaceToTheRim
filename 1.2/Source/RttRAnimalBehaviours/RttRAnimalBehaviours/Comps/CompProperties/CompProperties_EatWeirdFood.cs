@@ -14,9 +14,11 @@ namespace RttRAnimalBehaviours
         public string thingToDigIfMapEmpty = "";
         public int customAmountToDig = 1;
         public string hediffWhenEaten = "";
+        public List<string> thingToDigIfMapEmptyRandom = null;
 
 
-     
+
+
 
         public CompProperties_EatWeirdFood()
         {

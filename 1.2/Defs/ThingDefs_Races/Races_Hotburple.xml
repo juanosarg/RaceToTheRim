@@ -83,10 +83,48 @@
 		</tools>
 		<comps>
 
-			<li Class="RttRAnimalBehaviours.CompProperties_DigPeriodically">
 
-				<customThingToDig>RttR_RawFish</customThingToDig>
-				<customAmountToDig>15</customAmountToDig>
+
+			<li Class="RttRAnimalBehaviours.CompProperties_EatWeirdFood">
+
+				<customThingToEat>					
+					<li>Steel</li>
+					<li>Silver</li>
+					<li>Uranium</li>
+					<li>Gold</li>
+					<li>Plasteel</li>
+					<li>ComponentIndustrial</li>		
+				</customThingToEat>
+				<percentageOfDestruction>0.3</percentageOfDestruction>
+				<nutrition>2</nutrition>
+				<digThingIfMapEmpty>true</digThingIfMapEmpty>
+				<thingToDigIfMapEmptyRandom>
+					<li>Silver</li>
+					<li>Steel</li>
+					<li>Uranium</li>
+					<li>Gold</li>
+					<li>Plasteel</li>
+					<li>ComponentIndustrial</li>					
+				</thingToDigIfMapEmptyRandom>
+				<customAmountToDig>10</customAmountToDig>
+
+			</li>
+			
+			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">
+				<resourceDef>Jade</resourceDef>
+				<gatheringIntervalDays>1</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>RttR_Gemstones</customResourceString>
+				<hasAditional>true</hasAditional>
+				<additionalItemsProb>2</additionalItemsProb>
+				<additionalItemsNumber>10</additionalItemsNumber>
+				<goInOrder>true</goInOrder>
+				<additionalItems>
+					<li>Diamond</li>
+					<li>Ruby</li>
+					<li>Sapphire</li>
+					<li>Jade</li>
+				</additionalItems>
 
 			</li>
 			<li Class="CompProperties_Shearable">
@@ -95,9 +133,9 @@
 				<woolAmount>5</woolAmount>
 			</li>
 			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>RttR_EggFuryFertilized</eggFertilizedDef>
+				<eggFertilizedDef>RttR_EggHotburpleFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>110</eggLayIntervalDays>
+				<eggLayIntervalDays>35</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
@@ -113,9 +151,9 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
-				<burstShotCount>1</burstShotCount>
+				<defaultProjectile>RttR_StreamFlameBreath</defaultProjectile>
+				<warmupTime>1</warmupTime>
+				<burstShotCount>10</burstShotCount>
 				<minRange>2</minRange>
 				<range>18</range>
 				<forcedMissRadius>2</forcedMissRadius>
@@ -147,11 +185,11 @@
 			<maxPreyBodySize>1.0</maxPreyBodySize>
 			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>3.5</baseBodySize>
+			<baseBodySize>1.5</baseBodySize>
 			<baseHungerRate>0.3</baseHungerRate>
-			<baseHealthScale>2</baseHealthScale>
+			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-			<wildness>0.90</wildness>
+			<wildness>0.80</wildness>
 			<trainability>Advanced</trainability>
 			<leatherDef>Leather_Lizard</leatherDef>
 			<packAnimal>true</packAnimal>
@@ -189,50 +227,51 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>RttR_Fury</defName>
-		<label>fury</label>
-		<labelPlural>furies</labelPlural>
-		<race>RttR_Fury</race>
+		<defName>RttR_Hotburple</defName>
+		<label>hotburple</label>
+
+		<race>RttR_Hotburple</race>
 		<combatPower>450</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
-		
+
 
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_D</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_D</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_E</texPath></li>
-			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_E</texPath></li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_B</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_C</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_D</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_E</texPath>
+			</li>
+
 		</alternateGraphics>
 
 		<lifeStages>
 			<li>
 
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
 					<drawSize>1.8</drawSize>
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Dessicated_Fury</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Dessicated_Hotburple</texPath>
 					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
 					<drawSize>2.4</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -240,13 +279,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Dessicated_Fury</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Dessicated_Hotburple</texPath>
 					<drawSize>2.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
 					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -254,7 +293,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Dessicated_Fury</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Dessicated_Hotburple</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

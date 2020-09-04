@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+	<DamageDef>
+		<defName>RttR_GasExplosion</defName>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+
+		<label>toxic gas</label>
+		<hediff>Shredded</hediff>
+		<hasForcefulImpact>false</hasForcefulImpact>
+		<makesBlood>false</makesBlood>
+		<canInterruptJobs>false</canInterruptJobs>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been poisoned to death.</deathMessage>
+		    <soundExplosion>Explosion_Smoke</soundExplosion>
+
+		<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.05</severityPerDamageDealt>
+				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+	
+	<DamageDef>
+    <defName>RttR_WaterExplosion</defName>
+    <label>water explosion</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <canInterruptJobs>false</canInterruptJobs>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>10</defaultDamage>
+	<hediff>Burn</hediff>
+    <explosionCellMote>Mote_BlastExtinguisher</explosionCellMote>
+    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
+    <soundExplosion>Explosion_Stun</soundExplosion>   
+    <combatLogRules>Damage_Extinguish</combatLogRules>
+	
+  </DamageDef>
+
+	
+
+
+</Defs>

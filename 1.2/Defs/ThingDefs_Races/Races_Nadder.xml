@@ -120,7 +120,7 @@
 				<accuracyMedium>0.9</accuracyMedium>
 				<accuracyLong>0.9</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_FlameBreathNadder</defaultProjectile>
+				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
 				<warmupTime>1.6</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>

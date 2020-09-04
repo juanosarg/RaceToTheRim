@@ -93,6 +93,14 @@
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>5</woolAmount>
 			</li>
+			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">
+				<resourceDef>RttR_NightmareGel</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>20</resourceAmount>
+				<customResourceString>RttR_NightmareGel</customResourceString>
+				
+
+			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggNightmareFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
@@ -201,7 +209,9 @@
 			<li><texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_A</texPath></li>
 			<li><texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_B</texPath></li>
 			<li><texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_C</texPath></li>
-		
+			<li><texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_D</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_E</texPath></li>
+
 		</alternateGraphics>
 
 		<lifeStages>

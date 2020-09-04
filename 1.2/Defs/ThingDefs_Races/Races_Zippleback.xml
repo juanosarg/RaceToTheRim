@@ -13,6 +13,7 @@
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 			<MarketValue>1000</MarketValue>
+			<ToxicSensitivity>0</ToxicSensitivity>
 		</statBases>
 		<tools>
 			<li>
@@ -97,7 +98,7 @@
 		</tools>
 		<comps>
 
-			<li Class="RttRAnimalBehaviours.CompProperties_DigPeriodically">
+			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>40</customAmountToDig>
@@ -127,11 +128,11 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<defaultProjectile>RttR_GasBall</defaultProjectile>
+				<warmupTime>5</warmupTime>
 				<burstShotCount>1</burstShotCount>
-				<minRange>2</minRange>
-				<range>18</range>
+				<minRange>5</minRange>
+				<range>25</range>
 				<forcedMissRadius>2</forcedMissRadius>
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
@@ -222,7 +223,12 @@
 			<li>
 				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_C</texPath>
 			</li>
-			
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_D</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_E</texPath>
+			</li>
 		</alternateGraphics>
 
 		<lifeStages>

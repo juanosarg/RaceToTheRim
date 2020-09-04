@@ -22,10 +22,10 @@
 
 
 	<ThingDef ParentName="RttR_BaseAnimalProjectile">
-		<defName>RttR_FlameBreath</defName>
-		<label>incendiary breath</label>
+		<defName>RttR_Plasmabreath</defName>
+		<label>plasma blast</label>
 		<graphicData>
-			<texPath>Things/Projectiles/RttR_Firebreath</texPath>
+			<texPath>Things/Projectiles/RttR_Plasmabreath</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -42,10 +42,10 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="RttR_BaseAnimalProjectile">
-		<defName>RttR_FlameBreathNadder</defName>
+		<defName>RttR_FlameBreath</defName>
 		<label>incendiary breath</label>
 		<graphicData>
-			<texPath>Things/Projectiles/RttR_Firebreath2</texPath>
+			<texPath>Things/Projectiles/RttR_Firebreath</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -55,6 +55,25 @@
 			<damageDef>Flame</damageDef>
 			<damageAmountBase>2</damageAmountBase>
 			<explosionRadius>1.1</explosionRadius>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<soundExplode>Interact_Ignite</soundExplode>
+
+		</projectile>
+	</ThingDef>
+		<ThingDef ParentName="RttR_BaseAnimalProjectile">
+		<defName>RttR_StreamFlameBreath</defName>
+		<label>incendiary breath</label>
+		<graphicData>
+			<texPath>Things/Projectiles/RttR_Firebreath</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>10</speed>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<explosionRadius>0.1</explosionRadius>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<soundExplode>Interact_Ignite</soundExplode>
 
@@ -76,6 +95,49 @@
 			<damageAmountBase>20</damageAmountBase>
 			<stoppingPower>1.5</stoppingPower>
 			<speed>30</speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="RttR_BaseAnimalProjectile">
+		<defName>RttR_GasBall</defName>
+		<label>gas ball</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/RttR_GasBall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<explosionRadius>4</explosionRadius>
+			<damageDef>RttR_GasExplosion</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<explosionDelay>1</explosionDelay>
+			<postExplosionSpawnThingDef>RttR_ToxicGas</postExplosionSpawnThingDef>
+			<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+			<postExplosionSpawnChance>1</postExplosionSpawnChance>
+			<preExplosionSpawnThingDef>RttR_Filth_LiquefiedHelixienGas</preExplosionSpawnThingDef>
+
+
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="RttR_BaseAnimalProjectile">
+		<defName>RttR_WaterBreath</defName>
+		<label>water breath</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/RttR_GasBall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<explosionRadius>3</explosionRadius>
+			<damageDef>RttR_WaterExplosion</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<explosionDelay>1</explosionDelay>
+			<postExplosionSpawnThingDef>RttR_Filth_ScaldingFoam</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>1</postExplosionSpawnChance>
+			<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>		
+			<explosionEffect>ExtinguisherExplosion</explosionEffect>
+
 		</projectile>
 	</ThingDef>
 

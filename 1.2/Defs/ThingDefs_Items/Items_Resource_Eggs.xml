@@ -146,6 +146,90 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- Scauldron Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggScauldronFertilized</defName>
+		<label>scauldron egg (fert.)</label>
+		<description>Fertilized scauldron egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a scauldron.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggScauldron</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Scauldron</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Hotburple Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggHotburpleFertilized</defName>
+		<label>hotburple egg (fert.)</label>
+		<description>Fertilized hotburple egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a hotburple.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggHotburple</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Hotburple</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Flightmare Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggFlightmareFertilized</defName>
+		<label>flightmare egg (fert.)</label>
+		<description>Fertilized flightmare egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a flightmare.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggFlightmare</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Flightmare</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
 
 
 </Defs>

@@ -100,7 +100,15 @@ namespace RttRAnimalBehaviours
 
                     if (pawn.Position.GetTerrain(pawn.Map).affordances.Contains(TerrainAffordanceDefOf.Diggable))
                     {
-                        ThingDef newThing = ThingDef.Named(comp.Props.thingToDigIfMapEmpty);
+                        ThingDef newThing;
+                        if (comp.Props.thingToDigIfMapEmptyRandom.Count > 0)
+                        {
+                            newThing = ThingDef.Named(comp.Props.thingToDigIfMapEmptyRandom.RandomElement<string>());
+                        } else
+                        {
+                            newThing = ThingDef.Named(comp.Props.thingToDigIfMapEmpty);
+                        }
+                         
                         Thing newcorpse = null;
                         for (int i = 0; i < comp.Props.customAmountToDig; i++)
                         {

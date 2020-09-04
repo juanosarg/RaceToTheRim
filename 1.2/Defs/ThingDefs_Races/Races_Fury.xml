@@ -81,7 +81,7 @@
 		</tools>
 		<comps>
 
-			<li Class="RttRAnimalBehaviours.CompProperties_DigPeriodically">
+			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>15</customAmountToDig>
@@ -111,7 +111,7 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
+				<defaultProjectile>RttR_Plasmabreath</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>

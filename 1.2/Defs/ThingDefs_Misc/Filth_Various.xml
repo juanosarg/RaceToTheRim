@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="RttR_BaseFilth" Abstract="True">  
+    <category>Filth</category>
+    <altitudeLayer>Filth</altitudeLayer>   
+    <drawerType>MapMeshOnly</drawerType>
+    <graphicData>
+      <graphicClass>Graphic_Cluster</graphicClass>
+      <shaderType>Transparent</shaderType>
+    </graphicData>   
+  </ThingDef>
+
+  <ThingDef ParentName="RttR_BaseFilth">
+    <defName>RttR_Filth_LiquefiedHelixienGas</defName>
+    <label>liquefied helixien gas</label>
+	<description>A puddle of liquefied helixien gas. EXTREMELY flammable.</description>
+	<thingClass>RttRAnimalBehaviours.Filth_LiquefiedHelixienGas</thingClass>
+    <useHitPoints>true</useHitPoints>
+	    <tickerType>Normal</tickerType>
+
+    <statBases>
+      <Beauty>-10</Beauty>
+      <Cleanliness>-15</Cleanliness>
+	  <MaxHitPoints>150</MaxHitPoints>
+	  <Flammability>3</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/PoolSoft</texPath>
+      <color>(120, 180, 185, 180)</color>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <filth>
+      <disappearsInDays>35~40</disappearsInDays>
+      <cleaningWorkToReduceThickness>60</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+	  <rainWashes>true</rainWashes>
+      <maxThickness>1</maxThickness>
+      <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+    </filth>
+  </ThingDef>
+  
+    <ThingDef ParentName="BaseFilth">
+    <defName>RttR_Filth_ScaldingFoam</defName>
+    <label>scalding residue</label>
+	<thingClass>RttRAnimalBehaviours.Filth_ScaldingFoam</thingClass>
+	<tickerType>Normal</tickerType>
+    <statBases>
+      <Beauty>-25</Beauty>
+      <Cleanliness>-5</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/FireFoam</texPath>
+      <color>(180, 180, 180, 50)</color>
+	  <drawSize>2</drawSize>
+    </graphicData>
+    <filth>
+      <disappearsInDays>0.01~0.05</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>20</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <allowsFire>false</allowsFire>
+      <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+    </filth>
+  </ThingDef>
+
+</Defs>
+
+
+ 

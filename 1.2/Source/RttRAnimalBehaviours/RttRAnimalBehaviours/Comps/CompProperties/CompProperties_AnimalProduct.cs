@@ -20,6 +20,7 @@ namespace RttRAnimalBehaviours
         public int additionalItemsProb = 1;
         public int additionalItemsNumber = 1;
         public List<string> additionalItems = null;
+        public bool goInOrder = false;
 
 
 
