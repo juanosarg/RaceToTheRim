@@ -149,7 +149,7 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
+				<defaultProjectile>RttR_GronckleBreath</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>

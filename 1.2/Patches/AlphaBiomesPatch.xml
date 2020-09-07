@@ -23,6 +23,9 @@
 					<AB_GallatrossGraveyard>0.01</AB_GallatrossGraveyard>
 					<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
 					<AB_RockyCrags>0.01</AB_RockyCrags>
+					<AB_TarPits>0.01</AB_TarPits>
+					<AB_PyroclasticConflagration>0.01</AB_PyroclasticConflagration>
+
 
 				</value>
 			</li>

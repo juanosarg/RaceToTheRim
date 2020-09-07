@@ -120,12 +120,12 @@
 				<accuracyMedium>0.9</accuracyMedium>
 				<accuracyLong>0.9</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
+				<defaultProjectile>RttR_NadderBreath</defaultProjectile>
 				<warmupTime>1.6</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>
 				<range>12</range>
-				<forcedMissRadius>2</forcedMissRadius>
+				
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->

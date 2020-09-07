@@ -19,28 +19,6 @@
 	</ThingDef>
 
 
-
-
-	<ThingDef ParentName="RttR_BaseAnimalProjectile">
-		<defName>RttR_Plasmabreath</defName>
-		<label>plasma blast</label>
-		<graphicData>
-			<texPath>Things/Projectiles/RttR_Plasmabreath</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
-		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<speed>40</speed>
-			<damageDef>Flame</damageDef>
-			<damageAmountBase>2</damageAmountBase>
-			<explosionRadius>1.1</explosionRadius>
-			<ai_IsIncendiary>true</ai_IsIncendiary>
-			<soundExplode>Interact_Ignite</soundExplode>
-
-		</projectile>
-	</ThingDef>
-	
 	<ThingDef ParentName="RttR_BaseAnimalProjectile">
 		<defName>RttR_FlameBreath</defName>
 		<label>incendiary breath</label>
@@ -60,12 +38,72 @@
 
 		</projectile>
 	</ThingDef>
+
+	<ThingDef ParentName="RttR_BaseAnimalProjectile">
+		<defName>RttR_Furybreath</defName>
+		<label>plasma blast</label>
+		<graphicData>
+			<texPath>Things/Projectiles/RttR_FuryBreath</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>40</speed>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>2</damageAmountBase>
+			<explosionRadius>1.1</explosionRadius>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<soundExplode>Interact_Ignite</soundExplode>
+
+		</projectile>
+	</ThingDef>
+	
+		<ThingDef ParentName="RttR_BaseAnimalProjectile">
+		<defName>RttR_FlightmareBreath</defName>
+		<label>stun breath</label>
+		<graphicData>
+			<texPath>Things/Projectiles/RttR_FlightmareBreath</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>40</speed>
+			<damageDef>Stun</damageDef>
+			<damageAmountBase>2</damageAmountBase>
+			<explosionRadius>1.1</explosionRadius>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<soundExplode>Interact_Ignite</soundExplode>
+
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="RttR_BaseAnimalProjectile">
+		<defName>RttR_GronckleBreath</defName>
+		<label>lava breath</label>
+		<graphicData>
+			<texPath>Things/Projectiles/RttR_GronckleBreath</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>20</speed>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>2</damageAmountBase>
+			<explosionRadius>1.1</explosionRadius>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<soundExplode>Interact_Ignite</soundExplode>
+
+		</projectile>
+	</ThingDef>
 		<ThingDef ParentName="RttR_BaseAnimalProjectile">
 		<defName>RttR_StreamFlameBreath</defName>
-		<label>incendiary breath</label>
+		<label>incendiary stream breath</label>
 		<graphicData>
-			<texPath>Things/Projectiles/RttR_Firebreath</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectiles/RttR_HotburpleBreath</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
@@ -81,11 +119,11 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>RttR_Quill</defName>
-		<label>razor quill</label>
+		<defName>RttR_NadderBreath</defName>
+		<label>nadder spikes</label>
 		<thingClass>RttRAnimalRangeAttack.AnimalProjectile</thingClass>
 		<graphicData>
-			<texPath>Things/Projectiles/RttR_Quill</texPath>
+			<texPath>Things/Projectiles/RttR_NadderBreath</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -103,7 +141,7 @@
 		<label>gas ball</label>
 		<thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
-			<texPath>Things/Projectiles/RttR_GasBall</texPath>
+			<texPath>Things/Projectiles/RttR_ZipplebackBreath</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -125,7 +163,7 @@
 		<label>water breath</label>
 		<thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
-			<texPath>Things/Projectiles/RttR_GasBall</texPath>
+			<texPath>Things/Projectiles/RttR_ScauldronBreath</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>

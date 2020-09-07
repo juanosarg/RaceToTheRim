@@ -13,7 +13,7 @@
 
 
 
-				<li Class="PatchOperationAddModExtension">
+				<!--<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/ThingDef[defName = "RttR_Fury"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
@@ -23,7 +23,7 @@
 							<southOffsetCSV>0,0,1.34</southOffsetCSV>
 						</li>				
 					</value>
-				</li>
+				</li>-->
 
 
 			</operations>
