@@ -192,8 +192,8 @@
 		<label>monstrous nightmare gel</label>
 		<description>Description.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/Chemfuel</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/RttR_NightmareFuel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<tradeability>Sellable</tradeability>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
