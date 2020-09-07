@@ -152,6 +152,7 @@
 			<wildness>0.90</wildness>
 			<trainability>Advanced</trainability>
 			<leatherDef>Leather_Lizard</leatherDef>
+			<meatLabel>dragon meat</meatLabel>
 			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.025</manhunterOnDamageChance>

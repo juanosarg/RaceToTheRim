@@ -190,6 +190,7 @@
 			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<wildness>0.80</wildness>
+			<useMeatFrom>RttR_Fury</useMeatFrom>
 			<trainability>Advanced</trainability>
 			<leatherDef>Leather_Lizard</leatherDef>
 			<packAnimal>true</packAnimal>

@@ -151,6 +151,7 @@
 			<baseBodySize>6</baseBodySize>
 			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>2</baseHealthScale>
+			<useMeatFrom>RttR_Fury</useMeatFrom>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<wildness>0.90</wildness>
 			<trainability>Advanced</trainability>
