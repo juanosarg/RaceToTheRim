@@ -7,7 +7,7 @@
 
 		<defName>RttR_Fury</defName>
 		<label>fury</label>
-		<description>Description goes here.\n\nSpecial Abilities: .</description>
+		<description>Once called the unholy offspring of lightning and death itself, the elusive strike class Fury is the most sought after dragon in all its forms. Thought to be the most intelligent non-titan dragon, and known to the be fastest, the night furies, light furies, and night lights that roam the Rim are only seen by the very lucky, or the very damned.\n\nSpecial Abilities: Really fast mount. Can be sheared for Dragon Scales. Periodically digs for fish when hungry.</description>
 		<statBases>
 			<MoveSpeed>7</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>

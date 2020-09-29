@@ -7,7 +7,7 @@
 
 		<defName>RttR_Zippleback</defName>
 		<label>hideous zippleback</label>
-		<description>Description goes here.\n\nSpecial Abilities: .</description>
+		<description>Fear class dragons hunt through misdirection and guile. The hideous zippleback uses both these tactics, as well as unique firebreathing technique that is surprisingly versatile.  While most dragons release gas in their throat before igniting and expelling it as flame, the zippleback has split this ability in two.  The right head breathes massive amounts of noxious green gas, while the left head creates a spark that ignites it for a powerful explosion. Though incredibly useful for blasting fish out of the water and raiders out of your bedroom, would be tamers are advised to invest heavily in non-flammable infrastructure to minimize the collateral damage.\n\nSpecial Abilities: Excellent fisher, will dig for huge amounts of fish when hungry. Can be harvested for Dragon Scales.</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -54,7 +54,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>14</power>
+				<power>10</power>
 				<cooldownTime>1</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
@@ -71,7 +71,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>14</power>
+				<power>10</power>
 				<cooldownTime>1</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
@@ -145,18 +145,18 @@
 
 		<race>
 			<wildBiomes>
-				<BorealForest>0.001</BorealForest>
-				<IceSheet>0.001</IceSheet>
-				<Tundra>0.001</Tundra>
-				<ColdBog>0.001</ColdBog>
-				<SeaIce>0.001</SeaIce>
-				<TemperateSwamp>0.01</TemperateSwamp>
-				<TropicalSwamp>0.01</TropicalSwamp>
+				<BorealForest>0.07</BorealForest>
+				<IceSheet>0.01</IceSheet>
+				<Tundra>0.01</Tundra>
+				<ColdBog>0.01</ColdBog>
+				<SeaIce>0.01</SeaIce>
+				<TemperateSwamp>0.07</TemperateSwamp>
+				<TropicalSwamp>0.07</TropicalSwamp>
 				<TemperateForest>0.04</TemperateForest>
 				<TropicalRainforest>0.06</TropicalRainforest>
-				<AridShrubland>0.07</AridShrubland>
-				<Desert>0.07</Desert>
-				<ExtremeDesert>0.1</ExtremeDesert>
+				<AridShrubland>0.01</AridShrubland>
+				<Desert>0.01</Desert>
+				<ExtremeDesert>0.01</ExtremeDesert>
 			</wildBiomes>
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
@@ -237,19 +237,19 @@
 
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>2.5</drawSize>
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Dessicated_Zippleback</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
-					<drawSize>2.4</drawSize>
+					<drawSize>3.5</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -257,13 +257,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Dessicated_Zippleback</texPath>
-					<drawSize>2.4</drawSize>
+					<drawSize>3.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>4.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -271,7 +271,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Dessicated_Zippleback</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>4.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

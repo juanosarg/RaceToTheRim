@@ -13,17 +13,29 @@
 
 
 
-				<!--<li Class="PatchOperationAddModExtension">
+				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/ThingDef[defName = "RttR_Fury"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
-							<eastOffsetCSV>0.42,0,1.34</eastOffsetCSV>
-							<westOffsetCSV>-0.42,0,1.34</westOffsetCSV>
-							<northOffsetCSV>0,0,1.34</northOffsetCSV>
-							<southOffsetCSV>0,0,1.34</southOffsetCSV>
+							<eastOffsetCSV>0.77,0,0.14</eastOffsetCSV>
+							<westOffsetCSV>-0.77,0,0.14</westOffsetCSV>
+							<northOffsetCSV>0,0,0.14</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.24</southOffsetCSV>
 						</li>				
 					</value>
-				</li>-->
+				</li>
+				
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Gronckle"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>0.148,0,-0.348</eastOffsetCSV>
+							<westOffsetCSV>-0.148,0,-0.348</westOffsetCSV>
+							<northOffsetCSV>0,0,-0.348</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.348</southOffsetCSV>
+						</li>				
+					</value>
+				</li>
 
 
 			</operations>

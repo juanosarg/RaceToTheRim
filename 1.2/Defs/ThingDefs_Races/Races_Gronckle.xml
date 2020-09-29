@@ -7,7 +7,7 @@
 
 		<defName>RttR_Gronckle</defName>
 		<label>gronckle</label>
-		<description>Description goes here.\n\nSpecial Abilities: .</description>
+		<description>Most boulder class dragons are lithovores, and the iconic gronckle is no exception.  Rather than subsist on fish or meat as most dragons do, the gronckle eats rocks for nutrition, having spread to all mountainous reaches of the Rim. Due to the high internal temperature of the gronckle's magma bloodstream, any rock they consume is quickly liquified and its metallic components can be regurgitated in the form of Gronckle Iron.\n\nSpecial Abilities: Periodically digs for rock chunks. Can be sheared for Gronckle Iron and Dragon Scales. Occasionally it will produce additional precious minerals when sheared.</description>
 		<statBases>
 			<MoveSpeed>1.75</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -166,17 +166,17 @@
 
 		<race>
 			<wildBiomes>
-				<BorealForest>0.001</BorealForest>
-				<IceSheet>0.001</IceSheet>
-				<Tundra>0.001</Tundra>
+				<BorealForest>0.01</BorealForest>
+				<IceSheet>0.01</IceSheet>
+				<Tundra>0.01</Tundra>
 				<ColdBog>0.001</ColdBog>
 				<SeaIce>0.001</SeaIce>
 				<TemperateSwamp>0.01</TemperateSwamp>
 				<TropicalSwamp>0.01</TropicalSwamp>
-				<TemperateForest>0.04</TemperateForest>
-				<TropicalRainforest>0.06</TropicalRainforest>
+				<TemperateForest>0.07</TemperateForest>
+				<TropicalRainforest>0.01</TropicalRainforest>
 				<AridShrubland>0.07</AridShrubland>
-				<Desert>0.07</Desert>
+				<Desert>0.1</Desert>
 				<ExtremeDesert>0.1</ExtremeDesert>
 			</wildBiomes>
 			<thinkTreeMain>RttR_AnimalWeirdEater</thinkTreeMain>
@@ -252,19 +252,19 @@
 
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>1.3</drawSize>
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>1.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
-					<drawSize>2.4</drawSize>
+					<drawSize>1.6</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -272,13 +272,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
-					<drawSize>2.4</drawSize>
+					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>1.9</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -286,7 +286,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>1.9</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

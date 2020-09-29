@@ -7,7 +7,7 @@
 
 		<defName>RttR_Hotburple</defName>
 		<label>hotburple</label>
-		<description>Description goes here.\n\nSpecial Abilities: .</description>
+		<description>Among the many dragon gods that the vikings of the Rim worship is a mighty hotburple who is thought to be the incarnation of luck itself. Indeed, these boulder class dragons can be seen as the greatest boon a colony has ever accepted into their fold, or else a plague on all their wealth and machinery! It all depends on the temperament of the individual hotburple, their preferred metallic diet, and whether or not they are both able and willing to share in the bounty of uranium, gold, silver, plasteel or machinery they excavated from the mountains and crags.\n\nSpecial Abilities: Hotburples feed on metals, and can be periodically harvested for precious gems (gems from the Jewelry mod are supported). They can also be sheared for Dragon Scales.</description>
 		<statBases>
 			<MoveSpeed>3.5</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -55,7 +55,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>22</power>
+				<power>15</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
@@ -168,17 +168,13 @@
 
 		<race>
 			<wildBiomes>
-				<BorealForest>0.001</BorealForest>
-				<IceSheet>0.001</IceSheet>
-				<Tundra>0.001</Tundra>
-				<ColdBog>0.001</ColdBog>
-				<SeaIce>0.001</SeaIce>
+				
 				<TemperateSwamp>0.01</TemperateSwamp>
 				<TropicalSwamp>0.01</TropicalSwamp>
 				<TemperateForest>0.04</TemperateForest>
-				<TropicalRainforest>0.06</TropicalRainforest>
-				<AridShrubland>0.07</AridShrubland>
-				<Desert>0.07</Desert>
+				<TropicalRainforest>0.01</TropicalRainforest>
+				<AridShrubland>0.1</AridShrubland>
+				<Desert>0.1</Desert>
 				<ExtremeDesert>0.1</ExtremeDesert>
 			</wildBiomes>
 			<predator>true</predator>
@@ -287,7 +283,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>2.75</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -295,7 +291,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Dessicated_Hotburple</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>2.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

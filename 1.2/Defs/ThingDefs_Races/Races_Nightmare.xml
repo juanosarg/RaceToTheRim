@@ -8,7 +8,7 @@
 		<defName>RttR_Nightmare</defName>
 		<label>monstruous nightmare</label>
 		<thingClass>RttRAnimalBehaviours.Pawn_Fiery</thingClass>
-		<description>Description goes here.\n\nSpecial Abilities: .</description>
+		<description>The quintessential stoker class dragon is a favorite of pyromaniacs everywhere.  These hotheaded (and bodied) wyverns are known for their self immolating tendencies-their entire body ignites when angry, scared, or even bored.  They accomplish this by secreting a napalm-like substance from their skin.  This Monstrous Nightmare gel can be refined into chemfuel and used to power lamps, traps, and machinery.\n\nSpecial Abilities: Sets melee attackers on fire. Can be sheared for Dragon Scales,a nd "milked" for Monstrous Nightmare Gel. Periodically digs for fish when hungry.</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -21,7 +21,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>13.2</power>
+				<power>10.2</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -38,7 +38,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>13.2</power>
+				<power>10.2</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -137,14 +137,14 @@
 
 		<race>
 			<wildBiomes>
-				<BorealForest>0.001</BorealForest>
-				<IceSheet>0.001</IceSheet>
-				<Tundra>0.001</Tundra>
+				<BorealForest>0.01</BorealForest>
+				<IceSheet>0.01</IceSheet>
+				<Tundra>0.01</Tundra>
 				<ColdBog>0.001</ColdBog>
 				<SeaIce>0.001</SeaIce>
-				<TemperateSwamp>0.01</TemperateSwamp>
-				<TropicalSwamp>0.01</TropicalSwamp>
-				<TemperateForest>0.04</TemperateForest>
+				<TemperateSwamp>0.04</TemperateSwamp>
+				<TropicalSwamp>0.04</TropicalSwamp>
+				<TemperateForest>0.07</TemperateForest>
 				<TropicalRainforest>0.06</TropicalRainforest>
 				<AridShrubland>0.07</AridShrubland>
 				<Desert>0.07</Desert>
@@ -220,19 +220,19 @@
 
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_A</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>2</drawSize>
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Dessicated_Nightmare</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_A</texPath>
-					<drawSize>2.4</drawSize>
+					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -240,13 +240,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Dessicated_Nightmare</texPath>
-					<drawSize>2.4</drawSize>
+					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_A</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -254,7 +254,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Dessicated_Nightmare</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

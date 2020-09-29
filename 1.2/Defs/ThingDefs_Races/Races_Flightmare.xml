@@ -7,7 +7,7 @@
 
 		<defName>RttR_Flightmare</defName>
 		<label>flightmare</label>
-		<description>Description goes here.\n\nSpecial Abilities: .</description>
+		<description>Accidentally bumping into this fear class dragon is a stunning experience in multiple ways. First, the flightmare's luminescent body can be blinding when it's startled. Second, a flightmare's gut reaction to surprise is to spray their paralyzing mist directly at the source of the commotion. This stunning mist wears off after a few minutes, by which time the flightmare is usually long gone. But this experience can be stunning in other ways too: an unusual number of people report being surprised at the actual size of the flightmare. Between the Flightmare's reputation for freezing people in fear and the way it flies through the sky looking like a massive comet, people often expect a dragon large enough to dwarf a stormcutter. Instead, close observers note that flightmares are generally the size of a Speed Stinger, and merely look larger because of the glowing aura that surrounds them.\n\nSpecial Abilities: Flightmares are small dragons, and contrary to others they won't dig for fish when they are hungry. Their breath attack is a dangerous stunning mist.</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -20,7 +20,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>11</power>
+				<power>5</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -37,7 +37,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>11</power>
+				<power>5</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -53,7 +53,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>22</power>
+				<power>12</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
@@ -61,7 +61,7 @@
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>24</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -81,7 +81,7 @@
 		</tools>
 		<comps>
 
-			
+
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_DragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
@@ -123,25 +123,23 @@
 
 		<race>
 			<wildBiomes>
-				<BorealForest>0.001</BorealForest>
-				<IceSheet>0.001</IceSheet>
-				<Tundra>0.001</Tundra>
-				<ColdBog>0.001</ColdBog>
-				<SeaIce>0.001</SeaIce>
+				<BorealForest>0.07</BorealForest>
+				<IceSheet>0.07</IceSheet>
+				<Tundra>0.07</Tundra>
+				<ColdBog>0.07</ColdBog>
+				<SeaIce>0.07</SeaIce>
 				<TemperateSwamp>0.01</TemperateSwamp>
 				<TropicalSwamp>0.01</TropicalSwamp>
-				<TemperateForest>0.04</TemperateForest>
-				<TropicalRainforest>0.06</TropicalRainforest>
-				<AridShrubland>0.07</AridShrubland>
-				<Desert>0.07</Desert>
-				<ExtremeDesert>0.1</ExtremeDesert>
+				<TemperateForest>0.01</TemperateForest>
+				<TropicalRainforest>0.01</TropicalRainforest>
+				
 			</wildBiomes>
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
 			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>4</baseBodySize>
-			<baseHungerRate>0.3</baseHungerRate>
+			<baseBodySize>1</baseBodySize>
+			<baseHungerRate>0.05</baseHungerRate>
 			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<wildness>0.90</wildness>
@@ -187,9 +185,12 @@
 		<label>flightmare</label>
 
 		<race>RttR_Flightmare</race>
-		<combatPower>450</combatPower>
-		<ecoSystemWeight>0.5</ecoSystemWeight>
-
+		<combatPower>100</combatPower>
+		<ecoSystemWeight>0.1</ecoSystemWeight>
+		<wildGroupSize>
+			<min>3</min>
+			<max>6</max>
+		</wildGroupSize>
 
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
@@ -242,7 +243,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Flightmare/RttR_Flightmare_A</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>2.75</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -250,7 +251,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Flightmare/RttR_Dessicated_Flightmare</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>2.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

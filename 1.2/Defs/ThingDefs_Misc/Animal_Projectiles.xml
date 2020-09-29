@@ -51,7 +51,7 @@
 		<projectile>
 			<speed>40</speed>
 			<damageDef>Flame</damageDef>
-			<damageAmountBase>2</damageAmountBase>
+			<damageAmountBase>4</damageAmountBase>
 			<explosionRadius>1.1</explosionRadius>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<soundExplode>Interact_Ignite</soundExplode>
@@ -71,7 +71,7 @@
 		<projectile>
 			<speed>40</speed>
 			<damageDef>Stun</damageDef>
-			<damageAmountBase>2</damageAmountBase>
+			<damageAmountBase>10</damageAmountBase>
 			<explosionRadius>1.1</explosionRadius>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<soundExplode>Interact_Ignite</soundExplode>
