@@ -16,23 +16,33 @@
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
 	</modDependencies>
-	<description>Beta
+	<description>Beta uploaded: 30 September 2020
+
+Redistributing, uploading or sharing of this beta is the violation of intellectual property laws and will be acted on.
 	
-&lt;size=24&gt;Features&lt;/size&gt;
+&lt;size=24&gt;Fury&lt;/size&gt;
+Once called the unholy offspring of lightning and death itself, the elusive strike class Fury is the most sought after dragon in all its forms. Thought to be the most intelligent non-titan dragon, and known to the be fastest, the night furies, light furies, and night lights that roam the Rim are only seen by the very lucky, or the very damned. Special Abilities: Really fast mount. Can be sheared for Dragon Scales. Periodically digs for fish when hungry.
 
+&lt;size=24&gt;Gronckles&lt;/size&gt;
+Most boulder class dragons are lithovores, and the iconic gronckle is no exception.  Rather than subsist on fish or meat as most dragons do, the gronckle eats rocks for nutrition, having spread to all mountainous reaches of the Rim. Due to the high internal temperature of the gronckle's magma bloodstream, any rock they consume is quickly liquified and its metallic components can be regurgitated in the form of Gronckle Iron. Special Abilities: Periodically digs for rock chunks. Can be sheared for Gronckle Iron and Dragon Scales. Occasionally it will produce additional precious minerals when sheared.
 
-&lt;size=24&gt;Issues&lt;/size&gt;
+&lt;size=24&gt;Hotburple&lt;/size&gt;
+Among the many dragon gods that the vikings of the Rim worship is a mighty hotburple who is thought to be the incarnation of luck itself. Indeed, these boulder class dragons can be seen as the greatest boon a colony has ever accepted into their fold, or else a plague on all their wealth and machinery! It all depends on the temperament of the individual hotburple, their preferred metallic diet, and whether or not they are both able and willing to share in the bounty of uranium, gold, silver, plasteel or machinery they excavated from the mountains and crags. Special Abilities: Hotburples feed on metals, and can be periodically harvested for precious gems (gems from the Jewelry mod are supported). They can also be sheared for Dragon Scales.
 
+&lt;size=24&gt;Nadder&lt;/size&gt;
+The epitome of the sharp class, nadders are agile, vain, and colorful dragons whose adaptability and resourcefulness have allowed them to thrive in all forests of the Rim. One of the most popular dragon mounts, nadders are favored by riders who possess a tactical mindset, flair for colorful clothing, and a particular love of magnesium-seared chicken. Special Abilities: Dangerous fire breath. Can be sheared for both Dragon Scales and woodlike Nadder Spikes. Damages anyone attacking it in melee range.
 
-&lt;size=24&gt;Compatibility&lt;/size&gt;
+&lt;size=24&gt;Nadder&lt;/size&gt;
+The quintessential stoker class dragon is a favorite of pyromaniacs everywhere.  These hotheaded (and bodied) wyverns are known for their self immolating tendencies-their entire body ignites when angry, scared, or even bored.  They accomplish this by secreting a napalm-like substance from their skin.  This Monstrous Nightmare gel can be refined into chemfuel and used to power lamps, traps, and machinery. Special Abilities: Sets melee attackers on fire. Can be sheared for Dragon Scales,a nd "milked" for Monstrous Nightmare Gel. Periodically digs for fish when hungry.
 
+&lt;size=24&gt;Scauldron&lt;/size&gt;
+Legends say the dragon's head on the bow of viking ships comes from attempts to fool scauldrons into passing them by. As this method has questionable results, vikings from dragon fearing tribes would often toss a portion of their catch back into the sea as tribute to the scauldrons. Vikings who hail from dragon riding tribes have adopted a different approach: tame scauldrons have become prized for their fire-extinguishing water breath and their ability to speed cooking by boiling water almost instantly. There are even rumors of industrious vikings who've devised special saddles for scauldrons which can turn the dragons in to half-ship hybrids for water travel.  Other Scauldrons are absolutely deterred from the "bows" of these "ships", though it is uncertain if this is due to fear, awe, or a desire to avoid what they perceive as a fashion disaster. Special Abilities: Scauldrons are massive creatures, though they move gracefully on water. Their breath attack is a stream of water vapor that instantly puts out fires, while at the same time causing grievous burns.
 
-&lt;size=24&gt;Credit&lt;/size&gt;
+&lt;size=24&gt;Zippleback&lt;/size&gt;
+Fear class dragons hunt through misdirection and guile. The hideous zippleback uses both these tactics, as well as unique firebreathing technique that is surprisingly versatile.  While most dragons release gas in their throat before igniting and expelling it as flame, the zippleback has split this ability in two.  The right head breathes massive amounts of noxious green gas, while the left head creates a spark that ignites it for a powerful explosion. Though incredibly useful for blasting fish out of the water and raiders out of your bedroom, would be tamers are advised to invest heavily in non-flammable infrastructure to minimize the collateral damage. Special Abilities: Excellent fisher, will dig for huge amounts of fish when hungry. Can be harvested for Dragon Scales.
 
-
-&lt;size=24&gt;Changelog&lt;/size&gt;
-
-v0.1: Prerelease
+&lt;size=24&gt;Flightmare&lt;/size&gt;
+Accidentally bumping into this fear class dragon is a stunning experience in multiple ways. First, the flightmare's luminescent body can be blinding when it's startled. Second, a flightmare's gut reaction to surprise is to spray their paralyzing mist directly at the source of the commotion. This stunning mist wears off after a few minutes, by which time the flightmare is usually long gone. But this experience can be stunning in other ways too: an unusual number of people report being surprised at the actual size of the flightmare. Between the Flightmare's reputation for freezing people in fear and the way it flies through the sky looking like a massive comet, people often expect a dragon large enough to dwarf a stormcutter. Instead, close observers note that flightmares are generally the size of a Speed Stinger, and merely look larger because of the glowing aura that surrounds them. Special Abilities: Flightmares are small dragons, and contrary to others they won't dig for fish when they are hungry. Their breath attack is a dangerous stunning mist.
 
 	
 
