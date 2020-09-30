@@ -13,3 +13,7 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Ass
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.csprojAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Assemblies\RttRAnimalBehaviours.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.dll

@@ -6,9 +6,9 @@
 	<ThingDef ParentName="AnimalThingBase">
 
 		<defName>RttR_Nightmare</defName>
-		<label>monstruous nightmare</label>
+		<label>monstrous nightmare</label>
 		<thingClass>RttRAnimalBehaviours.Pawn_Fiery</thingClass>
-		<description>The quintessential stoker class dragon is a favorite of pyromaniacs everywhere.  These hotheaded (and bodied) wyverns are known for their self immolating tendencies-their entire body ignites when angry, scared, or even bored.  They accomplish this by secreting a napalm-like substance from their skin.  This Monstrous Nightmare gel can be refined into chemfuel and used to power lamps, traps, and machinery.\n\nSpecial Abilities: Sets melee attackers on fire. Can be sheared for Dragon Scales,a nd "milked" for Monstrous Nightmare Gel. Periodically digs for fish when hungry.</description>
+		<description>The quintessential stoker class dragon is a favorite of pyromaniacs everywhere.  These hotheaded (and bodied) wyverns are known for their self immolating tendencies-their entire body ignites when angry, scared, or even bored.  They accomplish this by secreting a napalm-like substance from their skin.  This Monstrous Nightmare gel can be refined into chemfuel and used to power lamps, traps, and machinery.\n\nSpecial Abilities: Sets melee attackers on fire. Can be sheared for Dragon Scales, and "milked" for Monstrous Nightmare Gel. Periodically digs for fish when hungry.</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>

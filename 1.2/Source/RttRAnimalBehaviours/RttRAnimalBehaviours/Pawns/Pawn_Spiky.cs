@@ -21,18 +21,21 @@ namespace RttRAnimalBehaviours
                 {
                     if (current.InBounds(instigator.Map))
                     {
-                        HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(this.Map));
-                        if (hashSet != null)
-                        {
-                            foreach (Thing thing in hashSet)
+                        if (current != null) {
+                            HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(this.Map));
+                            if (hashSet != null)
                             {
-                                if (thing == this)
+                                foreach (Thing thing in hashSet)
                                 {
-                                    instigator.TakeDamage(new DamageInfo(DamageDefOf.Cut, 20, 0f, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
+                                    if (thing != null && thing == this)
+                                    {
+                                        instigator.TakeDamage(new DamageInfo(DamageDefOf.Cut, 20, 0f, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
 
+                                    }
                                 }
                             }
                         }
+                        
 
                     }
 
