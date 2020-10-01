@@ -33,19 +33,25 @@ namespace RttRAnimalBehaviours
             {
                
                     int num;
+                    TerrainDef terrainDef = pawn.Map.terrainGrid.TerrainAt(c);
                     if (c.x == pawn.Position.x || c.z == pawn.Position.z)
                     {
-                        num = pawn.TicksPerMoveCardinal;
+                        if (terrainDef.IsWater)
+                        {
+                            num = pawn.TicksPerMoveCardinal;
+                        } else num = pawn.TicksPerMoveCardinal * 4;
                     }
                     else
                     {
-                        num = pawn.TicksPerMoveDiagonal;
+                        if (terrainDef.IsWater)
+                        {
+                            num = pawn.TicksPerMoveDiagonal;
+                        }
+                        else num = pawn.TicksPerMoveDiagonal * 4;
+                   
                     }
-                    TerrainDef terrainDef = pawn.Map.terrainGrid.TerrainAt(c);
-                    if (terrainDef.IsWater)
-                    {
-                        num = 10000;
-                    }
+                    
+                   
                     
 
                     __result = num;
