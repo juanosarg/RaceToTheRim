@@ -85,7 +85,7 @@
 			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
-				<customAmountToDig>15</customAmountToDig>
+				<customAmountToDig>35</customAmountToDig>
 
 			</li>
 			<li Class="CompProperties_Shearable">
@@ -220,19 +220,19 @@
 
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_A</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>2.2</drawSize>
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Dessicated_Nightmare</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>2.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_A</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>3.3</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -240,13 +240,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Dessicated_Nightmare</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>3.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_A</texPath>
-					<drawSize>4</drawSize>
+					<drawSize>4.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -254,7 +254,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Dessicated_Nightmare</texPath>
-					<drawSize>4</drawSize>
+					<drawSize>4.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

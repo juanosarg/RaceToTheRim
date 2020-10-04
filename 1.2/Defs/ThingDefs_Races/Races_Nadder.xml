@@ -85,7 +85,7 @@
 			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
-				<customAmountToDig>15</customAmountToDig>
+				<customAmountToDig>30</customAmountToDig>
 
 			</li>
 			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">

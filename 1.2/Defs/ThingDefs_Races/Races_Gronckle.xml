@@ -101,6 +101,7 @@
 					<li>AB_ChunkSlimeStone</li>
 				</customThingToEat>
 				<nutrition>2</nutrition>
+				<fullyDestroyThing>true</fullyDestroyThing>
 				<digThingIfMapEmpty>true</digThingIfMapEmpty>
 				<thingToDigIfMapEmpty>ChunkSandstone</thingToDigIfMapEmpty>
 				<customAmountToDig>1</customAmountToDig>
@@ -111,7 +112,7 @@
 			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>RttR_GronckleIron</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
-				<resourceAmount>10</resourceAmount>
+				<resourceAmount>25</resourceAmount>
 				<customResourceString>RttR_GronckleIron</customResourceString>
 				<hasAditional>true</hasAditional>
 				<additionalItemsProb>2</additionalItemsProb>
@@ -252,19 +253,19 @@
 
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
-					<drawSize>1.3</drawSize>
+					<drawSize>1.5</drawSize>
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
-					<drawSize>1.3</drawSize>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
-					<drawSize>1.6</drawSize>
+					<drawSize>1.8</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -272,13 +273,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
-					<drawSize>1.6</drawSize>
+					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
-					<drawSize>1.9</drawSize>
+					<drawSize>2.3</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -286,7 +287,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
-					<drawSize>1.9</drawSize>
+					<drawSize>2.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

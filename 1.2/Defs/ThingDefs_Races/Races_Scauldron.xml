@@ -84,7 +84,7 @@
 			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
-				<customAmountToDig>60</customAmountToDig>
+				<customAmountToDig>80</customAmountToDig>
 
 			</li>
 			<li Class="CompProperties_Shearable">

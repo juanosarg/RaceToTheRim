@@ -27,7 +27,7 @@ namespace RttRAnimalBehaviours
         {
             base.CompTick();
             Pawn pawn = this.parent as Pawn;
-            if ((pawn.Map != null) && (pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry) && (pawn.Awake()))
+            if ((pawn.Map != null) && (pawn.Awake()) && ((pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry)|| this.parent.IsHashIntervalTick(120000)) )
             {
                 if (pawn.Position.GetTerrain(pawn.Map).affordances.Contains(TerrainAffordanceDefOf.Diggable)) {
                     if (stopdiggingcounter <= 0)
