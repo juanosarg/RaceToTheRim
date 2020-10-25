@@ -10,6 +10,10 @@
 	<RttR_NightmareGel>Nightmare Gel Production</RttR_NightmareGel>
 	<RttR_WoodLog>Nadder Spike Production</RttR_WoodLog>
 	<RttR_Gemstones>Gemstone Production</RttR_Gemstones>
+	
+	<!-- Misc -->
+	
+	<RttR_RandomDragon>Random dragon</RttR_RandomDragon>
 
 
 

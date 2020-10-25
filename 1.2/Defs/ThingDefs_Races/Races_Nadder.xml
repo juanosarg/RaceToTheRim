@@ -8,12 +8,14 @@
 		<defName>RttR_Nadder</defName>
 		<label>deadly nadder</label>
 		<thingClass>RttRAnimalBehaviours.Pawn_Spiky</thingClass>
-		<description>The epitome of the sharp class, nadders are agile, vain, and colorful dragons whose adaptability and resourcefulness have allowed them to thrive in all forests of the Rim. One of the most popular dragon mounts, nadders are favored by riders who possess a tactical mindset, flair for colorful clothing, and a particular love of magnesium-seared chicken.\n\nSpecial Abilities: Dangerous fire breath. Can be sheared for both Dragon Scales and woodlike Nadder Spikes. Damages anyone attacking it in melee range.</description>
+		<description>The epitome of the sharp class, nadders are agile, vain, and colorful dragons whose adaptability and resourcefulness have allowed them to thrive in all forests of the Rim. One of the most popular dragon mounts, nadders are favored by riders who possess a tactical mindset, flair for colorful clothing, and a particular love of magnesium-seared chicken.\n\nSpecial Abilities: Dangerous spike attacks. Can be sheared for both Dragon Scales and woodlike Nadder Spikes. Damages anyone attacking it in melee range.</description>
 		<statBases>
 			<MoveSpeed>6</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 			<MarketValue>1000</MarketValue>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
 		</statBases>
 		<tools>
 			<li>
@@ -165,21 +167,28 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.025</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
 			<nuzzleMtbHours>32</nuzzleMtbHours>
 			<lifeExpectancy>100</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
-					<minAge>2</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>4</minAge>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>6</minAge>
+					<minAge>15</minAge>
 					<soundWounded>Pawn_Cougar_Injured</soundWounded>
 					<soundDeath>Pawn_Cougar_Death</soundDeath>
 					<soundAngry>Pawn_Cougar_Angry</soundAngry>
@@ -218,7 +227,7 @@
 
 		<lifeStages>
 			<li>
-
+				<label>baby nadder</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nadder/RttR_Nadder_A</texPath>
 					<drawSize>1.8</drawSize>
@@ -230,7 +239,7 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-
+				<label>juvenile nadder</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nadder/RttR_Nadder_A</texPath>
 					<drawSize>2.4</drawSize>
@@ -242,6 +251,21 @@
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nadder/RttR_Dessicated_Nadder</texPath>
 					<drawSize>2.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>adolescent nadder</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Nadder/RttR_Nadder_A</texPath>
+					<drawSize>2.75</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Nadder/RttR_Dessicated_Nadder</texPath>
+					<drawSize>2.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

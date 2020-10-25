@@ -4,7 +4,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Giddy-up! Battle Mounts</li>
+			<li>Giddy-up! Core</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
@@ -13,6 +13,80 @@
 
 
 
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Fury"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Flightmare"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Gronckle"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Hotburple"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Nadder"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Nightmare"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Scauldron"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Zippleback"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+			
+				
 				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/ThingDef[defName = "RttR_Fury"]</xpath> 
 					<value>

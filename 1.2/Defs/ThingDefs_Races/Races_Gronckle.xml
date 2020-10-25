@@ -15,7 +15,9 @@
 			<MarketValue>1000</MarketValue>
 			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
-			      <ToxicSensitivity>30</ToxicSensitivity>
+			<ToxicSensitivity>30</ToxicSensitivity>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
 
 		</statBases>
 		<tools>
@@ -195,7 +197,7 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
 
 			<lifeExpectancy>275</lifeExpectancy>
 			<lifeStageAges>
@@ -205,11 +207,18 @@
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.4</minAge>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.8</minAge>
+					<minAge>15</minAge>
 					<soundWounded>Pawn_Cougar_Injured</soundWounded>
 					<soundDeath>Pawn_Cougar_Death</soundDeath>
 					<soundAngry>Pawn_Cougar_Angry</soundAngry>
@@ -250,7 +259,7 @@
 
 		<lifeStages>
 			<li>
-
+				<label>baby gronckle</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
 					<drawSize>1.5</drawSize>
@@ -262,7 +271,7 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-
+				<label>juvenile gronckle</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
 					<drawSize>1.8</drawSize>
@@ -277,6 +286,22 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
+				<label>adolescent gronckle</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
 					<drawSize>2.3</drawSize>

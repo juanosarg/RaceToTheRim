@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+  <ScenarioDef>
+    <defName>RttR_StartWithDragon</defName>
+    <label>Race to the Rim</label>
+    <description>The beasts arrived at sundown, finding out the location of your supplies and burning anyone who tried to stop them. You were attacked by one of those beasts yourself - and ended up being carried away like a barrel of salted cod. The dragon flew further than you would expect, but eventually it settled in a land you have never heard about before.\n\nMaybe the beast had other intentions, or maybe it was just tired, but it did not attack or maim you. In the heat of the moment you decided not to slay the beast, but realising it's just as exhausted and terrified as you, a bond was formed that will inevitably lead to a story of survival, or a dramatic tale of failure.</description>
+    <scenario>
+      <summary>You and your new dragon friend, alone against the whole world. This is a difficult scenario.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>PlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>1</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+
+         <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+
+       <li Class="RttRAnimalBehaviours.ScenPart_StartingDragon">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+
+         <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Knife</thingDef>
+          <stuff>Steel</stuff>
+        </li>   
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Pemmican</thingDef>
+          <count>40</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>3</count>
+        </li>		
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>The beasts arrived at sundown, finding out the location of your supplies and burning anyone who tried to stop them. You were attacked by one of those beasts yourself - and ended up being carried away like a barrel of salted cod. The dragon flew further than you would expect, but eventually it settled in a land you have never heard about before.\n\nMaybe the beast had other intentions, or maybe it was just tired, but it did not attack or maim you. In the heat of the moment you decided not to slay the beast, but realising it's just as exhausted and terrified as you, a bond was formed that will inevitably lead to a story of survival, or a dramatic tale of failure.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+
+
+</Defs>

@@ -23,7 +23,7 @@ namespace RttRAnimalBehaviours
     [HarmonyPatch(typeof(Verse.AI.Pawn_PathFollower))]
     [HarmonyPatch("CostToMoveIntoCell")]
     [HarmonyPatch(new Type[] { typeof(Pawn), typeof(IntVec3) })]
-    public static class Pawn_PathFollower_CostToMoveIntoCell_Patch
+    public static class RaceToTheRim_Pawn_PathFollower_CostToMoveIntoCell_Patch
     {
         [HarmonyPostfix]
         public static void WaterMovement(Pawn pawn, IntVec3 c, ref int __result)

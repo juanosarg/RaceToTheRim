@@ -230,6 +230,34 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- Terrible Terror Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggTerribleTerrorFertilized</defName>
+		<label>terrible terror egg (fert.)</label>
+		<description>Fertilized terrible terror egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a terrible terror.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggDragon</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_TerribleTerror</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
 
 
 </Defs>

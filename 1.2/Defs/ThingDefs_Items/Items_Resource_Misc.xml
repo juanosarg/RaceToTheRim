@@ -122,7 +122,7 @@
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>RttR_WoodLog</defName>
 		<label>nadder spikes</label>
-		<description>Description.</description>
+		<description>Aside from their potent flames, deadly nadders are famous for their other attack: launching tapered spikes from their tail in the direction of their enemies.  After they've been thrown, these spikes can be harvested and used as spearheads, spike traps, or very large needles. They can also be stacked on top of each other to form a kind of semi-flexible cord, which can be woven into thatching to make houses or, if you're really skilled, statues.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/WoodLog</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -134,7 +134,7 @@
 			<MarketValue>1.2</MarketValue>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Mass>5</Mass> 
-			<Flammability>0.4</Flammability>
+			<Flammability>0</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
 			<StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
@@ -161,7 +161,7 @@
 			<statFactors>
 				<MaxHitPoints>0.65</MaxHitPoints>
 				<Beauty>1</Beauty>
-				<Flammability>1</Flammability>
+				<Flammability>0</Flammability>
 				<WorkToMake>0.7</WorkToMake>
 				<WorkToBuild>0.7</WorkToBuild>
 				<DoorOpenSpeed>1.2</DoorOpenSpeed>
@@ -190,7 +190,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>RttR_NightmareGel</defName>
 		<label>monstrous nightmare gel</label>
-		<description>Description.</description>
+		<description>A Nightmare's flaming body stems from its ability to secrete a napalm-like substance from its skin. This substance can be ignited at will, but a tame nightmare will also allow its rider to scrape this gel into containers to use in other ways. Flame traps, braziers, and cooking fires can all be powered by monstrous nightmare gel, while the more industrious vikings have learned to refine it into chemfuel and use it to travel the stars.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_NightmareFuel</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

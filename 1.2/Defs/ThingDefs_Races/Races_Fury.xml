@@ -13,6 +13,8 @@
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 			<MarketValue>1000</MarketValue>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
 		</statBases>
 		<tools>
 			<li>
@@ -112,8 +114,8 @@
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>RttR_Furybreath</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
-				<burstShotCount>1</burstShotCount>
+				<warmupTime>2</warmupTime>
+				<burstShotCount>4</burstShotCount>
 				<minRange>2</minRange>
 				<range>18</range>
 				<forcedMissRadius>2</forcedMissRadius>
@@ -155,21 +157,28 @@
 			<meatLabel>dragon meat</meatLabel>
 			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.025</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
 			<lifeExpectancy>100</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
-					<minAge>2</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>4</minAge>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>6</minAge>
+					<minAge>15</minAge>
 					<soundWounded>Pawn_Cougar_Injured</soundWounded>
 					<soundDeath>Pawn_Cougar_Death</soundDeath>
 					<soundAngry>Pawn_Cougar_Angry</soundAngry>
@@ -217,7 +226,8 @@
 
 		<lifeStages>
 			<li>
-
+				<label>baby fury</label>
+				<labelPlural>baby furies</labelPlural>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
 					<drawSize>1.8</drawSize>
@@ -229,7 +239,8 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-
+				<label>juvenile fury</label>
+				<labelPlural>juvenile furies</labelPlural>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
 					<drawSize>2.4</drawSize>
@@ -244,6 +255,23 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
+				<label>adolescent fury</label>
+				<labelPlural>adolescent furies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
+					<drawSize>2.75</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Dessicated_Fury</texPath>
+					<drawSize>2.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
 					<drawSize>3</drawSize>

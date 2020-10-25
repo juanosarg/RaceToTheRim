@@ -11,13 +11,16 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 
 		</graphicData>
+		 <stackLimit>2500</stackLimit>
 		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
 			<MarketValue>1.5</MarketValue>
 			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
 			<categories>
@@ -28,7 +31,8 @@
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
 				<Beauty>3.5</Beauty>
-				
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(40,40,40)</color>
 			<commonality>0</commonality>

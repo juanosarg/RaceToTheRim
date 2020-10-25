@@ -15,6 +15,8 @@
 			<MarketValue>1000</MarketValue>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
 		</statBases>
 		<tools>
 			<li>
@@ -191,21 +193,28 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.025</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
 			<lifeExpectancy>100</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
-					<minAge>2</minAge>
+					<minAge>0</minAge>
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>4</minAge>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>6</minAge>
+					<minAge>15</minAge>
 					<soundWounded>Pawn_Cougar_Injured</soundWounded>
 					<soundDeath>Pawn_Cougar_Death</soundDeath>
 					<soundAngry>Pawn_Cougar_Angry</soundAngry>
@@ -254,7 +263,7 @@
 
 		<lifeStages>
 			<li>
-
+				<label>baby hotburple</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
 					<drawSize>1.8</drawSize>
@@ -266,7 +275,7 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-
+				<label>juvenile hotburple</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
 					<drawSize>2.4</drawSize>
@@ -281,6 +290,22 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
+				<label>adolescent hotburple</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
+					<drawSize>2.6</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Dessicated_Hotburple</texPath>
+					<drawSize>2.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
 					<drawSize>2.75</drawSize>
