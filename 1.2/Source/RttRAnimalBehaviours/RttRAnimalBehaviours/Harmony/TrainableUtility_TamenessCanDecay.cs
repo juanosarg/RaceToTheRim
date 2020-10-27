@@ -22,10 +22,10 @@ namespace RttRAnimalBehaviours
     public static class RaceToTheRim_TrainableUtility_TamenessCanDecay_Patch
     {
         [HarmonyPrefix]
-        public static bool RemoveTamenessDecayCheck(Pawn pawn)
+        public static bool RemoveTamenessDecayCheck(ThingDef def)
 
         {
-            if ((pawn.def.defName.Contains("RttR_")))
+            if ((def.defName.Contains("RttR_")))
             {
                 return false;
 

@@ -22,9 +22,11 @@ namespace RttRAnimalBehaviours
     public static class RaceToTheRim_Pawn_TrainingTracker_TrainingTrackerTickRare_Patch
     {
         [HarmonyPrefix]
-        public static bool RemoveTamenessDecay(Pawn pawn)
+        public static bool RemoveTamenessDecay(ref Pawn_TrainingTracker __instance)
 
         {
+            Pawn pawn;
+            pawn = (Pawn)typeof(Pawn_TrainingTracker).GetField("pawn", AccessTools.all).GetValue(__instance);
             if ((pawn.def.defName.Contains("RttR_")))
             {
                 return false;
