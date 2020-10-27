@@ -85,6 +85,33 @@
 						</li>				
 					</value>
 				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_TerribleTerror"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Rumblehorn"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Stormcutter"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
 			
 				
 				<li Class="PatchOperationAddModExtension">

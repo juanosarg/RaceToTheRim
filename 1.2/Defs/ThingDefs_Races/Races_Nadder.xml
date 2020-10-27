@@ -99,7 +99,7 @@
 
 			</li>
 			<li Class="CompProperties_Shearable">
-				<woolDef>RttR_DragonScales</woolDef>
+				<woolDef>RttR_NadderDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>5</woolAmount>
 			</li>

@@ -129,7 +129,7 @@
 			</li>
 		
 			<li Class="CompProperties_Shearable">
-				<woolDef>RttR_DragonScales</woolDef>
+				<woolDef>RttR_GronckleDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>5</woolAmount>
 			</li>
@@ -153,8 +153,8 @@
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>RttR_GronckleBreath</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
-				<burstShotCount>1</burstShotCount>
+				<warmupTime>2.5</warmupTime>
+				<burstShotCount>3</burstShotCount>
 				<minRange>2</minRange>
 				<range>18</range>
 				<forcedMissRadius>2</forcedMissRadius>

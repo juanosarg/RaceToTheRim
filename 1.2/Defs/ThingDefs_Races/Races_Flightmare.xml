@@ -85,7 +85,7 @@
 
 
 			<li Class="CompProperties_Shearable">
-				<woolDef>RttR_DragonScales</woolDef>
+				<woolDef>RttR_FlightmareDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>5</woolAmount>
 			</li>

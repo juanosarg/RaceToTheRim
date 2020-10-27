@@ -258,6 +258,62 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- Rumblehorn Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggRumblehornFertilized</defName>
+		<label>rumblehorn egg (fert.)</label>
+		<description>Fertilized rumblehorn egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a rumblehorn.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggDragon</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Rumblehorn</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Stormcutter Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggStormcutterFertilized</defName>
+		<label>stormcutter egg (fert.)</label>
+		<description>Fertilized stormcutter egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a stormcutter.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggDragon</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Stormcutter</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
 
 
 </Defs>

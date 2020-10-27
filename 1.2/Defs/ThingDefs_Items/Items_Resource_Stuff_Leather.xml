@@ -3,8 +3,47 @@
 
 
 	<ThingDef ParentName="LeatherBase">
-		<defName>RttR_DragonScales</defName>
-		<label>dragon scales</label>
+		<defName>RttR_FlightmareDragonScales</defName>
+		<label>flightmare dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_FlightmareScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(154,212,230)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_FuryDragonScales</defName>
+		<label>fury dragon scales</label>
 		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_DragonScales</texPath>
@@ -39,11 +78,349 @@
 		</stuffProps>
 		<smallVolume>true</smallVolume>
 	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_GronckleDragonScales</defName>
+		<label>gronckle dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_GronckleScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(109,90,81)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_HotburpleDragonScales</defName>
+		<label>hotburple dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_HotburpleScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(213,117,56)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_NadderDragonScales</defName>
+		<label>nadder dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_NadderScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(128,168,170)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_NightmareDragonScales</defName>
+		<label>nightmare dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_MonstrousNightmareScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(110,56,66)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_RumblehornDragonScales</defName>
+		<label>rumblehorn dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_RumblehornScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(93,100,51)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+
+<ThingDef ParentName="LeatherBase">
+		<defName>RttR_ScauldronDragonScales</defName>
+		<label>scauldron dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_ScauldronScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(107,163,126)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
 
 
+<ThingDef ParentName="LeatherBase">
+		<defName>RttR_StormcutterDragonScales</defName>
+		<label>stormcutter dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_StormcutterScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(111,108,104)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_TerribleTerrorDragonScales</defName>
+		<label>terrible terror dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_TerribleTerrorScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(182,195,116)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_ZipplebackDragonScales</defName>
+		<label>zippleback dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_ZipplebackScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 
-
-
+		</graphicData>
+		 <stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>1.5</MarketValue>
+			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3.5</Beauty>
+				 <Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(141,130,54)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+	
 </Defs>

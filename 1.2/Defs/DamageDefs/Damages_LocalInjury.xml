@@ -43,6 +43,20 @@
     <combatLogRules>Damage_Extinguish</combatLogRules>
 	
   </DamageDef>
+  
+  <DamageDef>
+		<defName>RttR_SiegeBlunt</defName>
+		<label>crush</label>
+		<workerClass>RttRAnimalBehaviours.DamageWorker_Siege</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been crushed to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSkin>Shredded</hediffSkin>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+	</DamageDef>
 
 	
 

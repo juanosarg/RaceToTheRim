@@ -309,6 +309,7 @@
     <Compile Include="Comps\CompProperties\CompProperties_EatWeirdFood.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ExplodingHatcher.cs" />
     <Compile Include="Comps\CompWaterMovement.cs" />
+    <Compile Include="Damages\DamageWorker_Siege.cs" />
     <Compile Include="Filth and Gas\Filth_LiquefiedHelixienGas.cs" />
     <Compile Include="Filth and Gas\Filth_ScaldingFoam.cs" />
     <Compile Include="Harmony\Thing_TakeDamage.cs" />

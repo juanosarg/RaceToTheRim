@@ -13,7 +13,7 @@
     <statFactors>
       <MoveSpeed>0.9</MoveSpeed>
     </statFactors>
-	<reproductive>true</reproductive>
+	<reproductive>false</reproductive>
     <milkable>true</milkable>
     <shearable>true</shearable>
   </LifeStageDef>

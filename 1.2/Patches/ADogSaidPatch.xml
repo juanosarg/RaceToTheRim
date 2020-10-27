@@ -22,6 +22,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 
 
 
@@ -45,7 +48,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
-
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 
 					</value>
 				</li>
@@ -62,7 +67,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
-
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -78,7 +85,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
-
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -94,7 +103,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
-
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -110,6 +121,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -126,7 +140,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
-
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -143,7 +159,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
-
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 
 					</value>
 				</li>
@@ -162,6 +180,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -181,6 +202,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -196,6 +220,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -212,6 +239,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -232,7 +262,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
-
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 					</value>
 				</li>
 
@@ -258,7 +290,9 @@
 						<li>RttR_Nightmare</li>
 						<li>RttR_Scauldron</li>
 						<li>RttR_Zippleback</li>
-
+						<li>RttR_TerribleTerror</li>
+						<li>RttR_Rumblehorn</li>
+						<li>RttR_Stormcutter</li>
 
 
 
@@ -266,7 +300,284 @@
 				</li>
 
 
+				<!-- New prostethic parts -->
 
+
+				<!-- Dragon Prosthetics -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ResearchProjectDef>
+							<defName>RttR_DragonProsthetics</defName>
+							<label>Dragon Prosthetics</label>
+							<description>Learn to use and craft draconic animal prosthetics to replace such things as dragon wings</description>
+							<baseCost>250</baseCost>
+							<techLevel>Industrial</techLevel>
+							<researchViewX>3</researchViewX>
+							<researchViewY>2</researchViewY>
+							<prerequisites>
+								<li>SimpleAnimalProsthetics</li>
+							</prerequisites>
+							<tab>ADogSaid</tab>
+						</ResearchProjectDef>
+
+					</value>
+				</li>
+				
+				<!-- Dragon Bionics -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ResearchProjectDef>
+							<defName>RttR_DragonBionics</defName>
+							<label>Dragon Bionics</label>
+							<description>Learn to use and craft draconic animal bionics to replace such things as dragon wings</description>
+							<baseCost>400</baseCost>
+							<techLevel>Spacer</techLevel>
+							<researchViewX>3</researchViewX>
+							<researchViewY>3</researchViewY>
+							<prerequisites>
+								<li>AnimalBionics</li>
+
+							</prerequisites>
+							<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+							<tab>ADogSaid</tab>
+						</ResearchProjectDef>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="BodyPartProstheticBaseADS">
+							<defName>RttR_ProstheticWing</defName>
+							<label>draconic prosthetic wing</label>
+							<description>Simple prosthetic wing. Should be able to replace any type of dragon wing.</description>
+							<techLevel>Industrial</techLevel>
+							<costList>
+								<Steel>25</Steel>
+								<ComponentIndustrial>2</ComponentIndustrial>
+							</costList>
+							<statBases>
+								<WorkToMake>8000</WorkToMake>
+								<Mass>2</Mass>
+							</statBases>
+							<techHediffsTags>
+								<li>Simple</li>
+							</techHediffsTags>
+							<recipeMaker>
+								<researchPrerequisite>RttR_DragonProsthetics</researchPrerequisite>
+							</recipeMaker>
+						</ThingDef>
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="BodyPartBionicBaseADS">
+							<defName>RttR_BionicWing</defName>
+							<label>draconic bionic wing</label>
+							<description>Improved bionic wing for dragons. Should be able to replace any type of dragon wing.</description>
+							<techLevel>Spacer</techLevel>
+							<costList>
+								<Plasteel>25</Plasteel>							
+								<ComponentSpacer>2</ComponentSpacer>
+							</costList>
+							<statBases>
+								<WorkToMake>12000</WorkToMake>
+								<Mass>8</Mass>
+							</statBases>
+							<techHediffsTags>
+								<li>Advanced</li>
+							</techHediffsTags>
+							<recipeMaker>
+								<researchPrerequisite>RttR_DragonBionics</researchPrerequisite>
+							</recipeMaker>
+						</ThingDef>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="addedPartAnimal">
+							<defName>RttR_ProstheticWing</defName>
+							<label>draconic prosthetic wing</label>
+							<description>Simple prosthetic wing. Should be able to replace any type of dragon wing.</description>
+							<defaultLabelColor>(233,129,69)</defaultLabelColor>
+							<spawnThingOnRemoved>RttR_ProstheticWing</spawnThingOnRemoved>
+							<addedPartProps>
+								<solid>true</solid>
+								<partEfficiency>0.85</partEfficiency>
+								<betterThanNatural>false</betterThanNatural>
+							</addedPartProps>
+							<stages>
+								<li>
+									<statOffsets>
+										<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+										<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+										<ArmorRating_Heat>0.02</ArmorRating_Heat>
+									</statOffsets>
+								</li>			
+							</stages>
+						</HediffDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+
+						<HediffDef ParentName="addedPartAnimal">
+							<defName>RttR_BionicWing</defName>
+							<label>draconic bionic wing</label>
+							<description>Improved bionic wing for dragons. Should be able to replace any type of dragon wing.</description>
+							<spawnThingOnRemoved>RttR_BionicWing</spawnThingOnRemoved>
+							<addedPartProps>
+								<solid>true</solid>
+								<partEfficiency>1.25</partEfficiency>
+							</addedPartProps>
+							<stages>
+								<li>
+									<capMods>
+										<li>
+											<capacity>Manipulation</capacity>
+											<offset>0.01</offset>
+										</li>
+									</capMods>
+									<statOffsets>
+										<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+										<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+										<ArmorRating_Heat>0.03</ArmorRating_Heat>
+									</statOffsets>
+								</li>	 
+							</stages>
+						</HediffDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef Abstract="True" Name="RttR_WingBaseAnimal" ParentName="SurgeryFleshAnimal">
+							<appliedOnFixedBodyParts>
+								<li>RttR_Wing</li>
+								
+							</appliedOnFixedBodyParts>
+						</RecipeDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="RttR_WingBaseAnimal">
+							<defName>RttR_InstallSimpleWing</defName>
+							<label>install draconic prosthetic wing</label>
+							<description>Installs draconic prosthetic wing.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Installing draconic prosthetic wing.</jobString>
+							<workAmount>2000</workAmount>
+							<skillRequirements>
+								<Medicine>4</Medicine>
+							</skillRequirements>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RttR_ProstheticWing</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>RttR_ProstheticWing</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<addsHediff>RttR_ProstheticWing</addsHediff>
+
+						</RecipeDef>
+
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="RttR_WingBaseAnimal">
+							<defName>RttR_InstallBionicWing</defName>
+							<label>install draconic bionic wing</label>
+							<description>Installs draconic bionic wing. Requires a min skill in medicine of 8.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Installing draconic bionic wing.</jobString>
+							<workAmount>2000</workAmount>
+							<skillRequirements>
+								<Medicine>8</Medicine>
+							</skillRequirements>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RttR_BionicWing</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>RttR_BionicWing</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+
+							<addsHediff>RttR_BionicWing</addsHediff>
+
+						</RecipeDef>
+					</value>
+				</li>
+				
+				<!-- Final patch to vanilla to ensure these operations appear in all animals when they should -->
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
+					<value>
+						<li>RttR_InstallSimpleWing</li>
+						<li>RttR_InstallBionicWing</li>
+						
+
+
+
+					</value>
+				</li>
+				
 
 			</operations>
 		</match>

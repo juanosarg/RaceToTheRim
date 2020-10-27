@@ -85,9 +85,9 @@
 
 
 			<li Class="CompProperties_Shearable">
-				<woolDef>RttR_DragonScales</woolDef>
+				<woolDef>RttR_TerribleTerrorDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>1</woolAmount>
+				<woolAmount>5</woolAmount>
 			</li>
 			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
 
@@ -212,19 +212,19 @@
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
 			<li>
-				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror</texPath>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
 			</li>
 			<li>
-				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror</texPath>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_B</texPath>
 			</li>
 			<li>
-				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror</texPath>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_C</texPath>
 			</li>
 			<li>
-				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror</texPath>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_D</texPath>
 			</li>
 			<li>
-				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror</texPath>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_E</texPath>
 			</li>
 
 		</alternateGraphics>
@@ -234,7 +234,7 @@
 				<label>baby terrible terror</label>
 				
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror</texPath>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
 					<drawSize>0.6</drawSize>
 
 				</bodyGraphicData>
@@ -247,7 +247,7 @@
 				<label>juvenile terrible terror</label>
 				
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror</texPath>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
 					<drawSize>0.8</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -263,7 +263,7 @@
 				<label>adolescent terrible terror</label>
 				
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror</texPath>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
 					<drawSize>1</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -277,7 +277,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror</texPath>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
