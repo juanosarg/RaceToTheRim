@@ -17,7 +17,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Fury"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -26,7 +26,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Flightmare"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -35,7 +35,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Gronckle"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -44,7 +44,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Hotburple"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -53,7 +53,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Nadder"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -62,7 +62,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Nightmare"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -71,7 +71,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Scauldron"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -80,7 +80,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Zippleback"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -89,7 +89,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_TerribleTerror"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -98,7 +98,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Rumblehorn"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
@@ -107,7 +107,7 @@
 					<xpath>/Defs/ThingDef[defName = "RttR_Stormcutter"]</xpath> 
 					<value>
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
-							<allowedLifeStagesCSV>RttR_AnimalAdolescent,AnimalAdult</allowedLifeStagesCSV>
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 							
 						</li>				
 					</value>
