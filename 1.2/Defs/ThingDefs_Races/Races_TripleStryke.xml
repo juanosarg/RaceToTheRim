@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="AnimalThingBase">
+
+		<defName>RttR_TripleStryke</defName>
+		<label>triple stryke</label>
+		<description>This strike class dragon is spoiled for choice when it comes to dispatching its enemies, courtesy of their three specialized, stinging tails. The first tail is an anaesthetic, the second is psychoactive, and the third is an extremely potent hemotoxin. Which tail the Triple Stryke favors is thought to influence the sort of rider is seeks out. Those who favor the strike of the first tail are often trained by medical professionals, who utilize their dragon's natural anaesthetic to help their fellow colonists and dragons. Dragons who default to the second tail are often ridden by spies, who rely on inducing hallucinations to coerce information or facilitate escape, or the chemically inclined, who harvest their dragon's venom for recreational consumption. The Third type of triple stryke is the rarest and the most feared: these dragons focus on eliminating their enemies as quickly as possible, and are often drawn to the sword fighters and axe wielders of a human colony.\n\nSpecial Abilities: Its attacks cause a veriety of status effects. Can be harvested for Draconic chitin. Can be harvested for Triple stryke venom, useful to craft herbal medicine.</description>
+		<statBases>
+			<MoveSpeed>3.75</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MarketValue>1000</MarketValue>
+			<ToxicSensitivity>0</ToxicSensitivity>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+			
+		</statBases>
+		<tools>
+			<li>
+				<label>first tail</label>
+				<capacities>
+					<li>RttR_Anesthesia</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RttR_FirstTailAttackTool</linkedBodyPartsGroup>
+				
+			</li>
+			<li>
+				<label>second tail</label>
+				<capacities>
+					<li>RttR_Dazing</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RttR_SecondTailAttackTool</linkedBodyPartsGroup>
+				
+			</li>
+			<li>
+				<label>third tail</label>
+				<capacities>
+					<li>RttR_Toxic</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RttR_ThirdTailAttackTool</linkedBodyPartsGroup>
+				
+			</li>
+			
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+
+			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
+
+				<customThingToDig>RttR_RawFish</customThingToDig>
+				<customAmountToDig>50</customAmountToDig>
+
+			</li>
+			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">
+				<resourceDef>RttR_TripleStrykeVenom</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>RttR_TripleStrykeVenom</customResourceString>				
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>RttR_TripleStrykeDragonScales</woolDef>
+				<shearIntervalDays>2</shearIntervalDays>
+				<woolAmount>10</woolAmount>
+			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>RttR_EggTripleStrykeFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>32</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>1</max>
+				</eggCountRange>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RttR_TripleStrykeBreath</defaultProjectile>
+				<warmupTime>5</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>5</minRange>
+				<range>25</range>
+				<forcedMissRadius>2</forcedMissRadius>
+				<soundCast>RttR_FireBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<race>
+			<wildBiomes>
+				<BorealForest>0.07</BorealForest>
+				<IceSheet>0.01</IceSheet>
+				<Tundra>0.01</Tundra>
+				<ColdBog>0.01</ColdBog>
+				<SeaIce>0.01</SeaIce>
+				<TemperateSwamp>0.07</TemperateSwamp>
+				<TropicalSwamp>0.07</TropicalSwamp>
+				<TemperateForest>0.04</TemperateForest>
+				<TropicalRainforest>0.06</TropicalRainforest>
+				<AridShrubland>0.01</AridShrubland>
+				<Desert>0.01</Desert>
+				<ExtremeDesert>0.01</ExtremeDesert>
+			</wildBiomes>
+			<predator>true</predator>
+			<maxPreyBodySize>1.0</maxPreyBodySize>
+			<body>RttR_WingedQuadrupedAnimalWithPawsAndThreeTails</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>3.5</baseBodySize>
+			<baseHungerRate>0.45</baseHungerRate>
+			<baseHealthScale>2</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<wildness>0.90</wildness>
+			<useMeatFrom>RttR_Fury</useMeatFrom>
+			<trainability>Advanced</trainability>
+			<leatherDef>Leather_Lizard</leatherDef>			
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<lifeExpectancy>100</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>15</minAge>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+
+
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RttR_TripleStryke</defName>
+		<label>triple stryke</label>
+		
+		<race>RttR_TripleStryke</race>
+		<combatPower>450</combatPower>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+
+
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_B</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_C</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_D</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_E</texPath>
+			</li>
+			
+		</alternateGraphics>
+
+		<lifeStages>
+			<li>
+				<label>baby triple stryke</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
+					<drawSize>2.2</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke_A</texPath>
+					<drawSize>2.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>juvenile triple stryke</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
+					<drawSize>3.3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke_A</texPath>
+					<drawSize>3.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>adolescent triple stryke</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
+					<drawSize>3.75</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke_A</texPath>
+					<drawSize>3.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
+					<drawSize>4.4</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke_A</texPath>
+					<drawSize>4.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+</Defs>

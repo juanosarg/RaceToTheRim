@@ -7,7 +7,7 @@
 
 		<defName>RttR_Flightmare</defName>
 		<label>flightmare</label>
-		<description>Accidentally bumping into this fear class dragon is a stunning experience in multiple ways. First, the flightmare's luminescent body can be blinding when it's startled. Second, a flightmare's gut reaction to surprise is to spray their paralyzing mist directly at the source of the commotion. This stunning mist wears off after a few minutes, by which time the flightmare is usually long gone. But this experience can be stunning in other ways too: an unusual number of people report being surprised at the actual size of the flightmare. Between the Flightmare's reputation for freezing people in fear and the way it flies through the sky looking like a massive comet, people often expect a dragon large enough to dwarf a stormcutter. Instead, close observers note that flightmares are generally the size of a Speed Stinger, and merely look larger because of the glowing aura that surrounds them.\n\nSpecial Abilities: Flightmares are small dragons, and contrary to others they won't dig for fish when they are hungry. Their breath attack is a dangerous stunning mist.</description>
+		<description>Accidentally bumping into this fear class dragon is a stunning experience in multiple ways. First, the flightmare's luminescent body can be blinding when it's startled. Second, a flightmare's gut reaction to surprise is to spray their paralyzing mist directly at the source of the commotion. This stunning mist wears off after a few minutes, by which time the flightmare is usually long gone. But this experience can be stunning in other ways too: an unusual number of people report being surprised at the actual size of the flightmare. Between the Flightmare's reputation for freezing people in fear and the way it flies through the sky looking like a massive comet, people often expect a dragon large enough to dwarf a stormcutter. Instead, close observers note that flightmares are generally the size of a Speed Stinger, and merely look larger because of the glowing aura that surrounds them.\n\nSpecial Abilities: Flightmares are small dragons, and contrary to others they won't dig for fish when they are hungry. They are however adept at digging for a bioluminiscent algae that is their only sustenance. Their breath attack is a dangerous stunning mist.</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -87,7 +87,20 @@
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_FlightmareDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>5</woolAmount>
+				<woolAmount>10</woolAmount>
+			</li>
+			<li Class="RttRAnimalBehaviours.CompProperties_EatWeirdFood">
+
+				<customThingToEat>					
+					<li>RttR_FlightmareAlgae</li>
+						
+				</customThingToEat>
+				<nutrition>1</nutrition>
+				<fullyDestroyThing>true</fullyDestroyThing>
+				<digThingIfMapEmpty>true</digThingIfMapEmpty>
+				<thingToDigIfMapEmpty>RttR_FlightmareAlgae</thingToDigIfMapEmpty>
+				<customAmountToDig>10</customAmountToDig>
+
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggFlightmareFertilized</eggFertilizedDef>
@@ -136,6 +149,7 @@
 				<TropicalRainforest>0.01</TropicalRainforest>
 				
 			</wildBiomes>
+			<thinkTreeMain>RttR_AnimalWeirdEater</thinkTreeMain>
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
 			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>

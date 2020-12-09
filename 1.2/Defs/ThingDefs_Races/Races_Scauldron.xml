@@ -92,7 +92,7 @@
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_ScauldronDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>5</woolAmount>
+				<woolAmount>10</woolAmount>
 			</li>
 			<li Class="RttRAnimalBehaviours.CompProperties_WaterMovement">
 				

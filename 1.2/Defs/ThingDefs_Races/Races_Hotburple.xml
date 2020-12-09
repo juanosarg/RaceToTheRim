@@ -132,7 +132,7 @@
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_HotburpleDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>5</woolAmount>
+				<woolAmount>10</woolAmount>
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggHotburpleFertilized</eggFertilizedDef>
@@ -179,6 +179,7 @@
 				<Desert>0.1</Desert>
 				<ExtremeDesert>0.1</ExtremeDesert>
 			</wildBiomes>
+			<thinkTreeMain>RttR_AnimalWeirdEater</thinkTreeMain>
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
 			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>

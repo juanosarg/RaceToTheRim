@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<RecipeDef>
+		<defName>RttR_ExtractMetalFromRazorwhipSpikes</defName>
+		<label>smelt metal from razorwhip spikes</label>
+		<description>Use heat and strong electromagnets to extract useful metal from razorwhip spikes.</description>
+		<jobString>Smelting metal from razorwhip spikes.</jobString>
+		<workAmount>400</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RttR_RazorwhipSpikes</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Steel>10</Steel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RttR_RazorwhipSpikes</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>RttR_RefineMedicineFromRazorwhipSpikes</defName>
+		<label>refine medicine from razorwhip spikes</label>
+		<description>Use razorwhip spikes to make industrial medicine.</description>
+		<jobString>Refining medicine from razorwhip spikes.</jobString>
+		<workAmount>400</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RttR_RazorwhipSpikes</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<MedicineIndustrial>1</MedicineIndustrial>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RttR_RazorwhipSpikes</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>RttR_RefineHerbalMedicineFromTripleStrykeVenom</defName>
+		<label>refine herbal medicine from triple stryke venom</label>
+		<description>Use triple stryke venom to make herbal medicine.</description>
+		<jobString>Refining herbal medicine from triple stryke venom.</jobString>
+		<workAmount>400</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RttR_TripleStrykeVenom</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<products>
+			<MedicineHerbal>1</MedicineHerbal>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RttR_TripleStrykeVenom</li>				
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+
+</Defs>

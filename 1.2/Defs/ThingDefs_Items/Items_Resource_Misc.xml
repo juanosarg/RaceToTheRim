@@ -85,7 +85,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<statBases>
 			<MarketValue>1.9</MarketValue>
-			<Mass>0.375</Mass>
+			<Mass>0.13</Mass>
 			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>0.60</StuffPower_Armor_Heat>
@@ -227,6 +227,86 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>RttR_FlightmareAlgae</defName>
+		<label>flightmare algae</label>
+		<description>A glowing algae that is most noted as a food source for the Flightmare, and appears to contribute to this dragon's bluish glow. Flightmares are adept at finding sources of this algae by digging around in dirt. Inedible for other creatures.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_Algae</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>150</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>1</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>RttR_RazorwhipSpikes</defName>
+		<label>razorwhip spikes</label>
+		<description>Tough, metallic spikes that can be periodically harvested from Razorwhips. These spikes are too hard to bind to use them as a building material, but they can be smelted into steel in an electric smelter, or further refined into industrial medicine in a drug lab.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_RazorwhipSpikes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>150</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>1</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>		
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>RttR_TripleStrykeVenom</defName>
+		<label>triple stryke venom</label>
+		<description>Venom produced by the Triple stryke's tails can be periodicallt collected and refined in a drug lab to craft herbal medicine.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_VenomVials</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>150</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>1</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>		
+	</ThingDef>
+
+
 
 
 </Defs>

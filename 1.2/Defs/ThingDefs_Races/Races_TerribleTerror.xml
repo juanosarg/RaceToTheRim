@@ -87,7 +87,7 @@
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_TerribleTerrorDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>5</woolAmount>
+				<woolAmount>10</woolAmount>
 			</li>
 			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
 
@@ -114,7 +114,7 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_TinyFlameBreath</defaultProjectile>
+				<defaultProjectile>RttR_TerribleTerrorBreath</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>

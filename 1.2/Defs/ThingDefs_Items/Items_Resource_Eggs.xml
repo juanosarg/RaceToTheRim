@@ -314,6 +314,62 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- Razorwhip Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggRazorwhipFertilized</defName>
+		<label>razorwhip egg (fert.)</label>
+		<description>Fertilized razorwhip egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a razorwhip.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggDragon</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Razorwhip</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Triple Stryke Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggTripleStrykeFertilized</defName>
+		<label>triple stryke egg (fert.)</label>
+		<description>Fertilized triple stryke egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a triple stryke.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggDragon</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_TripleStryke</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
 
 
 </Defs>

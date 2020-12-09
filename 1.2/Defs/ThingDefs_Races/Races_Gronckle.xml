@@ -7,7 +7,7 @@
 
 		<defName>RttR_Gronckle</defName>
 		<label>gronckle</label>
-		<description>Most boulder class dragons are lithovores, and the iconic gronckle is no exception.  Rather than subsist on fish or meat as most dragons do, the gronckle eats rocks for nutrition, having spread to all mountainous reaches of the Rim. Due to the high internal temperature of the gronckle's magma bloodstream, any rock they consume is quickly liquified and its metallic components can be regurgitated in the form of Gronckle Iron.\n\nSpecial Abilities: Periodically digs for rock chunks. Can be sheared for Gronckle Iron and Dragon Scales. Occasionally it will produce additional precious minerals when sheared.</description>
+		<description>Most boulder class dragons are lithovores, and the iconic gronckle is no exception.  Rather than subsist on fish or meat as most dragons do, the gronckle eat rocks for nutrition. Consequently, they have spread to most mountainous regions of the Rim. Due to the high internal temperature of the gronckle's magma bloodstream, any rock they consume is quickly liquified and its metallic components can be regurgitated in the form of Gronckle Iron.\n\nSpecial Abilities: Periodically digs for rock chunks. Can be sheared for Gronckle Iron and Dragon Scales. Occasionally it will produce additional precious minerals when sheared.</description>
 		<statBases>
 			<MoveSpeed>1.75</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -131,7 +131,7 @@
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_GronckleDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>5</woolAmount>
+				<woolAmount>10</woolAmount>
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggGronckleFertilized</eggFertilizedDef>

@@ -93,7 +93,7 @@
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_NightmareDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>5</woolAmount>
+				<woolAmount>10</woolAmount>
 			</li>
 			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>RttR_NightmareGel</resourceDef>
@@ -122,7 +122,7 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
+				<defaultProjectile>RttR_NightmareBreath</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>1</minRange>

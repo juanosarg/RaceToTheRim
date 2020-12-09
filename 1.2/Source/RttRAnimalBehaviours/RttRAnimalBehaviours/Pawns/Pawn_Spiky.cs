@@ -12,22 +12,25 @@ namespace RttRAnimalBehaviours
     {
         public override void PostApplyDamage(DamageInfo dinfo, float totalDamageDealt)
         {
-            base.PostApplyDamage(dinfo, totalDamageDealt);
             Pawn instigator = dinfo.Instigator as Pawn;
-            if (instigator != null && instigator.Map!=null)
+            Map thisMap = this.Map;
+            IntVec3 position = instigator.Position;
+            Rot4 rotation = instigator.Rotation;
+            base.PostApplyDamage(dinfo, totalDamageDealt);            
+            if (instigator != null && instigator.Map!=null && !instigator.Dead)
             {
-                CellRect rect = GenAdj.OccupiedRect(instigator.Position, instigator.Rotation, IntVec2.One).ExpandedBy(1);
+                CellRect rect = GenAdj.OccupiedRect(position, rotation, IntVec2.One).ExpandedBy(1);
                 foreach (IntVec3 current in rect.Cells)
                 {
                     if (current.InBounds(instigator.Map))
                     {
                         if (current != null) {
-                            HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(this.Map));
+                            HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(thisMap));
                             if (hashSet != null)
                             {
                                 foreach (Thing thing in hashSet)
                                 {
-                                    if (thing != null && thing == this)
+                                    if (thing != null && thing == this || thing == this.Corpse)
                                     {
                                         instigator.TakeDamage(new DamageInfo(DamageDefOf.Cut, 20, 0f, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
 

@@ -92,7 +92,7 @@
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_StormcutterDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>5</woolAmount>
+				<woolAmount>10</woolAmount>
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggStormcutterFertilized</eggFertilizedDef>
@@ -113,7 +113,7 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
+				<defaultProjectile>RttR_StormcutterBreath</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>1</minRange>
@@ -231,12 +231,12 @@
 				
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Stormcutter_A</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>3</drawSize>
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Dessicated_Stormcutter</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -244,7 +244,7 @@
 				
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Stormcutter_A</texPath>
-					<drawSize>2.4</drawSize>
+					<drawSize>4.2</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -252,7 +252,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Dessicated_Stormcutter</texPath>
-					<drawSize>2.4</drawSize>
+					<drawSize>4.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -260,7 +260,7 @@
 			
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Stormcutter_A</texPath>
-					<drawSize>2.75</drawSize>
+					<drawSize>4.8</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -268,14 +268,14 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Dessicated_Stormcutter</texPath>
-					<drawSize>2.75</drawSize>
+					<drawSize>4.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Stormcutter_A</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>5.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -283,7 +283,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Dessicated_Stormcutter</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>5.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

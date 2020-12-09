@@ -8,6 +8,26 @@
 		<defName>RttR_SiegeBlunt</defName>
 		<label>siege crush</label>
 	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>RttR_MechanoidScratch</defName>
+		<label>steel claws</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>RttR_Anesthesia</defName>
+		<label>triple stryke tail</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>RttR_Dazing</defName>
+		<label>triple stryke tail</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>RttR_Toxic</defName>
+		<label>triple stryke tail</label>
+	</ToolCapacityDef>
 
 	
 

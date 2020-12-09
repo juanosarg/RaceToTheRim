@@ -25,12 +25,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
-
-
-
-
-
-
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -51,7 +47,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
-
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -70,6 +67,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -88,6 +87,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -106,6 +107,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -124,6 +127,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -143,6 +148,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -162,7 +169,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
-
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -183,6 +191,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -205,6 +215,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -223,6 +235,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -242,6 +256,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -265,6 +281,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 					</value>
 				</li>
 
@@ -293,7 +311,8 @@
 						<li>RttR_TerribleTerror</li>
 						<li>RttR_Rumblehorn</li>
 						<li>RttR_Stormcutter</li>
-
+						<li>RttR_Razorwhip</li>
+						<li>RttR_TripleStryke</li>
 
 
 					</value>
@@ -324,7 +343,7 @@
 
 					</value>
 				</li>
-				
+
 				<!-- Dragon Bionics -->
 
 				<li Class="PatchOperationAdd">
@@ -348,7 +367,7 @@
 
 					</value>
 				</li>
-				
+
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
@@ -402,7 +421,7 @@
 
 					</value>
 				</li>
-				
+
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
@@ -460,14 +479,14 @@
 						</HediffDef>
 					</value>
 				</li>
-				
+
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
 						<RecipeDef Abstract="True" Name="RttR_WingBaseAnimal" ParentName="SurgeryFleshAnimal">
 							<appliedOnFixedBodyParts>
 								<li>RttR_Wing</li>
-								
+
 							</appliedOnFixedBodyParts>
 						</RecipeDef>
 					</value>
@@ -563,7 +582,7 @@
 						</RecipeDef>
 					</value>
 				</li>
-				
+
 				<!-- Final patch to vanilla to ensure these operations appear in all animals when they should -->
 
 				<li Class="PatchOperationAdd"> 
@@ -571,13 +590,13 @@
 					<value>
 						<li>RttR_InstallSimpleWing</li>
 						<li>RttR_InstallBionicWing</li>
-						
+
 
 
 
 					</value>
 				</li>
-				
+
 
 			</operations>
 		</match>

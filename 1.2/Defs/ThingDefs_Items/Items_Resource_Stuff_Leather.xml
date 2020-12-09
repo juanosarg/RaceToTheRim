@@ -5,21 +5,22 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_FlightmareDragonScales</defName>
 		<label>flightmare dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Faintly glowing, hard overlapping scales with a shiny metallic sheen. Good at cold insulation and against fire attacks.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_FlightmareScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>14</MarketValue>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -27,11 +28,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>8</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(154,212,230)</color>
@@ -44,21 +44,22 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_FuryDragonScales</defName>
 		<label>fury dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally resistant to fire.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_DragonScales</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
+			<MarketValue>14</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>1.29</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>4</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<StuffPower_Insulation_Heat>40</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -66,11 +67,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>7</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(40,40,40)</color>
@@ -78,25 +78,26 @@
 		</stuffProps>
 		<smallVolume>true</smallVolume>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_GronckleDragonScales</defName>
-		<label>gronckle dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<label>gronckle pebbles</label>
+		<description>Small, rock-like scales. Contrary to other dragon scales, Gronckle pebbles lack their distinctive shine. Durable against blunt damage.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_GronckleScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>7</MarketValue>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -104,11 +105,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>1.2</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(109,90,81)</color>
@@ -120,21 +120,22 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_HotburpleDragonScales</defName>
 		<label>hotburple dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Bright orange scales, hot to the touch. Durable against blunt damage.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_HotburpleScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>7</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.62</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -142,37 +143,38 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>1.2</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
-			<color>(213,117,56)</color>
+			<color>(109,90,81)</color>
 			<commonality>0</commonality>
 		</stuffProps>
 		<smallVolume>true</smallVolume>
 	</ThingDef>
-	
+
+
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_NadderDragonScales</defName>
 		<label>nadder dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat and against intense heat.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_NadderScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>14</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>2.2</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.17</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>4</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>40</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -180,11 +182,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>8</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(128,168,170)</color>
@@ -200,17 +201,18 @@
 		<graphicData>
 			<texPath>Things/Item/RttR_MonstrousNightmareScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>8</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>4</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>40</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -218,11 +220,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>4</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(110,56,66)</color>
@@ -230,7 +231,7 @@
 		</stuffProps>
 		<smallVolume>true</smallVolume>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_RumblehornDragonScales</defName>
 		<label>rumblehorn dragon scales</label>
@@ -238,17 +239,18 @@
 		<graphicData>
 			<texPath>Things/Item/RttR_RumblehornScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>0.05</Mass>
+			<StuffPower_Armor_Sharp>2.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -256,11 +258,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>3</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(93,100,51)</color>
@@ -269,24 +270,25 @@
 		<smallVolume>true</smallVolume>
 	</ThingDef>
 
-<ThingDef ParentName="LeatherBase">
+	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_ScauldronDragonScales</defName>
 		<label>scauldron dragon scales</label>
 		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_ScauldronScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>8</MarketValue>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -294,11 +296,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>6</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(107,163,126)</color>
@@ -308,24 +309,25 @@
 	</ThingDef>
 
 
-<ThingDef ParentName="LeatherBase">
+	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_StormcutterDragonScales</defName>
 		<label>stormcutter dragon scales</label>
 		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_StormcutterScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>6</MarketValue>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>2</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -333,11 +335,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>3</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(111,108,104)</color>
@@ -345,8 +346,8 @@
 		</stuffProps>
 		<smallVolume>true</smallVolume>
 	</ThingDef>
-	
-	
+
+
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_TerribleTerrorDragonScales</defName>
 		<label>terrible terror dragon scales</label>
@@ -354,17 +355,18 @@
 		<graphicData>
 			<texPath>Things/Item/RttR_TerribleTerrorScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>8</MarketValue>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Mass>0.03</Mass>
+			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.22</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -372,11 +374,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>4</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(182,195,116)</color>
@@ -384,7 +385,7 @@
 		</stuffProps>
 		<smallVolume>true</smallVolume>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_ZipplebackDragonScales</defName>
 		<label>zippleback dragon scales</label>
@@ -392,17 +393,18 @@
 		<graphicData>
 			<texPath>Things/Item/RttR_ZipplebackScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
 		</graphicData>
-		 <stackLimit>2500</stackLimit>
+		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>1.5</MarketValue>
-			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>1.65</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+			<MarketValue>8</MarketValue>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
 			<Flammability>0</Flammability>
 		</statBases>
 		<stuffProps>
@@ -410,11 +412,10 @@
 				<li>Metallic</li>
 			</categories>
 			<statFactors>
-				
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
-				<Beauty>3.5</Beauty>
-				 <Flammability>0</Flammability>
+				<Beauty>5</Beauty>
+				<Flammability>0</Flammability>
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(141,130,54)</color>
@@ -423,4 +424,80 @@
 		<smallVolume>true</smallVolume>
 	</ThingDef>
 	
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_RazorwhipDragonScales</defName>
+		<label>razorwhip dragon scales</label>
+		<description>Extremely hard overlapping scales with a shiny metallic sheen. The strongest of all dragon scales, they offer unbeatable defenses against sharp attacks.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_RazorwhipScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>12</MarketValue>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>0.06</Mass>
+			<StuffPower_Armor_Sharp>2.8</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>35</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>6</Beauty>
+				<Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(111,108,104)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_TripleStrykeDragonScales</defName>
+		<label>triple stryke chitin</label>
+		<description>A chitinous substance similar to scales. Not as good at insulation as other dragon scales, but excellent in defensive capabilities</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_TripleStrykeChitin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>220</MaxHitPoints>
+			<Mass>0.08</Mass>
+			<StuffPower_Armor_Sharp>2.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>3</Beauty>
+				<Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(98,59,64)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+
 </Defs>

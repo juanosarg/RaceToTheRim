@@ -112,6 +112,24 @@
 						</li>				
 					</value>
 				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_Razorwhip"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "RttR_TripleStryke"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
+							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
+							
+						</li>				
+					</value>
+				</li>
 			
 				
 				<li Class="PatchOperationAddModExtension">

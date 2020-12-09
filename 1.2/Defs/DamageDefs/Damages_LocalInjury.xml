@@ -8,7 +8,6 @@
 	<DamageDef>
 		<defName>RttR_GasExplosion</defName>
 		<workerClass>DamageWorker_AddInjury</workerClass>
-
 		<label>toxic gas</label>
 		<hediff>Shredded</hediff>
 		<hasForcefulImpact>false</hasForcefulImpact>
@@ -16,35 +15,32 @@
 		<canInterruptJobs>false</canInterruptJobs>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been poisoned to death.</deathMessage>
-		    <soundExplosion>Explosion_Smoke</soundExplosion>
+		<soundExplosion>Explosion_Smoke</soundExplosion>
 
 		<additionalHediffs>
 			<li>
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.05</severityPerDamageDealt>
-				        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
-
-
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-	
+
 	<DamageDef>
-    <defName>RttR_WaterExplosion</defName>
-    <label>water explosion</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <canInterruptJobs>false</canInterruptJobs>
-    <makesBlood>false</makesBlood>
-    <defaultDamage>10</defaultDamage>
-	<hediff>Burn</hediff>
-    <explosionCellMote>Mote_BlastExtinguisher</explosionCellMote>
-    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
-    <soundExplosion>Explosion_Stun</soundExplosion>   
-    <combatLogRules>Damage_Extinguish</combatLogRules>
-	
-  </DamageDef>
-  
-  <DamageDef>
+		<defName>RttR_WaterExplosion</defName>
+		<label>water explosion</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<canInterruptJobs>false</canInterruptJobs>
+		<makesBlood>false</makesBlood>
+		<defaultDamage>10</defaultDamage>
+		<hediff>Burn</hediff>
+		<explosionCellMote>Mote_BlastExtinguisher</explosionCellMote>
+		<explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
+		<soundExplosion>Explosion_Stun</soundExplosion>   
+		<combatLogRules>Damage_Extinguish</combatLogRules>
+	</DamageDef>
+
+	<DamageDef>
 		<defName>RttR_SiegeBlunt</defName>
 		<label>crush</label>
 		<workerClass>RttRAnimalBehaviours.DamageWorker_Siege</workerClass>
@@ -57,8 +53,67 @@
 		<impactSoundType>Blunt</impactSoundType>
 		<armorCategory>Blunt</armorCategory>
 	</DamageDef>
-
 	
+	<DamageDef ParentName="CutBase">
+		<defName>RttR_MechanoidScratch</defName>
+		<label>steel claws</label>
+		<workerClass>RttRAnimalBehaviours.DamageWorker_ExtraDamageMechanoids</workerClass>
+	</DamageDef>
+	
+	<DamageDef Name="Sting">
+		<defName>RttR_Toxic</defName>
+		<label>triple stryke toxic sting</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>RttR_ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.012</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+	
+	<DamageDef Name="Sting">
+		<defName>RttR_Anesthesia</defName>
+		<label>triple stryke anesthetic sting</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>RttR_ReverseAnesthetic</hediff>
+				<severityPerDamageDealt>0.012</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+	
+	<DamageDef Name="Sting">
+		<defName>RttR_Dazing</defName>
+		<label>triple stryke hallucinogenic sting</label>
+		<workerClass>RttRAnimalBehaviours.DamageWorker_CauseDaze</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>		
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+
+
 
 
 </Defs>

@@ -101,7 +101,7 @@
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_NadderDragonScales</woolDef>
 				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>5</woolAmount>
+				<woolAmount>10</woolAmount>
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggNadderFertilized</eggFertilizedDef>
@@ -126,8 +126,7 @@
 				<warmupTime>1.6</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>
-				<range>12</range>
-				
+				<range>12</range>				
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
