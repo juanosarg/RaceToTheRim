@@ -12,7 +12,7 @@
 
 
 	<BodyDef>
-		<defName>RttR_WingedQuadrupedAnimalWithPawsAndThreeTails</defName>
+		<defName>RttR_WingedQuadrupedAnimalThreeTails</defName>
 		<label>winged quadruped animal with three tails</label>
 		<corePart>
 			<def>Body</def>

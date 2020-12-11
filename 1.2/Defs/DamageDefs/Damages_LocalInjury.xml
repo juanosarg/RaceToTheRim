@@ -60,7 +60,7 @@
 		<workerClass>RttRAnimalBehaviours.DamageWorker_ExtraDamageMechanoids</workerClass>
 	</DamageDef>
 	
-	<DamageDef Name="Sting">
+	<DamageDef>
 		<defName>RttR_Toxic</defName>
 		<label>triple stryke toxic sting</label>
 		<workerClass>DamageWorker_Stab</workerClass>
@@ -80,7 +80,7 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 	
-	<DamageDef Name="Sting">
+	<DamageDef>
 		<defName>RttR_Anesthesia</defName>
 		<label>triple stryke anesthetic sting</label>
 		<workerClass>DamageWorker_Stab</workerClass>
@@ -100,7 +100,7 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 	
-	<DamageDef Name="Sting">
+	<DamageDef>
 		<defName>RttR_Dazing</defName>
 		<label>triple stryke hallucinogenic sting</label>
 		<workerClass>RttRAnimalBehaviours.DamageWorker_CauseDaze</workerClass>

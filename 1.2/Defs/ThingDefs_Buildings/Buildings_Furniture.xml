@@ -12,7 +12,7 @@
       <texPath>Things/Item/RttR_AlgaeLamp</texPath>
     </graphicData>
     <blockWind>true</blockWind>
-    <tickerType>Rare</tickerType>
+    <tickerType>Normal</tickerType>
     <statBases>
       <WorkToBuild>330</WorkToBuild>
       <Mass>4.5</Mass>

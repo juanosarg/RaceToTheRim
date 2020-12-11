@@ -119,7 +119,7 @@
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>
 				<range>5</range>
-				<forcedMissRadius>2</forcedMissRadius>
+				
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
