@@ -124,7 +124,7 @@
 		<label>nadder spikes</label>
 		<description>Aside from their potent flames, deadly nadders are famous for their other attack: launching tapered spikes from their tail in the direction of their enemies.  After they've been thrown, these spikes can be harvested and used as spearheads, spike traps, or very large needles. They can also be stacked on top of each other to form a kind of semi-flexible cord, which can be woven into thatching to make houses or, if you're really skilled, statues.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/WoodLog</texPath>
+			<texPath>Things/Item/RttR_NadderSpikes</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>

@@ -22,6 +22,11 @@ namespace RttRAnimalBehaviours
                 SoundDefOf.PsychicPulseGlobal.PlayOneShot(new TargetInfo(pawn.Position, pawn.Map, false));
                 MoteMaker.MakeAttachedOverlay(pawn, ThingDef.Named("Mote_PsycastPsychicEffect"), Vector3.zero, 1f, -1f);
                 pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Wander_Psychotic, null, true, false, null, false);
+                //This is for achievements
+                if (pawn.Faction == Faction.OfPlayer)
+                {
+                    pawn.health.AddHediff(HediffDef.Named("RttR_DazeAffected"));
+                }
             }
 
         }

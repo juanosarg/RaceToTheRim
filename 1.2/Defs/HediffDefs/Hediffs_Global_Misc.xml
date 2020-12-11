@@ -214,6 +214,26 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>RttR_DazeAffected</defName>
+		<description>This creature has recently been affected by a Triple Stryke's daze attack.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>dazed and confused</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-12</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+
+			</li>
+		</stages>
+	</HediffDef>
 
 
 
