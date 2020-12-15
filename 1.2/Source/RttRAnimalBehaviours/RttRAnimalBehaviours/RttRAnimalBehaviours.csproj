@@ -318,11 +318,14 @@
     <Compile Include="Damages\DamageWorker_Siege.cs" />
     <Compile Include="Filth and Gas\Filth_LiquefiedHelixienGas.cs" />
     <Compile Include="Filth and Gas\Filth_ScaldingFoam.cs" />
+    <Compile Include="Harmony\CompEgglayer_CompInspectStringExtra.cs" />
+    <Compile Include="Harmony\CompShearable_CompInspectStringExtra.cs" />
     <Compile Include="Harmony\Thing_TakeDamage.cs" />
     <Compile Include="Harmony\TrainableUtility_TamenessCanDecay.cs" />
     <Compile Include="Harmony\Pawn_PathFollower_CostToMoveIntoCell.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\Pawn_TrainingTracker_TrainingTrackerTickRare_Patch.cs" />
+    <Compile Include="Incidents\IncidentWorker_Fury.cs" />
     <Compile Include="Jobs\JobDriver_AnimalResource.cs" />
     <Compile Include="Jobs\JobDriver_IngestWeird.cs" />
     <Compile Include="Jobs\JobGiver_GetWeirdFood.cs" />

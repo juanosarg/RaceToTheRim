@@ -11,15 +11,15 @@
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="RttR_Fury"]/race/wildBiomes</xpath>
 				<value>
-					<AB_FeraliskInfestedJungle>0.07</AB_FeraliskInfestedJungle>
-					<AB_MycoticJungle>0.07</AB_MycoticJungle>
-					<AB_OcularForest>0.01</AB_OcularForest>
-					<AB_GelatinousSuperorganism>0.07</AB_GelatinousSuperorganism>
-					<AB_GallatrossGraveyard>0.01</AB_GallatrossGraveyard>
-					<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
-					<AB_RockyCrags>0.01</AB_RockyCrags>
-					<AB_TarPits>0.01</AB_TarPits>
-					<AB_PyroclasticConflagration>0.01</AB_PyroclasticConflagration>
+					<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.005</AB_MycoticJungle>
+					<AB_OcularForest>0.005</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.005</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.005</AB_TarPits>
+					<AB_PyroclasticConflagration>0.005</AB_PyroclasticConflagration>
 				</value>
 			</li>
 			

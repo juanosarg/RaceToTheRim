@@ -12,12 +12,17 @@
 	<RttR_Gemstones>Gemstone Production</RttR_Gemstones>
 	<RttR_RazorwhipSpikes>Spike Production</RttR_RazorwhipSpikes>
 	<RttR_TripleStrykeVenom>Venom Production</RttR_TripleStrykeVenom>
+	<RttR_ScaleProduction>Scale Production</RttR_ScaleProduction>
 	
 	<!-- Misc -->
 	
 	<RttR_RandomDragon>Random dragon</RttR_RandomDragon>
 
-
+	<!-- Events -->
+	
+	<RttR_FuryEventLetterLabel>The Sounds of a Fury</RttR_FuryEventLetterLabel>
+	<RttR_FuryEventLetter>From the distance come the echoes of a telltale shriek. A Fury is nearby. It will mind its own business if you mind yours, or you can try to tame or slay it and risk its wrath.</RttR_FuryEventLetter>
+	
 
 
 

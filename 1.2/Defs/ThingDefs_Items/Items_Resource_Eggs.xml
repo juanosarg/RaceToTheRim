@@ -132,7 +132,7 @@
 
 		</statBases>
 		<graphicData>
-			<texPath>Things/Item/RttR_EggNightmare</texPath>
+			<texPath>Things/Item/RttR_EggZippleback</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>

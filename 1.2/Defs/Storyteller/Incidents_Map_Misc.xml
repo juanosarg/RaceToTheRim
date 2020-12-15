@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<IncidentDef>
+		<defName>RttR_FuryEvent</defName>
+		<label>the sounds of a fury</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>RttRAnimalBehaviours.IncidentWorker_Fury</workerClass>
+		<baseChance>0.1</baseChance>
+		<minRefireDays>150</minRefireDays>
+	</IncidentDef>
+
+	
+
+
+
+
+
+</Defs>

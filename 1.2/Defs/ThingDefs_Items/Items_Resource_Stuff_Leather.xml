@@ -46,8 +46,8 @@
 		<label>fury dragon scales</label>
 		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally resistant to fire.</description>
 		<graphicData>
-			<texPath>Things/Item/RttR_DragonScales</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/Item/RttR_FuryScales</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stackLimit>2500</stackLimit>
 		<statBases>

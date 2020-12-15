@@ -16,6 +16,7 @@ namespace RttRAnimalBehaviours
         public string hediffWhenEaten = "";
         public List<string> thingToDigIfMapEmptyRandom = null;
 
+   
 
 
 

@@ -238,7 +238,7 @@
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke</texPath>
 					<drawSize>2.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -253,7 +253,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke</texPath>
 					<drawSize>3.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -268,7 +268,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke</texPath>
 					<drawSize>3.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -282,7 +282,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke</texPath>
 					<drawSize>4.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

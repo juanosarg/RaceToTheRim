@@ -97,7 +97,7 @@
 					<li>Plasteel</li>
 					<li>ComponentIndustrial</li>		
 				</customThingToEat>
-				<percentageOfDestruction>0.3</percentageOfDestruction>
+				<percentageOfDestruction>0.2</percentageOfDestruction>
 				<nutrition>2</nutrition>
 				<digThingIfMapEmpty>true</digThingIfMapEmpty>
 				<thingToDigIfMapEmptyRandom>
@@ -154,7 +154,7 @@
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>RttR_StreamFlameBreath</defaultProjectile>
-				<warmupTime>1</warmupTime>
+				<warmupTime>3</warmupTime>
 				<burstShotCount>10</burstShotCount>
 				<minRange>2</minRange>
 				<range>18</range>
