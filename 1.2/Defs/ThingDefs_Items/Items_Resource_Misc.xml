@@ -79,7 +79,7 @@
 		<description>While Gronckles consume rocks for nutrition, they aren’t able to metabolize everything. Instead, they tend to consume the same basic elements of life as other living beings, while absorbing only trace amounts of the larger, more metallic elements. The remaining metal can be regurgitated as magma-either to defend itself or, in the case of tame gronckles, to provide their trainers with that most unusual of alloys, gronckle iron. Though generally similar to steel, gronckle iron has a few key characteristics. It’s lighter, brighter, and even a bit tougher, making it a favorite of blacksmiths everywhere. The key ingredient in the smelting process appears to be the gronckles themselves, as repeated attempts to synthesize the metal artificially have proved fruitless.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_GronckleIron</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
