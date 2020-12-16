@@ -145,7 +145,7 @@
 
 						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
 							<defName>RttR_AchievementTripleStryked</defName>
-							<label>Triple Stryke'd</label>
+							<label>Triple Struck</label>
 							<description>Have a single pawn affected by a Triple Stryke's three tail attacks</description>
 
 							<tracker Class="AchievementsExpanded.MultiHediffTracker">
