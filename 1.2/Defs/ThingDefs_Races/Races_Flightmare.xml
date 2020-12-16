@@ -92,11 +92,10 @@
 			<li Class="RttRAnimalBehaviours.CompProperties_EatWeirdFood">
 
 				<customThingToEat>					
-					<li>RttR_FlightmareAlgae</li>
-						
+					<li>RttR_FlightmareAlgae</li>					
 				</customThingToEat>
 				<nutrition>1</nutrition>
-				<fullyDestroyThing>true</fullyDestroyThing>
+				<percentageOfDestruction>0.05</percentageOfDestruction>
 				<digThingIfMapEmpty>true</digThingIfMapEmpty>
 				<thingToDigIfMapEmpty>RttR_FlightmareAlgae</thingToDigIfMapEmpty>
 				<customAmountToDig>10</customAmountToDig>

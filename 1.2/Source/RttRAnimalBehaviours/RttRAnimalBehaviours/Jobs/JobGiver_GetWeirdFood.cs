@@ -95,13 +95,14 @@ namespace RttRAnimalBehaviours
             }
             else
             {
+                
                 if ((pawn.Map != null) && comp.Props.digThingIfMapEmpty && (pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry) && (pawn.Awake()))
                 {
 
                     if (pawn.Position.GetTerrain(pawn.Map).affordances.Contains(TerrainAffordanceDefOf.Diggable))
                     {
                         ThingDef newThing;
-                        if (comp.Props.thingToDigIfMapEmptyRandom.Count > 0)
+                        if (comp.Props.thingToDigIfMapEmptyRandom!=null && comp.Props.thingToDigIfMapEmptyRandom.Count > 0)
                         {
                             newThing = ThingDef.Named(comp.Props.thingToDigIfMapEmptyRandom.RandomElement<string>());
                         } else

@@ -18,3 +18,4 @@ E:\SteamLibrary\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnima
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.csproj.CoreCompileInputs.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RaceToTheRim\1.2\Source\RttRAnimalBehaviours\RttRAnimalBehaviours\obj\Debug\RttRAnimalBehaviours.csproj.CopyComplete
