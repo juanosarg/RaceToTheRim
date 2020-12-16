@@ -231,7 +231,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby triple stryke</label>
+				<label>hatchling triple stryke</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
 					<drawSize>2.2</drawSize>

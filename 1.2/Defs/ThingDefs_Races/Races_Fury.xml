@@ -226,8 +226,8 @@
 
 		<lifeStages>
 			<li>
-				<label>baby fury</label>
-				<labelPlural>baby furies</labelPlural>
+				<label>hatchling fury</label>
+				<labelPlural>hatchling furies</labelPlural>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
 					<drawSize>1.8</drawSize>

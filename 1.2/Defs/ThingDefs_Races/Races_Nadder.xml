@@ -226,7 +226,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby nadder</label>
+				<label>hatchling nadder</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nadder/RttR_Nadder_A</texPath>
 					<drawSize>1.8</drawSize>

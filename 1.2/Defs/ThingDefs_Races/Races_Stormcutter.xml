@@ -227,7 +227,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby stormcutter</label>
+				<label>hatchling stormcutter</label>
 				
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Stormcutter_A</texPath>

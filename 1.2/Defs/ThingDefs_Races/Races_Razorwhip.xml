@@ -232,7 +232,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby razorwhip</label>
+				<label>hatchling razorwhip</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Razorwhip/RttR_Razorwhip_A</texPath>
 					<drawSize>2.5</drawSize>

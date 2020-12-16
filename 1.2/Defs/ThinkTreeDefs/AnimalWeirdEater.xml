@@ -94,16 +94,14 @@
           <insertTag>Animal_PreMain</insertTag>
         </li>
 
-        <!-- Wild animals leave map in some conditions -->
+         <!-- Wild animals leave map in some conditions -->
         <li Class="ThinkNode_ConditionalHasFaction">
           <invert>true</invert>
           <subNodes>
             <li Class="ThinkNode_Subtree">
               <treeDef>LeaveIfWrongSeason</treeDef>
             </li>
-            <li Class="ThinkNode_Subtree">
-              <treeDef>LeaveIfStarving</treeDef>
-            </li>
+           
 
             <!-- Wild animals randomly leave map -->
             <li Class="ThinkNode_ChancePerHour_Constant">
@@ -315,3 +313,4 @@
   
 
 </Defs>
+

@@ -15,6 +15,8 @@ namespace RttRAnimalBehaviours
         public int customAmountToDig = 1;
         public string hediffWhenEaten = "";
         public List<string> thingToDigIfMapEmptyRandom = null;
+        public bool affectHitPoints = true;
+        public int minStackToDestroy = 10;
 
    
 

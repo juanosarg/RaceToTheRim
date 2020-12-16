@@ -226,7 +226,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby nightmare</label>
+				<label>hatchling nightmare</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nightmare/RttR_Nightmare_A</texPath>
 					<drawSize>2.2</drawSize>

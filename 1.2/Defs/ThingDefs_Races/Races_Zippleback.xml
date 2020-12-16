@@ -243,7 +243,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby zippleback</label>
+				<label>hatchling zippleback</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
 					<drawSize>2.5</drawSize>

@@ -94,11 +94,10 @@ namespace RttRAnimalBehaviours
                 return job3;
             }
             else
-            {
-                
+            {               
                 if ((pawn.Map != null) && comp.Props.digThingIfMapEmpty && (pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry) && (pawn.Awake()))
                 {
-
+                    
                     if (pawn.Position.GetTerrain(pawn.Map).affordances.Contains(TerrainAffordanceDefOf.Diggable))
                     {
                         ThingDef newThing;
@@ -142,10 +141,20 @@ namespace RttRAnimalBehaviours
         {
             ThingRequest thingReq = ThingRequest.ForDef(thingDef);
             bool ignoreEntirelyForbiddenRegions = ForbidUtility.CaresAboutForbidden(pawn, true) && pawn.playerSettings != null && pawn.playerSettings.EffectiveAreaRestrictionInPawnCurrentMap != null;
-            return GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, thingReq, PathEndMode.ClosestTouch, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.ByPawn, false), 9999f, null, null, 0, -1, false, RegionType.Set_Passable, ignoreEntirelyForbiddenRegions);
+            Thing thingToEat = GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, thingReq, PathEndMode.ClosestTouch, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.ByPawn, false), 9999f, null, null, 0, -1, false, RegionType.Set_Passable, ignoreEntirelyForbiddenRegions);
+            if (thingToEat != null && thingToEat.Position.InAllowedArea(pawn))
+            {
+                return thingToEat;
+            }
+            else
+            {
+                return null;
+            }
+
+
         }
 
-       
+
     }
 }
 

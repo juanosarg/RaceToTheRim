@@ -225,7 +225,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby rumblehorn</label>
+				<label>hatchling rumblehorn</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_A</texPath>
 					<drawSize>2</drawSize>

@@ -13,7 +13,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggFury</texPath>
@@ -42,7 +42,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggGronckle</texPath>
@@ -60,8 +60,8 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-		<!-- Nadder Egg -->
+
+	<!-- Nadder Egg -->
 
 
 	<ThingDef ParentName="EggFertBase">
@@ -72,7 +72,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggNadder</texPath>
@@ -89,8 +89,8 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-		<!-- Nightmare Egg -->
+
+	<!-- Nightmare Egg -->
 
 
 	<ThingDef ParentName="EggFertBase">
@@ -101,7 +101,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggNightmare</texPath>
@@ -118,7 +118,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Zippleback Egg -->
 
 	<ThingDef ParentName="EggFertBase">
@@ -129,7 +129,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggZippleback</texPath>
@@ -146,7 +146,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Scauldron Egg -->
 
 	<ThingDef ParentName="EggFertBase">
@@ -157,7 +157,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggScauldron</texPath>
@@ -174,7 +174,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Hotburple Egg -->
 
 	<ThingDef ParentName="EggFertBase">
@@ -185,7 +185,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggHotburple</texPath>
@@ -202,7 +202,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Flightmare Egg -->
 
 	<ThingDef ParentName="EggFertBase">
@@ -213,7 +213,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggFlightmare</texPath>
@@ -230,7 +230,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Terrible Terror Egg -->
 
 	<ThingDef ParentName="EggFertBase">
@@ -241,7 +241,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggTerribleTerror</texPath>
@@ -258,7 +258,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Rumblehorn Egg -->
 
 	<ThingDef ParentName="EggFertBase">
@@ -269,7 +269,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggRumblehorn</texPath>
@@ -286,7 +286,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Stormcutter Egg -->
 
 	<ThingDef ParentName="EggFertBase">
@@ -297,7 +297,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggStormcutter</texPath>
@@ -314,7 +314,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Razorwhip Egg -->
 
 	<ThingDef ParentName="EggFertBase">
@@ -325,7 +325,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggRazorwhip</texPath>
@@ -342,7 +342,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Triple Stryke Egg -->
 
 	<ThingDef ParentName="EggFertBase">
@@ -353,7 +353,7 @@
 		<statBases>
 			<MarketValue>9.0</MarketValue>
 			<Nutrition>.25</Nutrition>
-
+			<Flammability>0</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/RttR_EggTripleStryke</texPath>

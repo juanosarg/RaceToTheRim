@@ -99,6 +99,7 @@
 				</customThingToEat>
 				<percentageOfDestruction>0.2</percentageOfDestruction>
 				<nutrition>2</nutrition>
+				<affectHitPoints>false</affectHitPoints>
 				<digThingIfMapEmpty>true</digThingIfMapEmpty>
 				<thingToDigIfMapEmptyRandom>
 					<li>Silver</li>
@@ -264,7 +265,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby hotburple</label>
+				<label>hatchling hotburple</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
 					<drawSize>1.8</drawSize>

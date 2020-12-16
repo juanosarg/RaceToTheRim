@@ -231,7 +231,7 @@ namespace RttRAnimalBehaviours
                 }
                 else
                 {
-                    if (thing.def.useHitPoints)
+                    if (comp.Props.affectHitPoints)
                     {
                         thing.HitPoints -= (int)(thing.MaxHitPoints * comp.Props.percentageOfDestruction);
                         if (thing.HitPoints <= 0)
@@ -246,7 +246,7 @@ namespace RttRAnimalBehaviours
 
                         thing.stackCount = thing.stackCount - thingsToDestroy;
                         //Log.Message(thing.stackCount.ToString());
-                        if (thing.stackCount < 10)
+                        if (thing.stackCount < comp.Props.minStackToDestroy)
                         {
                             thing.Destroy(DestroyMode.Vanish);
                         }

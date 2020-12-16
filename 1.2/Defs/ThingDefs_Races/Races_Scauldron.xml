@@ -224,7 +224,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby scauldron</label>
+				<label>hatchling scauldron</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
 					<drawSize>3</drawSize>

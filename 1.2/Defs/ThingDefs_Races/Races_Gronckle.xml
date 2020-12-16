@@ -259,7 +259,7 @@
 
 		<lifeStages>
 			<li>
-				<label>baby gronckle</label>
+				<label>hatchling gronckle</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
 					<drawSize>1.5</drawSize>
