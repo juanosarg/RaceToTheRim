@@ -136,7 +136,7 @@
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggGronckleFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>25</eggLayIntervalDays>
+				<eggLayIntervalDays>30</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
@@ -196,9 +196,8 @@
 			<trainability>Advanced</trainability>
 			<leatherDef>Leather_Lizard</leatherDef>
 			<packAnimal>true</packAnimal>
-			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
-
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
 			<lifeExpectancy>275</lifeExpectancy>
 			<lifeStageAges>
 				<li>
@@ -242,11 +241,8 @@
 		
 		<race>RttR_Gronckle</race>
 		<combatPower>450</combatPower>
-		<ecoSystemWeight>0.5</ecoSystemWeight>
-		<wildGroupSize>
-			<min>1</min>
-			<max>3</max>
-		</wildGroupSize>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		
 
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>

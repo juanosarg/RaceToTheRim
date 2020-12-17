@@ -138,7 +138,7 @@
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggHotburpleFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>35</eggLayIntervalDays>
+				<eggLayIntervalDays>50</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
@@ -195,7 +195,7 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
 			<lifeExpectancy>100</lifeExpectancy>
 			<lifeStageAges>
@@ -240,7 +240,7 @@
 
 		<race>RttR_Hotburple</race>
 		<combatPower>450</combatPower>
-		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<ecoSystemWeight>1</ecoSystemWeight>
 
 
 		<alternateGraphicChance>1</alternateGraphicChance>

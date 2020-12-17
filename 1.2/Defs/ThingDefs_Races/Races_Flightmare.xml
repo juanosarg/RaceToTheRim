@@ -106,7 +106,7 @@
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggFlightmareFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>40</eggLayIntervalDays>
+				<eggLayIntervalDays>30</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
@@ -165,7 +165,7 @@
 			<useMeatFrom>RttR_Fury</useMeatFrom>
 			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
 			<lifeExpectancy>100</lifeExpectancy>
 			<lifeStageAges>
@@ -212,11 +212,8 @@
 
 		<race>RttR_Flightmare</race>
 		<combatPower>100</combatPower>
-		<ecoSystemWeight>0.1</ecoSystemWeight>
-		<wildGroupSize>
-			<min>3</min>
-			<max>6</max>
-		</wildGroupSize>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		
 
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>

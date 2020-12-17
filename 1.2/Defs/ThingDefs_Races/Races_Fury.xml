@@ -97,7 +97,7 @@
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggFuryFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>110</eggLayIntervalDays>
+				<eggLayIntervalDays>60</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
@@ -157,7 +157,7 @@
 			<meatLabel>dragon meat</meatLabel>
 			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
 			<lifeExpectancy>100</lifeExpectancy>
 			<lifeStageAges>
@@ -202,7 +202,7 @@
 		<labelPlural>furies</labelPlural>
 		<race>RttR_Fury</race>
 		<combatPower>450</combatPower>
-		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		
 
 		<alternateGraphicChance>1</alternateGraphicChance>

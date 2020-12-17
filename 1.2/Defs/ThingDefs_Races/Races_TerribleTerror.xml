@@ -98,7 +98,7 @@
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggTerribleTerrorFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>40</eggLayIntervalDays>
+				<eggLayIntervalDays>20</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
@@ -155,8 +155,8 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<useMeatFrom>RttR_Fury</useMeatFrom>
 			<packAnimal>false</packAnimal>
-			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<nuzzleMtbHours>6</nuzzleMtbHours>
 			<lifeExpectancy>65</lifeExpectancy>
 			<lifeStageAges>
@@ -203,11 +203,8 @@
 
 		<race>RttR_TerribleTerror</race>
 		<combatPower>20</combatPower>
-		<ecoSystemWeight>0.1</ecoSystemWeight>
-		<wildGroupSize>
-			<min>2</min>
-			<max>4</max>
-		</wildGroupSize>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		
 
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>

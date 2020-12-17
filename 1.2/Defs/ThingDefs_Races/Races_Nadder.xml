@@ -106,7 +106,7 @@
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggNadderFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>25</eggLayIntervalDays>
+				<eggLayIntervalDays>40</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
@@ -166,7 +166,7 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<packAnimal>true</packAnimal>
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
 			<nuzzleMtbHours>32</nuzzleMtbHours>
 			<lifeExpectancy>100</lifeExpectancy>
 			<lifeStageAges>
@@ -211,7 +211,7 @@
 		
 		<race>RttR_Nadder</race>
 		<combatPower>350</combatPower>
-		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<ecoSystemWeight>1</ecoSystemWeight>
 		
 
 		<alternateGraphicChance>1</alternateGraphicChance>
