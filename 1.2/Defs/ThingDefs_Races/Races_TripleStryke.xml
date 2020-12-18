@@ -96,8 +96,8 @@
 			</li>
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_TripleStrykeDragonScales</woolDef>
-				<shearIntervalDays>2</shearIntervalDays>
-				<woolAmount>10</woolAmount>
+				<shearIntervalDays>4</shearIntervalDays>
+				<woolAmount>20</woolAmount>
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>RttR_EggTripleStrykeFertilized</eggFertilizedDef>
