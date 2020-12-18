@@ -423,7 +423,7 @@
 		</stuffProps>
 		<smallVolume>true</smallVolume>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_RazorwhipDragonScales</defName>
 		<label>razorwhip dragon scales</label>
@@ -461,7 +461,7 @@
 		</stuffProps>
 		<smallVolume>true</smallVolume>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_TripleStrykeDragonScales</defName>
 		<label>triple stryke chitin</label>
@@ -495,6 +495,46 @@
 				<DeteriorationRate>0.5</DeteriorationRate>
 			</statFactors>
 			<color>(98,59,64)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
+	</ThingDef>
+
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_PatchedDragonScales</defName>
+		<label>mixed dragonscales</label>
+		<description>A weak dragonscale textile created by cutting up and sewing together various types of dragonscales.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_DragonScales/RttR_DragonScales</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>			
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.05</Mass>
+			<MarketValue>5</MarketValue>
+			<StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.19</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>9</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<color>(90,75,60)</color>
+			<commonality>0.075</commonality>
+			<statFactors>
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>1.5</Beauty>
+				<Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
 			<commonality>0</commonality>
 		</stuffProps>
 		<smallVolume>true</smallVolume>

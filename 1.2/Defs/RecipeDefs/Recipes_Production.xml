@@ -97,7 +97,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-			
+
 		</ingredients>
 		<products>
 			<MedicineHerbal>1</MedicineHerbal>
@@ -107,6 +107,51 @@
 				<li>RttR_TripleStrykeVenom</li>				
 			</thingDefs>
 		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>RttR_Make_MixedDragonscales</defName>
+		<label>make mixed dragonscales</label>
+		<description>Combine various types of dragonscales to create a weaker textile.</description>
+		<jobString>Making mixed dragonscales.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>900</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<recipeUsers>
+			<li>ElectricTailoringBench</li>
+			<li>HandTailoringBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RttR_FlightmareDragonScales</li>
+						<li>RttR_FuryDragonScales</li>
+						<li>RttR_GronckleDragonScales</li>
+						<li>RttR_HotburpleDragonScales</li>
+						<li>RttR_NadderDragonScales</li>
+						<li>RttR_NightmareDragonScales</li>
+						<li>RttR_RumblehornDragonScales</li>
+						<li>RttR_ScauldronDragonScales</li>
+						<li>RttR_StormcutterDragonScales</li>
+						<li>RttR_TerribleTerrorDragonScales</li>
+						<li>RttR_ZipplebackDragonScales</li>
+						<li>RttR_RazorwhipDragonScales</li>
+						<li>RttR_TripleStrykeDragonScales</li>
+						
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+
+		<products>
+			<RttR_PatchedDragonScales>50</RttR_PatchedDragonScales>
+		</products>
+		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 
