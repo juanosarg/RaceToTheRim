@@ -506,7 +506,7 @@
 		<label>mixed dragonscales</label>
 		<description>A weak dragonscale textile created by cutting up and sewing together various types of dragonscales.</description>
 		<graphicData>
-			<texPath>Things/Item/RttR_DragonScales/RttR_DragonScales</texPath>
+			<texPath>Things/Item/RttR_DragonScales</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<stackLimit>2500</stackLimit>
@@ -527,7 +527,7 @@
 				<li>Metallic</li>
 			</categories>
 			<color>(90,75,60)</color>
-			<commonality>0.075</commonality>
+			
 			<statFactors>
 				<WorkToMake>3</WorkToMake>
 				<WorkToBuild>3</WorkToBuild>
