@@ -8,7 +8,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggFuryFertilized</defName>
 		<label>fury egg (fert.)</label>
-		<description>Fertilized fury egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a fury.</description>
+		<description>Fertilized fury egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a fury.\n\nFuries rely on stealth at all stages of their lives, including the egg.  While the hatched furies use the cover of night, clouds, or mist to hide them from sight, the eggs are nearly indistinguishable from the scree where they’re laid.  Furthermore, while most dragons guard their eggs, furies do not.  Instead, furies put their trust in other dragons-aside from being laid in rock fields, the only other factor that influences the mother’s choice of nesting spot is how close it is to a multi-species nest.  When they hatch, the young furies are adopted by this nest and raised alongside the other hatchlings that dwell there.  Though they will grow to become world travelers like their parents, a Fury will always have a special bond to the nest that raised it.  This could explain why other dragons are so eager to care for these lone hatchlings-nests that raise these elusive wanderers to adulthood will be able to rely on their adopted furies in times of conflict.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -37,7 +37,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggGronckleFertilized</defName>
 		<label>gronckle egg (fert.)</label>
-		<description>Fertilized gronckle egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a gronckle.</description>
+		<description>Fertilized gronckle egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a gronckle.\n\nPerhaps the only eggs more rocklike than a Fury’s, the shells of gronckle eggs are literally made of stone.  It’s possible that this stoney eggshell, and the survival benefits in conferred, may have been what led to gronckles gaining their rock hides, and  maybe even spurred the dietary transition from fish to boulders.  This stoney surface both disguises the eggs of the gronckle and other species (wild dragons like to arrange their group nests with gronckle eggs facing outward to camouflage them) and protects the gronckle egg itself.  One should never fear breaking a gronckle egg before its time: dropping one is much more likely to break whatever it lands on than the egg itself.  These eggs can be ruined by temperature though-dragon eggs especially rely on an abundance of heat to hatch, which has led to many nests being established in areas with volcanic activity of some kind.  Fortunately, dragons are excellent heat sources, so as long as the caretakers are able to stay near the eggs, the embryos inside should be safe.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -67,7 +67,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggNadderFertilized</defName>
 		<label>deadly nadder egg (fert.)</label>
-		<description>Fertilized deadly nadder egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a deadly nadder.</description>
+		<description>Fertilized deadly nadder egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a deadly nadder.\n\nThese lovely, cerulean eggs are as beautiful as they are dangerous.  Like all dragon eggs, their shell is so hard that the dragon cannot break free via an egg tooth-instead, the egg hatches when the dragon inside builds up enough combustive power to blast the shell open.  Cultures who have only recently started training dragons often learn the importance of stonewalled hatcheries the hard way, and due to their parents’ prevalence, beauty, and ease of training, Nadder eggs are often the ones that teach this lesson!  In the wild, nadders lay their egg in group nests, where dozens or even hundreds of individuals live and raise their young communally.  The bright blue of Nadder eggs, which are often placed near the center of a group clutch, helps searching parents identify the eggs from above.  Because of the creche style of hatchling rearing, even tamed nadders are known to be fiercely protective of the young of other species.  Never threaten the puppies, kittens, or muffalo calves of a colony that raises nadders!</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -96,7 +96,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggNightmareFertilized</defName>
 		<label>monstruous nightmare egg (fert.)</label>
-		<description>Fertilized monstruous nightmare egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a monstruous nightmare.</description>
+		<description>Fertilized monstruous nightmare egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a monstruous nightmare.\n\nThe distinctive crimson of a nightmare egg is reflective of their inner warmth.  While they are vulnerable to extreme colds just like other dragons’ eggs, monstrous nightmare eggs are hot to the touch from the day they’re laid until they hatch.  This helps the eggs of other species incubate, and consequently, both wild dragons and human dragon breeders tend to arrange other eggs in circles surrounding monstrous nightmare eggs until they’re ready to hatch.  Upon exploding, the shells liquify into monstrous nightmare gel.  The baby, which is not yet able to produce this gel, rolls in it to coat its body, allowing it to ignite itself in a pinch.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -124,7 +124,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggZipplebackFertilized</defName>
 		<label>hideous zippleback egg (fert.)</label>
-		<description>Fertilized hideous zippleback egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a hideous zippleback.</description>
+		<description>Fertilized hideous zippleback egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a hideous zippleback.\n\nMost dragon eggs require practice and study to distinguish without a guide.  Not zippleback eggs.  These large, bumpy capsules are immediately recognizable at a whiff.  The noxious Helixien gas zippleback embryos exhale seeps through the pores in the shell and makes the surrounding area rather…pungent.  Dragons don’t seem to mind this smell, especially since the group nesting strategy means that zippleback eggs are able to deter would-be predators from the eggs of all species.  And while consuming dragon eggs is a bad idea normally, because of the helixien gas 10 out of 10 legendary master chefs recommend never, ever using zippleback eggs in food unless you are specifically trying to torture someone.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -152,7 +152,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggScauldronFertilized</defName>
 		<label>scauldron egg (fert.)</label>
-		<description>Fertilized scauldron egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a scauldron.</description>
+		<description>Fertilized scauldron egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a scauldron.\n\nOften laid in close proximity to underwater thermal vents, the scauldron egg is very sensitive to moisture and to waterborne pathogens.  Luckily, the parents come equipped with boiling breath, and are able to sterilize the surrounding water, all without hurting the egg, which is entirely immune to damage from fire and scalding water alike.  Future scauldron tamers should be advised-this egg requires a very humid environment to stay viable.  They should also be advised that the boiling breath of young scauldrons is especially dangerous, even when compared to their parents.  First, because their lack of aiming skills means they are likely to blow boiling water in all directions, including behind them.  And second, the water damage these dragons can inflict upon wooden floors and furniture is arguably just as bad as burning them down, as that’s often the only use left for wood that’s spent too much time near a scauldron hatchling.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -180,7 +180,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggHotburpleFertilized</defName>
 		<label>hotburple egg (fert.)</label>
-		<description>Fertilized hotburple egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a hotburple.</description>
+		<description>Fertilized hotburple egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a hotburple.\n\nThe egg of a hotburple is similar to the hump of a camel, in that the nodes all around it are not actually the shape of the egg’s cavity, but rather a series of metallic nodes deposited atop the shell.  This is a result of two conflicting evolutionary pressures: the need to allow the hotburple to hatch, and the importance of providing it with as much early nutrients as possible.  Thus, the egg has thin areas, which allow the hatchling to break free with its explosion, and thick areas, which contain enough metal to sustain the baby for a week or so after hatching.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -208,7 +208,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggFlightmareFertilized</defName>
 		<label>flightmare egg (fert.)</label>
-		<description>Fertilized flightmare egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a flightmare.</description>
+		<description>Fertilized flightmare egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a flightmare.\n\nThe eggs of the flightmare are as bioluminescent as their parents.  This makes them easy for predators to pick out, and because of that, flight mares have become egg hiding experts.  Often favoring dank, deep tunnels off shooting from seaside caves, finding a flight mare egg is so difficult that whole celebrations have been inspired by the affair.  Regular chicken, duck, or turkey eggs are painted with the glowing flight mare algae mixed with natural dyes, and hidden in difficult to reach places.  This was once a right of passage for hunters and trackers, but has since evolved into more of a children’s celebration, particularly because these children are often assisted in their search by bonded dragon mounts.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -236,7 +236,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggTerribleTerrorFertilized</defName>
 		<label>terrible terror egg (fert.)</label>
-		<description>Fertilized terrible terror egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a terrible terror.</description>
+		<description>Fertilized terrible terror egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a terrible terror.\n\nLittle eggs for little dragons, the terrible terror is one of the only dragons whose eggs can be confused for birds’ or non-draconian reptiles’ eggs.  Indeed, there’s been more than one recorded instance of colonists discovering terror eggs, trying and failing to cook them due to the hard shell, deciding instead to wait for them to hatch, and, when they inevitably explode, needing to rebuild their entire colony from scratch.  Other, more experienced colonies have deliberately sought out terror eggs to sabotage their enemies: hiding a terror egg near the chemfuel stores and waiting for it to hatch it an excellent way to destroy your foes’s base.  In the wild, terror eggs are placed in the gaps between other, larger eggs, and help conserve both warmth and space.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -264,7 +264,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggRumblehornFertilized</defName>
 		<label>rumblehorn egg (fert.)</label>
-		<description>Fertilized rumblehorn egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a rumblehorn.</description>
+		<description>Fertilized rumblehorn egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a rumblehorn.\n\nFor all adult rumblehorns are some of the most vibrant creatures in the jungle, their eggs are often confused with rocks or clods or dirt at a glance.  Their round, sepia shells are deliberately patterned with lines that blend in with dead brush and trampled logs.  Dragon training tribes of the jungle have been known to collect the broken fragments from hatched rumblehorn eggs and use them to both camouflage and fireproof the outside of their dwellings, and heal the wounds of rumblehorn hatchlings for their first few months of life as thanks for sharing the protection of their shells.  Because of this, there’s an unusually high number of jungle tribespeople who ride bonded rumblehorns.  Also because of this, these tribespeople are notoriously prone to avoiding doors in their homes, instead favoring dwellings that you enter via a hole and ladder in the ceiling.  Even bonded rumble horns will destroy doors in a fit of frustration or intense game of hide-and-seek, and as design mimics practicality, so the ceiling entrances of the jungle tribes came to be.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -292,7 +292,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggStormcutterFertilized</defName>
 		<label>stormcutter egg (fert.)</label>
-		<description>Fertilized stormcutter egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a stormcutter.</description>
+		<description>Fertilized stormcutter egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a stormcutter.\n\nWhile stormcutters have been known to live in group nests, they lay their eggs separately.  A single pointed egg is laid on a preposterously high cliff ledge, and due to it’s shape, can avoid falling off even in heavy winds.  As the hatching explosion often destroys these ledges stormcutters exhaust their viable nesting spots quickly and need to move on to a new nesting ground every few decades.  Cliff faces with strange scorch marks dotting the sides are evidence of previous storm cutter visits, while only a few marks often means the storm cutters are still using this cliff.  Tamed stormcutters often require extra accommodation when nesting, as they want their eggs to be placed high up. Yet human’s ability to rebuild ledges after they explode, or to make super durable artificial ledges from plasteel or gronckle iron, have endeared them greatly to the stormcutter population, to the point of motivating several individuals to self tame so they can access these man-made nesting spots.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -320,7 +320,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggRazorwhipFertilized</defName>
 		<label>razorwhip egg (fert.)</label>
-		<description>Fertilized razorwhip egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a razorwhip.</description>
+		<description>Fertilized razorwhip egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a razorwhip.\n\nRazorwhip eggshells have similar qualities to a one-way mirror: the outside is entirely reflective, while the inside is slightly transparent, allowing the embryo to see.  During nesting season, multiple mothers will lay their eggs together on a sunstruck mesa, and defend the area fiercely from any marauding males, egg hunters, or suspicious looking rabbits.  Some researchers have hypothesized that, because they’re surrounded by exceptionally shiny eggshells and guarded by exceptionally shiny mothers, the razorwhip hatchling’s famous poor eyesight is an adaptation to keep themselves from going blind en ovum.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>
@@ -348,7 +348,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggTripleStrykeFertilized</defName>
 		<label>triple stryke egg (fert.)</label>
-		<description>Fertilized triple stryke egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a triple stryke.</description>
+		<description>Fertilized triple stryke egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a triple stryke.\n\nThese desert dwelling dragons are exceptionally good parents.  Both the bother and fathers make use of their three prehensile tails to arrange and rotate their eggs, making sure each gets equal access to sunlight and warmth.  Upon exploding, the parents continue their thorough care-hatchlings have been observed traveling wrapped up in their parents tails until they can fly on their own.  Tamed triple strykes exhibit this same level of doting care on anything that reminds them of their oblong, sand colored eggs.  This can and has included small children, whom the triple strykes will rotate in their sleep without ever putting them in danger from the three stingers.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>

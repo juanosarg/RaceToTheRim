@@ -5,7 +5,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_FlightmareDragonScales</defName>
 		<label>flightmare dragon scales</label>
-		<description>Faintly glowing, hard overlapping scales with a shiny metallic sheen. Good at cold insulation and against fire attacks.</description>
+		<description>Faintly glowing, hard overlapping scales with a shiny metallic sheen. Good at cold insulation and against fire attacks. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_FlightmareScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -44,7 +44,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_FuryDragonScales</defName>
 		<label>fury dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally resistant to fire.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally resistant to fire. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_FuryScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -82,7 +82,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_GronckleDragonScales</defName>
 		<label>gronckle pebbles</label>
-		<description>Small, rock-like scales. Contrary to other dragon scales, Gronckle pebbles lack their distinctive shine. Durable against blunt damage.</description>
+		<description>Small, rock-like scales. Contrary to other dragon scales, Gronckle pebbles lack their distinctive shine. Durable against blunt damage. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_GronckleScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -120,7 +120,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_HotburpleDragonScales</defName>
 		<label>hotburple dragon scales</label>
-		<description>Bright orange scales, hot to the touch. Durable against blunt damage.</description>
+		<description>Bright orange scales, hot to the touch. Durable against blunt damage. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_HotburpleScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -159,7 +159,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_NadderDragonScales</defName>
 		<label>nadder dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat and against intense heat.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat and against intense heat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_NadderScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -197,7 +197,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_NightmareDragonScales</defName>
 		<label>nightmare dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_MonstrousNightmareScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -235,7 +235,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_RumblehornDragonScales</defName>
 		<label>rumblehorn dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_RumblehornScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -273,7 +273,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_ScauldronDragonScales</defName>
 		<label>scauldron dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_ScauldronScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -312,7 +312,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_StormcutterDragonScales</defName>
 		<label>stormcutter dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_StormcutterScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -351,7 +351,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_TerribleTerrorDragonScales</defName>
 		<label>terrible terror dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_TerribleTerrorScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -389,7 +389,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_ZipplebackDragonScales</defName>
 		<label>zippleback dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_ZipplebackScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -427,7 +427,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_RazorwhipDragonScales</defName>
 		<label>razorwhip dragon scales</label>
-		<description>Extremely hard overlapping scales with a shiny metallic sheen. The strongest of all dragon scales, they offer unbeatable defenses against sharp attacks.</description>
+		<description>Extremely hard overlapping scales with a shiny metallic sheen. The strongest of all dragon scales, they offer unbeatable defenses against sharp attacks. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_RazorwhipScales</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -465,7 +465,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_TripleStrykeDragonScales</defName>
 		<label>triple stryke chitin</label>
-		<description>A chitinous substance similar to scales. Not as good at insulation as other dragon scales, but excellent in defensive capabilities</description>
+		<description>A chitinous substance similar to scales. Not as good at insulation as other dragon scales, but excellent in defensive capabilities. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_TripleStrykeChitin</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -504,7 +504,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_PatchedDragonScales</defName>
 		<label>mixed dragonscales</label>
-		<description>A weak dragonscale textile created by cutting up and sewing together various types of dragonscales.</description>
+		<description>A weak dragonscale textile created by cutting up and sewing together various types of dragonscales. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_DragonScales</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

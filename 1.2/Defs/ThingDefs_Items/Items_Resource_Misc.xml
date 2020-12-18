@@ -259,7 +259,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>RttR_RazorwhipSpikes</defName>
 		<label>razorwhip spikes</label>
-		<description>Tough, metallic spikes that can be periodically harvested from Razorwhips. These spikes are too hard to bind to use them as a building material, but they can be smelted into steel in an electric smelter, or further refined into industrial medicine in a drug lab.</description>
+		<description>These long, deadly spikes make up the tail sheath of a razor whip, and can be launched at will in the direction of enemies, food, or targets.  Due to the highly toxic nature of the razor whip’s physiology, these spikes are unusually sterile.  Consequently, industrious colonists have turned these spikes into sterilized needles, implants, and staples to assist with the healing process.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_RazorwhipSpikes</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -284,7 +284,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>RttR_TripleStrykeVenom</defName>
 		<label>triple stryke venom</label>
-		<description>Venom produced by the Triple stryke's tails can be periodicallt collected and refined in a drug lab to craft herbal medicine.</description>
+		<description>The triple stryke’s venom, while dangerous in the stinger of an angry dragon, is incredibly beneficial when isolated and distilled. The first type works as an analgesic, the second as an anti-anxiety agent with mild recreational potential, and the third, while painful, can act as a primitive antibiotic if handled correctly.  These properties have made triple strike venom a staple product of desert dwellers, who use It as a substitute for heal root.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_VenomVials</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

@@ -180,16 +180,18 @@
 				<li>
 					<def>RttR_AnimalAdolescent</def>
 					<minAge>10</minAge>
-					<soundWounded>Pawn_Cougar_Injured</soundWounded>
-					<soundDeath>Pawn_Cougar_Death</soundDeath>
-					<soundAngry>Pawn_Cougar_Angry</soundAngry>
+					<soundWounded>RTTR_Pawn_DeadlyNadder_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_DeadlyNadder_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_DeadlyNadder_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_DeadlyNadder_Call</soundCall>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>15</minAge>
-					<soundWounded>Pawn_Cougar_Injured</soundWounded>
-					<soundDeath>Pawn_Cougar_Death</soundDeath>
-					<soundAngry>Pawn_Cougar_Angry</soundAngry>
+					<soundWounded>RTTR_Pawn_DeadlyNadder_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_DeadlyNadder_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_DeadlyNadder_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_DeadlyNadder_Call</soundCall>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
