@@ -83,7 +83,7 @@
 		</tools>
 		<comps>
 
-			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>80</customAmountToDig>
@@ -124,7 +124,7 @@
 				<forcedMissRadius>2</forcedMissRadius>
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>scauldron breath</label>
 				<commonality>1</commonality>
 			</li>
 

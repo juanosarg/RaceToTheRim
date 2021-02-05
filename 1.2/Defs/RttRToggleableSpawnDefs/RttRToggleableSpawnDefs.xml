@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<RttRAnimalBehaviours.RttRToggleableSpawnDef>
+		<defName>RttR_ToggleableAnimals</defName>
+		<toggleablePawns>			
+			<li>RttR_Fury</li>
+			<li>RttR_Flightmare</li>
+			<li>RttR_Gronckle</li>
+			<li>RttR_Hotburple</li>
+			<li>RttR_Nadder</li>
+			<li>RttR_Nightmare</li>
+			<li>RttR_Scauldron</li>
+			<li>RttR_Zippleback</li>
+			<li>RttR_TerribleTerror</li>
+			<li>RttR_Rumblehorn</li>
+			<li>RttR_Stormcutter</li>
+			<li>RttR_Razorwhip</li>
+			<li>RttR_TripleStryke</li>
+		</toggleablePawns>							
+	</RttRAnimalBehaviours.RttRToggleableSpawnDef>
+
+
+
+
+
+
+</Defs>

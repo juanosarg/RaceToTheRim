@@ -89,7 +89,7 @@
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>10</woolAmount>
 			</li>
-			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>3</customAmountToDig>
@@ -122,7 +122,7 @@
 				
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>terrible terror breath</label>
 				<commonality>1</commonality>
 			</li>
 

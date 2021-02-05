@@ -113,7 +113,7 @@
 
 			</li>
 			
-			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>Jade</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
@@ -162,7 +162,7 @@
 				<forcedMissRadius>2</forcedMissRadius>
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>hotburple breath</label>
 				<commonality>1</commonality>
 			</li>
 

@@ -8,10 +8,6 @@
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
 
-	<JobDef>
-		<defName>RttR_AnimalResource</defName>
-		<driverClass>RttRAnimalBehaviours.JobDriver_AnimalResource</driverClass>
-		<reportString>gathering animal resource from TargetA.</reportString>
-	</JobDef>
+	
 
 </Defs>

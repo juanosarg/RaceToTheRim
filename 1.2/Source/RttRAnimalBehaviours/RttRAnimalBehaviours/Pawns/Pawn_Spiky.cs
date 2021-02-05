@@ -14,36 +14,41 @@ namespace RttRAnimalBehaviours
         {
             Pawn instigator = dinfo.Instigator as Pawn;
             Map thisMap = this.Map;
-            IntVec3 position = instigator.Position;
-            Rot4 rotation = instigator.Rotation;
-            base.PostApplyDamage(dinfo, totalDamageDealt);            
-            if (instigator != null && instigator.Map!=null && !instigator.Dead)
-            {
-                CellRect rect = GenAdj.OccupiedRect(position, rotation, IntVec2.One).ExpandedBy(1);
-                foreach (IntVec3 current in rect.Cells)
+            if (thisMap != null) {
+                IntVec3 position = instigator.Position;
+                Rot4 rotation = instigator.Rotation;
+                base.PostApplyDamage(dinfo, totalDamageDealt);
+                if (instigator != null && instigator.Map != null && !instigator.Dead)
                 {
-                    if (current.InBounds(instigator.Map))
+                    CellRect rect = GenAdj.OccupiedRect(position, rotation, IntVec2.One).ExpandedBy(1);
+                    foreach (IntVec3 current in rect.Cells)
                     {
-                        if (current != null) {
-                            HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(thisMap));
-                            if (hashSet != null)
+                        if (current.InBounds(instigator.Map))
+                        {
+                            if (current != null)
                             {
-                                foreach (Thing thing in hashSet)
+                                HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(thisMap));
+                                if (hashSet != null)
                                 {
-                                    if (thing != null && thing == this || thing == this.Corpse)
+                                    foreach (Thing thing in hashSet)
                                     {
-                                        instigator.TakeDamage(new DamageInfo(DamageDefOf.Cut, 20, 0f, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
+                                        if (thing != null && thing == this || thing == this.Corpse)
+                                        {
+                                            instigator.TakeDamage(new DamageInfo(DamageDefOf.Cut, 20, 0f, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
 
+                                        }
                                     }
                                 }
                             }
+
+
                         }
-                        
 
                     }
-
                 }
+
             }
+            
            
         }
 

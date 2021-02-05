@@ -82,13 +82,13 @@
 		</tools>
 		<comps>
 
-			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>50</customAmountToDig>
 
 			</li>
-			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>RttR_TripleStrykeVenom</resourceDef>
 				<gatheringIntervalDays>2</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
@@ -126,7 +126,7 @@
 				
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>triple stryke breath</label>
 				<commonality>1</commonality>
 			</li>
 

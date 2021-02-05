@@ -303,19 +303,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Achievements\KillTrackerWithOr.cs" />
-    <Compile Include="Comps\CompAnimalProduct.cs" />
-    <Compile Include="Comps\CompDigWhenHungry.cs" />
     <Compile Include="Comps\CompEatWeirdFood.cs" />
-    <Compile Include="Comps\CompExplodingHatcher.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_WaterMovement.cs" />
-    <Compile Include="Comps\CompProperties\CompProperties_AnimalProduct.cs" />
-    <Compile Include="Comps\CompProperties\CompProperties_DigWhenHungry.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_EatWeirdFood.cs" />
-    <Compile Include="Comps\CompProperties\CompProperties_ExplodingHatcher.cs" />
     <Compile Include="Comps\CompWaterMovement.cs" />
     <Compile Include="Damages\DamageWorker_CauseDaze.cs" />
     <Compile Include="Damages\DamageWorker_ExtraDamageMechanoids.cs" />
     <Compile Include="Damages\DamageWorker_Siege.cs" />
+    <Compile Include="Defs\RttRToggleableSpawnDef.cs" />
     <Compile Include="Filth and Gas\Filth_LiquefiedHelixienGas.cs" />
     <Compile Include="Filth and Gas\Filth_ScaldingFoam.cs" />
     <Compile Include="Harmony\CompEgglayer_CompInspectStringExtra.cs" />
@@ -325,15 +320,16 @@
     <Compile Include="Harmony\Pawn_PathFollower_CostToMoveIntoCell.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\Pawn_TrainingTracker_TrainingTrackerTickRare_Patch.cs" />
+    <Compile Include="Harmony\WildAnimalSpawner_SpawnRandomWildAnimalAt.cs" />
     <Compile Include="Incidents\IncidentWorker_Fury.cs" />
-    <Compile Include="Jobs\JobDriver_AnimalResource.cs" />
     <Compile Include="Jobs\JobDriver_IngestWeird.cs" />
     <Compile Include="Jobs\JobGiver_GetWeirdFood.cs" />
     <Compile Include="Pawns\Pawn_Fiery.cs" />
     <Compile Include="Pawns\Pawn_Spiky.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Jobs\WorkGiver_AnimalResource.cs" />
     <Compile Include="ScenParts\ScenPart_StartingDragon.cs" />
+    <Compile Include="Settings\RaceToTheRim_Settings.cs" />
+    <Compile Include="Settings\RaceToTheRim_SettingsController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -84,7 +84,7 @@
 		</tools>
 		<comps>
 
-			<li Class="RttRAnimalBehaviours.CompProperties_DigWhenHungry">
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>35</customAmountToDig>
@@ -95,7 +95,7 @@
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>10</woolAmount>
 			</li>
-			<li Class="RttRAnimalBehaviours.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>RttR_NightmareGel</resourceDef>
 				<gatheringIntervalDays>2</gatheringIntervalDays>
 				<resourceAmount>20</resourceAmount>
@@ -130,7 +130,7 @@
 				
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>nightmare breath</label>
 				<commonality>1</commonality>
 			</li>
 
