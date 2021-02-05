@@ -20,7 +20,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>10</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Fury</hatcherPawn>
 				<range>4</range>
@@ -50,7 +50,7 @@
 			<color>(76,64,54)</color>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Gronckle</hatcherPawn>
 				<range>4</range>
@@ -79,7 +79,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Nadder</hatcherPawn>
 				<range>4</range>
@@ -108,7 +108,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Nightmare</hatcherPawn>
 				<range>4</range>
@@ -136,7 +136,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Zippleback</hatcherPawn>
 				<range>4</range>
@@ -164,7 +164,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Scauldron</hatcherPawn>
 				<range>4</range>
@@ -192,7 +192,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Hotburple</hatcherPawn>
 				<range>4</range>
@@ -220,7 +220,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Flightmare</hatcherPawn>
 				<range>4</range>
@@ -248,7 +248,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_TerribleTerror</hatcherPawn>
 				<range>4</range>
@@ -276,7 +276,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Rumblehorn</hatcherPawn>
 				<range>4</range>
@@ -304,7 +304,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Stormcutter</hatcherPawn>
 				<range>4</range>
@@ -332,7 +332,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_Razorwhip</hatcherPawn>
 				<range>4</range>
@@ -360,7 +360,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<comps>
-			<li Class="RttRAnimalBehaviours.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>RttR_TripleStryke</hatcherPawn>
 				<range>4</range>
