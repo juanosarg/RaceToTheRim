@@ -48,6 +48,9 @@
     This value isn't perfect because these radii use different algorithms
     but it matches in this case-->
     <specialDisplayRadius>5.8</specialDisplayRadius>
+	<researchPrerequisites Inherit="False">
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
   </ThingDef>
 
 

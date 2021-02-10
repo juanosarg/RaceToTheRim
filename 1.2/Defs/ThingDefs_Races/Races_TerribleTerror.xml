@@ -7,7 +7,7 @@
 
 		<defName>RttR_TerribleTerror</defName>
 		<label>terrible terror</label>
-		<description>Don't let their diminutive size and cuddly attitude fool you-terrible terrors are devious little tricksters! Though their nuzzles are both extra common and extra adorable, terrors are highly territorial and have an excellent memory both for the way back to their nest, and for the faces of any who've done them wrong. These little dragons are generally kept for their cuteness and message delivering abilities.\n\nSpecial Abilities: Terrible Terrors are excellent companions due to their nuzzling. Excellent pets!</description>
+		<description>Don't let their diminutive size and cuddly attitude fool you-terrible terrors are devious little tricksters! Though their nuzzles are both extra common and extra adorable, terrors are highly territorial and have an excellent memory both for the way back to their nest, and for the faces of any who've done them wrong. These little dragons are generally kept for their cuteness and message delivering abilities.\n\nSpecial Abilities: Terrible Terrors are excellent companions due to their nuzzling. Excellent pets! When tamed, Terrible Terrors will periodically refuel nearby campfires and torches.</description>
 		<statBases>
 			<MoveSpeed>3</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -94,6 +94,16 @@
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>3</customAmountToDig>
 				<spawnForbidden>true</spawnForbidden>
+
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_Refueling">
+				<fuelingRate>1000</fuelingRate>
+				<fuelingRadius>5</fuelingRadius>
+				<buildingsToAffect>
+					<li>TorchLamp</li>
+					<li>Campfire</li>
+				</buildingsToAffect>
+				<mustBeTamed>true</mustBeTamed>
 
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">

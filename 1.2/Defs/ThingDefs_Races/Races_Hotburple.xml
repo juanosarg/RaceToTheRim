@@ -16,7 +16,7 @@
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<Flammability>0.0</Flammability>
-            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+			<ArmorRating_Heat>2.00</ArmorRating_Heat>
 		</statBases>
 		<tools>
 			<li>
@@ -112,7 +112,7 @@
 				<customAmountToDig>10</customAmountToDig>
 
 			</li>
-			
+
 			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>Jade</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
@@ -129,6 +129,26 @@
 					<li>Jade</li>
 				</additionalItems>
 
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+				<customThingToDig>			
+					<li>Steel</li>
+					<li>Silver</li>
+					<li>Uranium</li>
+					<li>Gold</li>
+					<li>Plasteel</li>
+					<li>ComponentIndustrial</li>	
+				</customThingToDig>
+				<customAmountToDig>				
+					<li>10</li>
+					<li>10</li>
+					<li>10</li>
+					<li>10</li>
+					<li>10</li>
+					<li>10</li>
+
+				</customAmountToDig>
+				<ticksToDig>420000</ticksToDig>
 			</li>
 			<li Class="CompProperties_Shearable">
 				<woolDef>RttR_HotburpleDragonScales</woolDef>
@@ -171,7 +191,7 @@
 
 		<race>
 			<wildBiomes>
-				
+
 				<TemperateSwamp>0.01</TemperateSwamp>
 				<TropicalSwamp>0.01</TropicalSwamp>
 				<TemperateForest>0.04</TemperateForest>
@@ -309,7 +329,7 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				
+
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Hotburple/RttR_Hotburple_A</texPath>
 					<drawSize>2.75</drawSize>

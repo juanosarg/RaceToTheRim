@@ -22,7 +22,7 @@ namespace RttRAnimalBehaviours
         {
             base.Tick();
             if (this.Awake()) {
-                if (this.jobs.curDriver is JobDriver_AttackMelee)
+                if (this.Map!=null && this.jobs.curDriver!= null && this.jobs.curDriver is JobDriver_AttackMelee)
                 {
                     Vector3 drawPos = this.DrawPos;
                     drawPos.y = BaseAlt + 0.181818187f;

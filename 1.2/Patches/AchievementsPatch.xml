@@ -115,7 +115,7 @@
 								<def>RttR_GronckleIron</def>
 								<count>1000</count>
 							</tracker>
-							<texPath>Things/Item/RttR_GronckleIron</texPath>
+							<texPath>Things/Item/RttR_GronckleIron/RttR_GronckleIron_c</texPath>
 							<points>20</points>
 						</AchievementsExpanded.AchievementDef>
 

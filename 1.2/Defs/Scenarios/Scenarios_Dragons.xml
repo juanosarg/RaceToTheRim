@@ -13,7 +13,7 @@
       <summary>You and your new dragon friend, alone against the whole world. This is a difficult scenario.</summary>
       <playerFaction>
         <def>PlayerFaction</def>
-        <factionDef>PlayerColony</factionDef>
+        <factionDef>PlayerTribe</factionDef>
       </playerFaction>
       <parts>
 

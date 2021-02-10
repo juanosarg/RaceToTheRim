@@ -7,14 +7,14 @@
 
 		<defName>RttR_Scauldron</defName>
 		<label>scauldron</label>
-		<description>Legends say the dragon's head on the bow of viking ships comes from attempts to fool scauldrons into passing them by. As this method has questionable results, vikings from dragon fearing tribes would often toss a portion of their catch back into the sea as tribute to the scauldrons. Vikings who hail from dragon riding tribes have adopted a different approach: tame scauldrons have become prized for their fire-extinguishing water breath and their ability to speed cooking by boiling water almost instantly. There are even rumors of industrious vikings who've devised special saddles for scauldrons which can turn the dragons in to half-ship hybrids for water travel.  Other Scauldrons are absolutely deterred from the "bows" of these "ships", though it is uncertain if this is due to fear, awe, or a desire to avoid what they perceive as a fashion disaster.\n\nSpecial Abilities: Scauldrons are massive creatures, though they move gracefully on water (their stated move speed is only on water, being 1/4th of that on land). Their breath attack is a stream of water vapor that instantly puts out fires, while at the same time causing grievous burns.</description>
+		<description>Legends say the dragon's head on the bow of viking ships comes from attempts to fool scauldrons into passing them by. As this method has questionable results, vikings from dragon fearing tribes would often toss a portion of their catch back into the sea as tribute to the scauldrons. Vikings who hail from dragon riding tribes have adopted a different approach: tame scauldrons have become prized for their fire-extinguishing water breath and their ability to speed cooking by boiling water almost instantly. There are even rumors of industrious vikings who've devised special saddles for scauldrons which can turn the dragons in to half-ship hybrids for water travel.  Other Scauldrons are absolutely deterred from the "bows" of these "ships", though it is uncertain if this is due to fear, awe, or a desire to avoid what they perceive as a fashion disaster.\n\nSpecial Abilities: Scauldrons are massive creatures, though they move gracefully on water (their stated move speed is only on water, being 1/4th of that on land). Their breath attack is a stream of water vapor that instantly puts out fires, while at the same time causing grievous burns. When tamed, this breath attack can be directed by the player to put out fires.</description>
 		<statBases>
 			<MoveSpeed>7</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 			<MarketValue>1000</MarketValue>
 			<Flammability>0.0</Flammability>
-            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+			<ArmorRating_Heat>2.00</ArmorRating_Heat>
 		</statBases>
 		<tools>
 			<li>
@@ -51,7 +51,7 @@
 					</extraMeleeDamages>
 				</surpriseAttack>
 			</li>
-			
+
 			<li>
 				<capacities>
 					<li>Bite</li>
@@ -96,7 +96,7 @@
 				<woolAmount>10</woolAmount>
 			</li>
 			<li Class="RttRAnimalBehaviours.CompProperties_WaterMovement">
-				
+
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
 				<eggFertilizedDef>RttR_EggScauldronFertilized</eggFertilizedDef>
@@ -122,6 +122,9 @@
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>
 				<range>18</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 				<forcedMissRadius>2</forcedMissRadius>
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
@@ -134,13 +137,13 @@
 
 		<race>
 			<wildBiomes>
-				
+
 				<ColdBog>0.07</ColdBog>
-				
+
 				<TemperateSwamp>0.07</TemperateSwamp>
 				<TropicalSwamp>0.07</TropicalSwamp>
 				<TemperateForest>0.01</TemperateForest>
-				
+
 			</wildBiomes>
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
@@ -200,7 +203,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>RttR_Scauldron</defName>
 		<label>scauldron</label>
-		
+
 		<race>RttR_Scauldron</race>
 		<combatPower>450</combatPower>
 		<ecoSystemWeight>1</ecoSystemWeight>
@@ -229,7 +232,7 @@
 			<li>
 				<label>hatchling scauldron</label>
 				<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
 					<drawSize>3</drawSize>
 
 				</bodyGraphicData>
@@ -241,7 +244,7 @@
 			<li>
 				<label>juvenile scauldron</label>
 				<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
 					<drawSize>4</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -256,7 +259,7 @@
 			<li>
 				<label>adolescent scauldron</label>
 				<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
 					<drawSize>4.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -269,9 +272,9 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				
+
 				<bodyGraphicData>
-				<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
+					<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
 					<drawSize>5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>

@@ -160,7 +160,8 @@
 			<wildness>0.90</wildness>
 			<useMeatFrom>RttR_Fury</useMeatFrom>
 			<trainability>Advanced</trainability>
-			<leatherDef>Leather_Lizard</leatherDef>			
+			<leatherDef>Leather_Lizard</leatherDef>	
+			<packAnimal>true</packAnimal>			
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.6</manhunterOnDamageChance>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
@@ -237,19 +238,19 @@
 				<label>hatchling triple stryke</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
-					<drawSize>2.2</drawSize>
+					<drawSize>2</drawSize>
 
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke</texPath>
-					<drawSize>2.2</drawSize>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<label>juvenile triple stryke</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
-					<drawSize>3.3</drawSize>
+					<drawSize>2.3</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -257,14 +258,14 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke</texPath>
-					<drawSize>3.3</drawSize>
+					<drawSize>2.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<label>adolescent triple stryke</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
-					<drawSize>3.75</drawSize>
+					<drawSize>2.6</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -272,13 +273,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke</texPath>
-					<drawSize>3.75</drawSize>
+					<drawSize>2.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_TripleStryke_A</texPath>
-					<drawSize>4.4</drawSize>
+					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -286,7 +287,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_TripleStryke/RttR_Dessicated_TripleStryke</texPath>
-					<drawSize>4.4</drawSize>
+					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

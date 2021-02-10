@@ -164,7 +164,8 @@
 			<wildness>0.90</wildness>
 			<useMeatFrom>RttR_Fury</useMeatFrom>
 			<trainability>Advanced</trainability>
-			<leatherDef>Leather_Lizard</leatherDef>			
+			<leatherDef>Leather_Lizard</leatherDef>		
+			<packAnimal>true</packAnimal>			
 			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
@@ -238,7 +239,7 @@
 				<label>hatchling razorwhip</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Razorwhip/RttR_Razorwhip_A</texPath>
-					<drawSize>2.5</drawSize>
+					<drawSize>2</drawSize>
 
 				</bodyGraphicData>
 			
@@ -247,7 +248,7 @@
 				<label>juvenile razorwhip</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Razorwhip/RttR_Razorwhip_A</texPath>
-					<drawSize>3.5</drawSize>
+					<drawSize>2.2</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -259,7 +260,7 @@
 				<label>adolescent razorwhip</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Razorwhip/RttR_Razorwhip_A</texPath>
-					<drawSize>4</drawSize>
+					<drawSize>2.6</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -271,7 +272,7 @@
 				
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Razorwhip/RttR_Razorwhip_A</texPath>
-					<drawSize>4.5</drawSize>
+					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
