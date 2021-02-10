@@ -90,6 +90,7 @@
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>70</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
 
 			</li>
 			<li Class="CompProperties_Shearable">
@@ -98,7 +99,7 @@
 				<woolAmount>10</woolAmount>
 			</li>
 			
-			<li Class="CompProperties_EggLayer">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
 				<eggFertilizedDef>RttR_EggRumblehornFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>50</eggLayIntervalDays>
@@ -165,7 +166,7 @@
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>AnimalJuvenile</def>
+					<def>RttR_AnimalJuvenile</def>
 					<minAge>5</minAge>
 				</li>
 				<li>

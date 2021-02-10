@@ -71,7 +71,7 @@
 	
 	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>RttR_RazorwhipBreath</defName>
-		<label>razorwhip breath</label>
+		<label>magnetic breath</label>
 		<thingClass>VFECore.FlamethrowProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectiles/FireEffects/Proj_RazorwhipFire</texPath>

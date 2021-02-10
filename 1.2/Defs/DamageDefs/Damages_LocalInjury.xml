@@ -57,7 +57,13 @@
 	<DamageDef ParentName="CutBase">
 		<defName>RttR_MechanoidScratch</defName>
 		<label>steel claws</label>
-		<workerClass>RttRAnimalBehaviours.DamageWorker_ExtraDamageMechanoids</workerClass>
+		<workerClass>AnimalBehaviours.DamageWorker_ExtraDamageMechanoids</workerClass>
+	</DamageDef>
+	
+	<DamageDef ParentName="CutBase">
+		<defName>RttR_MechanoidBreath</defName>
+		<label>magnetic breath</label>
+		<workerClass>AnimalBehaviours.DamageWorker_ExtraDamageMechanoids</workerClass>
 	</DamageDef>
 	
 	<DamageDef>

@@ -90,6 +90,7 @@
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>50</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
 
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
@@ -103,7 +104,7 @@
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>10</woolAmount>
 			</li>
-			<li Class="CompProperties_EggLayer">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
 				<eggFertilizedDef>RttR_EggRazorwhipFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>50</eggLayIntervalDays>
@@ -130,7 +131,7 @@
 				
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<label>razorwhip breath</label>
+				<label>magnetic breath</label>
 				<commonality>1</commonality>
 			</li>
 
@@ -174,7 +175,7 @@
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>AnimalJuvenile</def>
+					<def>RttR_AnimalJuvenile</def>
 					<minAge>5</minAge>
 				</li>
 				<li>

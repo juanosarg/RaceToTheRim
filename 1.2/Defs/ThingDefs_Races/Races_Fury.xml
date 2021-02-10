@@ -87,6 +87,7 @@
 
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>30</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
 
 			</li>
 			<li Class="CompProperties_Shearable">
@@ -94,7 +95,7 @@
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>10</woolAmount>
 			</li>
-			<li Class="CompProperties_EggLayer">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
 				<eggFertilizedDef>RttR_EggFuryFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>60</eggLayIntervalDays>
@@ -152,6 +153,7 @@
 			<baseHealthScale>2</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<wildness>0.90</wildness>
+			
 			<trainability>Advanced</trainability>
 			<leatherDef>Leather_Lizard</leatherDef>
 			<meatLabel>dragon meat</meatLabel>
@@ -166,7 +168,7 @@
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>AnimalJuvenile</def>
+					<def>RttR_AnimalJuvenile</def>
 					<minAge>5</minAge>
 				</li>
 				<li>

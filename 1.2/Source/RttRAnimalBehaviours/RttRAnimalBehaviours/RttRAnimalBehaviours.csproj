@@ -308,7 +308,6 @@
     <Compile Include="Comps\CompProperties\CompProperties_EatWeirdFood.cs" />
     <Compile Include="Comps\CompWaterMovement.cs" />
     <Compile Include="Damages\DamageWorker_CauseDaze.cs" />
-    <Compile Include="Damages\DamageWorker_ExtraDamageMechanoids.cs" />
     <Compile Include="Damages\DamageWorker_Siege.cs" />
     <Compile Include="Defs\RttRToggleableSpawnDef.cs" />
     <Compile Include="Filth and Gas\Filth_LiquefiedHelixienGas.cs" />

@@ -15,7 +15,7 @@
 			<MarketValue>1000</MarketValue>
 			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
-			<ToxicSensitivity>30</ToxicSensitivity>
+			<ToxicSensitivity>0</ToxicSensitivity>
 			<Flammability>0.0</Flammability>
             <ArmorRating_Heat>2.00</ArmorRating_Heat>
 
@@ -133,7 +133,7 @@
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>10</woolAmount>
 			</li>
-			<li Class="CompProperties_EggLayer">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
 				<eggFertilizedDef>RttR_EggGronckleFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>30</eggLayIntervalDays>
@@ -205,7 +205,7 @@
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>AnimalJuvenile</def>
+					<def>RttR_AnimalJuvenile</def>
 					<minAge>5</minAge>
 				</li>
 				<li>

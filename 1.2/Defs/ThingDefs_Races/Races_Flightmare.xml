@@ -89,6 +89,14 @@
 				<shearIntervalDays>2</shearIntervalDays>
 				<woolAmount>10</woolAmount>
 			</li>
+			<li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+
+				<customThingToDig><li>RttR_FlightmareAlgae</li></customThingToDig>
+				<customAmountToDig><li>10</li></customAmountToDig>
+				<ticksToDig>120000</ticksToDig>
+				<spawnForbidden>true</spawnForbidden>
+
+			</li>
 			<li Class="RttRAnimalBehaviours.CompProperties_EatWeirdFood">
 
 				<customThingToEat>					
@@ -103,7 +111,7 @@
 				<customAmountToDig>10</customAmountToDig>
 
 			</li>
-			<li Class="CompProperties_EggLayer">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
 				<eggFertilizedDef>RttR_EggFlightmareFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>30</eggLayIntervalDays>
@@ -174,7 +182,7 @@
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>AnimalJuvenile</def>
+					<def>RttR_AnimalJuvenile</def>
 					<minAge>5</minAge>
 				</li>
 				<li>

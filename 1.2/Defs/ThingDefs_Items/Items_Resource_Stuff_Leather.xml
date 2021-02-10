@@ -514,7 +514,7 @@
 			<DeteriorationRate>0.5</DeteriorationRate>			
 			<MaxHitPoints>150</MaxHitPoints>
 			<Mass>0.05</Mass>
-			<MarketValue>5</MarketValue>
+			<MarketValue>2.5</MarketValue>
 			<StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.19</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>

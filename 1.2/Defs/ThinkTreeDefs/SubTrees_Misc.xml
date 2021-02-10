@@ -21,6 +21,13 @@
     </thinkRoot>
   </ThinkTreeDef> 
   
+  <ThinkTreeDef>
+    <defName>RttR_LayExplodingEggs</defName>
+    <insertTag>Animal_PreMain</insertTag>
+    <insertPriority>100</insertPriority>
+    <thinkRoot Class="AnimalBehaviours.JobGiver_LayExplodingEgg" />
+  </ThinkTreeDef>
+  
  
 
 </Defs>
