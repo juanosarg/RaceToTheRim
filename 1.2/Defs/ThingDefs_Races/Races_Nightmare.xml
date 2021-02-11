@@ -210,7 +210,7 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>RttR_Nightmare</defName>
-		<label>monstruous nightmare</label>
+		<label>monstrous nightmare</label>
 		
 		<race>RttR_Nightmare</race>
 		<combatPower>450</combatPower>
