@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rejuvenate Surgery</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Fury"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>												
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Nadder"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Gronckle"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Nightmare"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Zippleback"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Hotburple"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Flightmare"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Scauldron"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_TerribleTerror"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Rumblehorn"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Stormcutter"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Razorwhip"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_TripleStryke"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
