@@ -259,7 +259,7 @@
 				<label>adolescent nadder</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nadder/RttR_Nadder_A</texPath>
-					<drawSize>2.75</drawSize>
+					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -267,7 +267,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Nadder/RttR_Dessicated_Nadder</texPath>
-					<drawSize>2.75</drawSize>
+					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

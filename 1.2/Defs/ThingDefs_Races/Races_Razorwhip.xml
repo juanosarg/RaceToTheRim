@@ -260,7 +260,7 @@
 				<label>adolescent razorwhip</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Razorwhip/RttR_Razorwhip_A</texPath>
-					<drawSize>2.6</drawSize>
+					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
