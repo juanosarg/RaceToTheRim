@@ -263,7 +263,7 @@
 			
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Stormcutter_A</texPath>
-					<drawSize>4.8</drawSize>
+					<drawSize>5.4</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -271,7 +271,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Stormcutter/RttR_Dessicated_Stormcutter</texPath>
-					<drawSize>4.8</drawSize>
+					<drawSize>5.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

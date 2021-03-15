@@ -260,7 +260,7 @@
 				<label>adolescent scauldron</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Scauldron_A</texPath>
-					<drawSize>4.5</drawSize>
+					<drawSize>5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -268,7 +268,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Scauldron/RttR_Dessicated_Scauldron</texPath>
-					<drawSize>4.5</drawSize>
+					<drawSize>5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

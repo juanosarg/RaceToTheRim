@@ -258,7 +258,7 @@
 				<label>adolescent rumblehorn</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_A</texPath>
-					<drawSize>3.5</drawSize>
+					<drawSize>3.75</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -266,7 +266,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Dessicated_Rumblehorn</texPath>
-					<drawSize>3.5</drawSize>
+					<drawSize>3.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

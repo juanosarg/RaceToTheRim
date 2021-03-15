@@ -19,9 +19,17 @@
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
 							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 
-						</li>				
+						</li>	
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>0.77,0,0.14</eastOffsetCSV>
+							<westOffsetCSV>-0.77,0,0.14</westOffsetCSV>
+							<northOffsetCSV>0,0,0.14</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.24</southOffsetCSV>
+						</li>								
 					</value>
 				</li>
+				
+				
 				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/ThingDef[defName = "RttR_Flightmare"]</xpath> 
 					<value>
@@ -43,9 +51,16 @@
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
 							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 
-						</li>				
+						</li>	
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>0.148,0,-0.348</eastOffsetCSV>
+							<westOffsetCSV>-0.148,0,-0.348</westOffsetCSV>
+							<northOffsetCSV>0,0,-0.348</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.348</southOffsetCSV>
+						</li>		
 					</value>
 				</li>
+				
 				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/ThingDef[defName = "RttR_Hotburple"]</xpath> 
 					<value>
@@ -183,9 +198,58 @@
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
 							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 
-						</li>				
+						</li>	
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>0.88,0,1.07</eastOffsetCSV>
+							<westOffsetCSV>-0.88,0,1.07</westOffsetCSV>
+							<northOffsetCSV>0,0,1.07</northOffsetCSV>
+							<southOffsetCSV>0,0,0.3</southOffsetCSV>
+						</li>								
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RttR_Scauldron"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Mount">
+							<drawFront>true</drawFront>
+						</li>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Scauldron_A-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Scauldron_B-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Scauldron_C-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Scauldron_D-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Scauldron_E-_south</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+
+
+						</li>					
+					</value>
+				</li>
+				
+				
 				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/ThingDef[defName = "RttR_Zippleback"]</xpath> 
 					<value>
@@ -210,7 +274,54 @@
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
 							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 
-						</li>				
+						</li>	
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>1.05,0,0.3</eastOffsetCSV>
+							<westOffsetCSV>-1.05,0,0.3</westOffsetCSV>
+							<northOffsetCSV>0,0,0.3</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.5</southOffsetCSV>
+						</li>									
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RttR_Rumblehorn"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Mount">
+							<drawFront>true</drawFront>
+						</li>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3.75</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Rumblehorn_A-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Rumblehorn_B-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Rumblehorn_C-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Rumblehorn_D-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Rumblehorn_E-_south</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+
+
+						</li>					
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
@@ -219,9 +330,86 @@
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
 							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 
-						</li>				
+						</li>		
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>1.07,0,0.35</eastOffsetCSV>
+							<westOffsetCSV>-1.07,0,0.35</westOffsetCSV>
+							<northOffsetCSV>0,0,0.35</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.5</southOffsetCSV>
+						</li>							
 					</value>
 				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RttR_Stormcutter"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Mount">
+							<drawFront>true</drawFront>
+						</li>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5.4</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_A-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_B-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_C-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_D-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_E-_south</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlaySide>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5.4</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_A-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_B-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_C-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_D-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Stormcutter_E-_east</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+
+
+						</li>					
+					</value>
+				</li>
+				
 				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/ThingDef[defName = "RttR_Razorwhip"]</xpath> 
 					<value>
@@ -281,34 +469,89 @@
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
 							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 
-						</li>				
-					</value>
-				</li>
-
-
-				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "RttR_Fury"]</xpath> 
-					<value>
+						</li>	
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
-							<eastOffsetCSV>0.77,0,0.14</eastOffsetCSV>
-							<westOffsetCSV>-0.77,0,0.14</westOffsetCSV>
-							<northOffsetCSV>0,0,0.14</northOffsetCSV>
-							<southOffsetCSV>0,0,-0.24</southOffsetCSV>
-						</li>				
+							<eastOffsetCSV>0.4,0,-0.56</eastOffsetCSV>
+							<westOffsetCSV>-0.4,0,-0.56</westOffsetCSV>
+							<northOffsetCSV>0,0,-0.2</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.75</southOffsetCSV>
+						</li>								
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RttR_TripleStryke"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Mount">
+							<drawFront>true</drawFront>
+						</li>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_A-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_B-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_C-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_D-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_E-_south</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlaySide>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_A-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_B-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_C-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_D-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_TripleStryke_E-_east</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+
+
+						</li>					
 					</value>
 				</li>
 
-				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "RttR_Gronckle"]</xpath> 
-					<value>
-						<li Class="GiddyUpCore.DrawingOffsetPatch">
-							<eastOffsetCSV>0.148,0,-0.348</eastOffsetCSV>
-							<westOffsetCSV>-0.148,0,-0.348</westOffsetCSV>
-							<northOffsetCSV>0,0,-0.348</northOffsetCSV>
-							<southOffsetCSV>0,0,-0.348</southOffsetCSV>
-						</li>				
-					</value>
-				</li>
+
+				
+
+			
 
 
 			</operations>
