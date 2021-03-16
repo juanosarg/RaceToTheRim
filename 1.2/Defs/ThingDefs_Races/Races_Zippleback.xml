@@ -136,10 +136,33 @@
 				<burstShotCount>1</burstShotCount>
 				<minRange>5</minRange>
 				<range>25</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 				<forcedMissRadius>2</forcedMissRadius>
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<label>zippleback breath</label>
+				<label>zippleback gas breath</label>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>0.9</accuracyTouch>
+				<accuracyShort>0.9</accuracyShort>
+				<accuracyMedium>0.9</accuracyMedium>
+				<accuracyLong>0.9</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RttR_NadderBreath</defaultProjectile>
+				<warmupTime>3</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>5</minRange>
+				<range>25</range>		
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>				
+				<soundCast>RttR_FireBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>zippleback fire breath</label>
 				<commonality>1</commonality>
 			</li>
 
@@ -276,7 +299,7 @@
 				<label>adolescent zippleback</label>
 				<bodyGraphicData>
 				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
-					<drawSize>4</drawSize>
+					<drawSize>4.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.1)</offset>
@@ -284,7 +307,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Dessicated_Zippleback</texPath>
-					<drawSize>4</drawSize>
+					<drawSize>4.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

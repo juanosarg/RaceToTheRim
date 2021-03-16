@@ -88,6 +88,7 @@
 				<customThingToDig>RttR_RawFish</customThingToDig>
 				<customAmountToDig>30</customAmountToDig>
 				<spawnForbidden>true</spawnForbidden>
+				<timeToDigForced>60000</timeToDigForced>
 
 			</li>
 			<li Class="CompProperties_Shearable">

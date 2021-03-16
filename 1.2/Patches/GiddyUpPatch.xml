@@ -256,9 +256,86 @@
 						<li Class="GiddyUpCore.AllowedLifeStagesPatch">
 							<allowedLifeStagesCSV>2,3</allowedLifeStagesCSV>
 
-						</li>				
+						</li>	
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>1,0,-0.31</eastOffsetCSV>
+							<westOffsetCSV>-1,0,-0.31</westOffsetCSV>
+							<northOffsetCSV>0,0,0.3</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.6</southOffsetCSV>
+						</li>								
 					</value>
 				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RttR_Zippleback"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Mount">
+							<drawFront>true</drawFront>
+						</li>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4.5</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_A-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_B-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_C-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_D-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_E-_south</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlaySide>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4.5</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_A-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_B-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_C-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_D-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Zippleback_E-_east</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+
+
+						</li>					
+					</value>
+				</li>
+				
 				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/ThingDef[defName = "RttR_TerribleTerror"]</xpath> 
 					<value>

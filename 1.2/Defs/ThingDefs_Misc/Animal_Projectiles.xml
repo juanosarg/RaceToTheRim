@@ -321,6 +321,23 @@
 		</projectile>
 	</VFECore.ExpandableProjectileDef>
 	
+	<ThingDef ParentName="BaseBullet">
+		<defName>RttR_NadderSpikes</defName>
+		<label>nadder spikes</label>
+		
+		<graphicData>
+			<texPath>Things/Projectiles/RttR_Quill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Cut</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<stoppingPower>1.5</stoppingPower>
+			<speed>30</speed>
+		</projectile>
+	</ThingDef>
+	
 	<ThingDef ParentName="RttR_BaseAnimalProjectile">
 		<defName>RttR_GasBall</defName>
 		<label>gas ball</label>

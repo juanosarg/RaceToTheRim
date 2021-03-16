@@ -13,7 +13,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>14</MarketValue>
+			<MarketValue>4.65</MarketValue>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Mass>0.04</Mass>
 			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
@@ -52,7 +52,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>14</MarketValue>
+			<MarketValue>4.65</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>0.04</Mass>
 			<StuffPower_Armor_Sharp>1.29</StuffPower_Armor_Sharp>
@@ -90,7 +90,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>7</MarketValue>
+			<MarketValue>2.3</MarketValue>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Mass>0.04</Mass>
 			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
@@ -128,7 +128,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>7</MarketValue>
+			<MarketValue>2.3</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>0.04</Mass>
 			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
@@ -167,7 +167,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>14</MarketValue>
+			<MarketValue>4.65</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>0.04</Mass>
 			<StuffPower_Armor_Sharp>2.2</StuffPower_Armor_Sharp>
@@ -205,7 +205,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>8</MarketValue>
+			<MarketValue>2.65</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>0.04</Mass>
 			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
@@ -243,7 +243,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>10</MarketValue>
+			<MarketValue>3.5</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>0.05</Mass>
 			<StuffPower_Armor_Sharp>2.6</StuffPower_Armor_Sharp>
@@ -281,7 +281,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>8</MarketValue>
+			<MarketValue>2.65</MarketValue>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Mass>0.04</Mass>
 			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
@@ -320,7 +320,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>6</MarketValue>
+			<MarketValue>2</MarketValue>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Mass>0.04</Mass>
 			<StuffPower_Armor_Sharp>2</StuffPower_Armor_Sharp>
@@ -359,7 +359,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>8</MarketValue>
+			<MarketValue>2.65</MarketValue>
 			<MaxHitPoints>160</MaxHitPoints>
 			<Mass>0.03</Mass>
 			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
@@ -397,7 +397,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>8</MarketValue>
+			<MarketValue>2.65</MarketValue>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Mass>0.04</Mass>
 			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
@@ -435,7 +435,7 @@
 		<stackLimit>2500</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>12</MarketValue>
+			<MarketValue>4</MarketValue>
 			<MaxHitPoints>250</MaxHitPoints>
 			<Mass>0.06</Mass>
 			<StuffPower_Armor_Sharp>2.8</StuffPower_Armor_Sharp>
@@ -470,10 +470,10 @@
 			<texPath>Things/Item/RttR_TripleStrykeChitin</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<stackLimit>2500</stackLimit>
+		<stackLimit>250</stackLimit>
 		<statBases>
 			<DeteriorationRate>0.5</DeteriorationRate>
-			<MarketValue>10</MarketValue>
+			<MarketValue>3.5</MarketValue>
 			<MaxHitPoints>220</MaxHitPoints>
 			<Mass>0.08</Mass>
 			<StuffPower_Armor_Sharp>2.6</StuffPower_Armor_Sharp>
@@ -497,7 +497,7 @@
 			<color>(98,59,64)</color>
 			<commonality>0</commonality>
 		</stuffProps>
-		<smallVolume>true</smallVolume>
+		
 	</ThingDef>
 
 
@@ -514,7 +514,7 @@
 			<DeteriorationRate>0.5</DeteriorationRate>			
 			<MaxHitPoints>150</MaxHitPoints>
 			<Mass>0.05</Mass>
-			<MarketValue>2.5</MarketValue>
+			<MarketValue>2</MarketValue>
 			<StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.19</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>

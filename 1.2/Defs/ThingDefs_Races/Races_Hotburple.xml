@@ -115,11 +115,11 @@
 
 			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>Jade</resourceDef>
-				<gatheringIntervalDays>1</gatheringIntervalDays>
+				<gatheringIntervalDays>7</gatheringIntervalDays>
 				<resourceAmount>15</resourceAmount>
 				<customResourceString>RttR_Gemstones</customResourceString>
 				<hasAditional>true</hasAditional>
-				<additionalItemsProb>2</additionalItemsProb>
+				<additionalItemsProb>15</additionalItemsProb>
 				<additionalItemsNumber>10</additionalItemsNumber>
 				<goInOrder>true</goInOrder>
 				<additionalItems>
