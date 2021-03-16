@@ -192,13 +192,13 @@
 		<race>
 			<wildBiomes>
 
-				<TemperateSwamp>0.01</TemperateSwamp>
-				<TropicalSwamp>0.01</TropicalSwamp>
-				<TemperateForest>0.04</TemperateForest>
-				<TropicalRainforest>0.01</TropicalRainforest>
-				<AridShrubland>0.1</AridShrubland>
-				<Desert>0.1</Desert>
-				<ExtremeDesert>0.1</ExtremeDesert>
+				<TemperateSwamp>0.003</TemperateSwamp>
+				<TropicalSwamp>0.003</TropicalSwamp>
+				<TemperateForest>0.015</TemperateForest>
+				<TropicalRainforest>0.003</TropicalRainforest>
+				<AridShrubland>0.03</AridShrubland>
+				<Desert>0.03</Desert>
+				<ExtremeDesert>0.03</ExtremeDesert>
 			</wildBiomes>
 			<thinkTreeMain>RttR_AnimalWeirdEater</thinkTreeMain>
 			<predator>true</predator>

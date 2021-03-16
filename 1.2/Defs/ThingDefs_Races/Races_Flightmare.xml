@@ -147,15 +147,15 @@
 
 		<race>
 			<wildBiomes>
-				<BorealForest>0.07</BorealForest>
-				<IceSheet>0.07</IceSheet>
-				<Tundra>0.07</Tundra>
-				<ColdBog>0.07</ColdBog>
-				<SeaIce>0.07</SeaIce>
-				<TemperateSwamp>0.01</TemperateSwamp>
-				<TropicalSwamp>0.01</TropicalSwamp>
-				<TemperateForest>0.01</TemperateForest>
-				<TropicalRainforest>0.01</TropicalRainforest>
+				<BorealForest>0.025</BorealForest>
+				<IceSheet>0.025</IceSheet>
+				<Tundra>0.025</Tundra>
+				<ColdBog>0.025</ColdBog>
+				<SeaIce>0.025</SeaIce>
+				<TemperateSwamp>0.003</TemperateSwamp>
+				<TropicalSwamp>0.003</TropicalSwamp>
+				<TemperateForest>0.003</TemperateForest>
+				<TropicalRainforest>0.003</TropicalRainforest>
 				
 			</wildBiomes>
 			<thinkTreeMain>RttR_AnimalWeirdEater</thinkTreeMain>

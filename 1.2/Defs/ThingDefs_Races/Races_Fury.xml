@@ -132,18 +132,18 @@
 
 		<race>
 			<wildBiomes>
-				<BorealForest>0.005</BorealForest>
-				<IceSheet>0.005</IceSheet>
-				<Tundra>0.005</Tundra>
-				<ColdBog>0.005</ColdBog>
-				<SeaIce>0.005</SeaIce>
-				<TemperateSwamp>0.005</TemperateSwamp>
-				<TropicalSwamp>0.005</TropicalSwamp>
-				<TemperateForest>0.005</TemperateForest>
-				<TropicalRainforest>0.005</TropicalRainforest>
-				<AridShrubland>0.005</AridShrubland>
-				<Desert>0.005</Desert>
-				<ExtremeDesert>0.005</ExtremeDesert>
+				<BorealForest>0.0015</BorealForest>
+				<IceSheet>0.0015</IceSheet>
+				<Tundra>0.0015</Tundra>
+				<ColdBog>0.0015</ColdBog>
+				<SeaIce>0.0015</SeaIce>
+				<TemperateSwamp>0.0015</TemperateSwamp>
+				<TropicalSwamp>0.0015</TropicalSwamp>
+				<TemperateForest>0.0015</TemperateForest>
+				<TropicalRainforest>0.0015</TropicalRainforest>
+				<AridShrubland>0.0015</AridShrubland>
+				<Desert>0.0015</Desert>
+				<ExtremeDesert>0.0015</ExtremeDesert>
 			</wildBiomes>
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
