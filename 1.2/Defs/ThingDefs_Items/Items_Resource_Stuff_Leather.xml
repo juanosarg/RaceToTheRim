@@ -465,7 +465,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_TripleStrykeDragonScales</defName>
 		<label>triple stryke chitin</label>
-		<description>A chitinous substance similar to scales. Not as good at insulation as other dragon scales, but excellent in defensive capabilities. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
+		<description>A chitinous substance similar to scales. Not as good at insulation as other dragon scales, but excellent in defensive capabilities. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_TripleStrykeChitin</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -498,6 +498,44 @@
 			<commonality>0</commonality>
 		</stuffProps>
 		
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>RttR_SkrillDragonScales</defName>
+		<label>skrill dragon scales</label>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_ScalesSkrill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>2500</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>2.65</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>0.04</Mass>
+			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>4</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>40</StuffPower_Insulation_Heat>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<statFactors>
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>3</WorkToBuild>
+				<Beauty>4</Beauty>
+				<Flammability>0</Flammability>
+				<DeteriorationRate>0.5</DeteriorationRate>
+			</statFactors>
+			<color>(66,54,74)</color>
+			<commonality>0</commonality>
+		</stuffProps>
+		<smallVolume>true</smallVolume>
 	</ThingDef>
 
 

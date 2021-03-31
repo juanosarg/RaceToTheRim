@@ -410,6 +410,37 @@
 			<li>NotForGuests</li>
 		</thingSetMakerTags>
 	</ThingDef>
+	
+	<!-- Skrill Egg -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>RttR_EggSkrillFertilized</defName>
+		<label>skrill egg (fert.)</label>
+		<description>.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Nutrition>.25</Nutrition>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/RttR_EggSkrill</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>RttR_Skrill</hatcherPawn>
+				<range>4</range>
+				<damageDef>Flame</damageDef>
+				<damage>20</damage>
+				<soundDef>Explosion_Flame</soundDef>
+			</li>
+		</comps>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+	</ThingDef>
 
 
 </Defs>

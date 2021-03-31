@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="AnimalThingBase">
+
+		<defName>RttR_Skrill</defName>
+		<label>skrill</label>		
+		<description>.\n\nSpecial Abilities: Attacks with lightning. Can recharge nearby batteries.</description>
+		<statBases>
+			<MoveSpeed>3</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MarketValue>1000</MarketValue>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10.2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16.8</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10.2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16.8</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>26.4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>24</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+
+				<customThingToDig>RttR_RawFish</customThingToDig>
+				<customAmountToDig>35</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
+
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>RttR_SkrillDragonScales</woolDef>
+				<shearIntervalDays>2</shearIntervalDays>
+				<woolAmount>10</woolAmount>
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_Electrified">
+				<electroRate>40</electroRate>
+				<electroRadius>5</electroRadius>
+				<batteriesToAffect>
+					<li>Battery</li>
+					<li>Battery_Silver</li>
+					<li>Battery_Gold</li>
+					<li>Battery_Plasteel</li>
+					<li>Battery_Uranium</li>
+					<li>Battery_Advanced</li>
+					<li>Battery_Vanometric</li>
+					<li>Battery4k</li>
+					<li>Battery16k</li>
+					<li>Battery64k</li>
+					<li>Battery256k</li>
+					<li>ChargeBack_Battery_Prototype</li>
+					<li>ChargeBack_Battery</li>
+					<li>SpeedCharge_Battery</li>
+					<li>ResonanceCell_Battery</li>
+					<li>VoidCell_Battery</li>
+					<li>VFE_LargeBattery</li>
+					<li>VFE_SmallBattery</li>
+					<li>VFE_AdvancedBattery</li>
+					<li>VFE_LargeAdvancedBattery</li>
+					<li>AA_BlueGelBattery</li>
+					<li>AA_HexaGelBattery</li>
+					<li>ShipCapacitor</li>
+					<li>ShipCapacitorSmall</li>
+				</batteriesToAffect>
+
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
+				<eggFertilizedDef>RttR_EggSkrillFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>50</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>1</max>
+				</eggCountRange>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>RttRAnimalBehaviours.Verb_Shoot_Prelightning</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RttR_NightmareBreath</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>1</minRange>
+				<range>9</range>
+				
+				<soundCast>RttR_FireBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>nightmare breath</label>
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<race>
+			<wildBiomes>
+				<BorealForest>0.003</BorealForest>
+				<IceSheet>0.003</IceSheet>
+				<Tundra>0.003</Tundra>
+				<ColdBog>0.0003</ColdBog>
+				<SeaIce>0.0003</SeaIce>
+				<TemperateSwamp>0.005</TemperateSwamp>
+				<TropicalSwamp>0.005</TropicalSwamp>
+				<TemperateForest>0.005</TemperateForest>
+				<TropicalRainforest>0.02</TropicalRainforest>
+				<AridShrubland>0.025</AridShrubland>
+				<Desert>0.025</Desert>
+				<ExtremeDesert>0.03</ExtremeDesert>
+			</wildBiomes>
+			<predator>true</predator>
+			<maxPreyBodySize>1.0</maxPreyBodySize>
+			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>2.5</baseBodySize>
+			<baseHungerRate>0.2</baseHungerRate>
+			<baseHealthScale>2.5</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<wildness>0.85</wildness>
+			<useMeatFrom>RttR_Fury</useMeatFrom>
+			<trainability>Advanced</trainability>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<packAnimal>true</packAnimal>
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+			<nuzzleMtbHours>64</nuzzleMtbHours>
+			<lifeExpectancy>100</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalJuvenile</def>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>RTTR_Pawn_MonstrousNightmare_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_MonstrousNightmare_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_MonstrousNightmare_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_MonstrousNightmare_Call</soundCall>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>15</minAge>
+					<soundWounded>RTTR_Pawn_MonstrousNightmare_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_MonstrousNightmare_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_MonstrousNightmare_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_MonstrousNightmare_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+
+
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RttR_Skrill</defName>
+		<label>skrill</label>
+		
+		<race>RttR_Skrill</race>
+		<combatPower>450</combatPower>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		
+
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Skrill_A</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Skrill_B</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Skrill_C</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Skrill_D</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Skrill_E</texPath></li>
+
+		</alternateGraphics>
+
+		<lifeStages>
+			<li>
+				<label>hatchling skrill</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Skrill_A</texPath>
+					<drawSize>2.2</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Dessicated_Skrill_east</texPath>
+					<drawSize>2.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>juvenile skrill</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Skrill_A</texPath>
+					<drawSize>3.3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Dessicated_Skrill_east</texPath>
+					<drawSize>3.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>adolescent skrill</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Skrill_A</texPath>
+					<drawSize>4.4</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Dessicated_Skrill_east</texPath>
+					<drawSize>4.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Skrill_A</texPath>
+					<drawSize>4.4</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Skrill/RttR_Dessicated_Skrill_east</texPath>
+					<drawSize>4.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+</Defs>

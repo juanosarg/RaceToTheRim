@@ -329,6 +329,8 @@
     <Compile Include="ScenParts\ScenPart_StartingDragon.cs" />
     <Compile Include="Settings\RaceToTheRim_Settings.cs" />
     <Compile Include="Settings\RaceToTheRim_SettingsController.cs" />
+    <Compile Include="Verbs\Verb_Shoot_Prelightning.cs" />
+    <Compile Include="WeatherEvents\WeatherEvent_CustomLightningStrike.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

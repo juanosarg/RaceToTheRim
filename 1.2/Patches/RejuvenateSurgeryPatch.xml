@@ -123,6 +123,14 @@
 						</recipes>	
 					</value>
 				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="RttR_Skrill"]</xpath>
+					<value>
+						<recipes>
+							<li>Rejuvenate</li>
+						</recipes>	
+					</value>
+				</li>
 
 
 			</operations>

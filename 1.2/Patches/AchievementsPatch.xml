@@ -240,7 +240,11 @@
 									<li>
 										<key>RttR_TripleStryke</key>
 										<value>1</value>
-									</li>									
+									</li>	
+									<li>
+										<key>RttR_Skrill</key>
+										<value>1</value>
+									</li>										
 								</kindDefList>								
 							</tracker>
 							<texPath>Achievements/RttR_AchievementApprenticeDragonslayer</texPath>
@@ -304,7 +308,11 @@
 									<li>
 										<key>RttR_TripleStryke</key>
 										<value>5</value>
-									</li>									
+									</li>	
+									<li>
+										<key>RttR_Skrill</key>
+										<value>5</value>
+									</li>											
 								</kindDefList>								
 							</tracker>
 							<texPath>Achievements/RttR_AchievementMoreLikeIsleOfJerk</texPath>

@@ -18,6 +18,7 @@
 			<li>RttR_Stormcutter</li>
 			<li>RttR_Razorwhip</li>
 			<li>RttR_TripleStryke</li>
+			<li>RttR_Skrill</li>
 		</toggleablePawns>							
 	</RttRAnimalBehaviours.RttRToggleableSpawnDef>
 
