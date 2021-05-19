@@ -503,7 +503,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>RttR_SkrillDragonScales</defName>
 		<label>skrill dragon scales</label>
-		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them.  That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
+		<description>Hard overlapping scales with a shiny metallic sheen. Exceptionally durable in combat. Small, and valuable, these scales can be riveted or sewn together to make all sorts of tools, furniture, clothing, and, most famously, armor. All dragon scales are fireproof, and so is anything made from them. That being said, they require a substantial quantity to craft anything, often needing ten scales for every log, steel chunk, or bit of cloth they replace.</description>
 		<graphicData>
 			<texPath>Things/Item/RttR_ScalesSkrill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

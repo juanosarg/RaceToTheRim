@@ -416,7 +416,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>RttR_EggSkrillFertilized</defName>
 		<label>skrill egg (fert.)</label>
-		<description>.</description>
+		<description>Fertilized skrill egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a skrill.\n\nWhen hunting for skill eggs, the best place to look is up. Skrill seek out the tallest tree within ten miles, and build their nest near the top so the egg can be closer to the stormy sky. In an industrialized world where electricity has been harnessed, the skrill will regularly lay their eggs on top of windmills. On one hand, this makes it much easier for colonies to obtain the elusive skrill, as they can wait until the baby has hatched and tame it while it’s too young to fly away. On the other hand, skrill eggs are very likely to short out nearby power sources, and the windmills that host them break down frequently. This has led to some colonies building skrill rods (tall poles with platforms at the top and a weak electric current running through it) as a means of enticing the skill to nest in a less destructive location.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>100</MarketValue>

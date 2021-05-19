@@ -7,7 +7,7 @@
 
 		<defName>RttR_Skrill</defName>
 		<label>skrill</label>		
-		<description>.\n\nSpecial Abilities: Attacks with lightning. Can recharge nearby batteries.</description>
+		<description>Given careful management and population control, it’s possible for a colony achieve self sufficiency solely through its reliance on dragons. The more advanced a colony gets, however, the more dragons shift from beasts of burden and crucial fishers to treasured pets and ferocious warbeasts. Not so for the skrill. This dragon is a prize for any colony to possess, but its ability to gather lightning from storms and either store it or shoot it as enemies has turned it into a literal powerhouse. The more energy the colony consumes, the more valuable their skrills become. Those who hope tame a wild skrill should bring plenty of metal objects-skrills are attracted to its conductivity. Skill are highly migratory storm chasers, and are most commonly found in areas with frequent thunder.\n\nSpecial Abilities: Attacks with lightning. Can recharge nearby batteries.</description>
 		<statBases>
 			<MoveSpeed>3</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -145,15 +145,15 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>RttR_NightmareBreath</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<defaultProjectile>RttR_SkrillProjectile</defaultProjectile>
+				<warmupTime>2.5</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>1</minRange>
-				<range>9</range>
+				<range>20</range>
 				
 				<soundCast>RttR_FireBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<label>nightmare breath</label>
+				<label>skrill breath</label>
 				<commonality>1</commonality>
 			</li>
 

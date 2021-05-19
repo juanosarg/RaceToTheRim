@@ -624,6 +624,74 @@
 						</li>					
 					</value>
 				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RttR_Skrill"]/comps</xpath> 
+					<value>
+						
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4.4</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Skrill_A-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Skrill_B-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Skrill_C-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Skrill_D-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/SaddlesRttR_Skrill_E-_south</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlaySide>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4.4</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Skrill_A-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Skrill_B-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Skrill_C-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Skrill_D-_east</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/RttR_Skrill_E-_east</texPath>
+									</li>
+									
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+
+
+						</li>					
+					</value>
+				</li>
 
 
 				
