@@ -34,7 +34,7 @@
 		<makesBlood>false</makesBlood>
 		<defaultDamage>10</defaultDamage>
 		<hediff>Burn</hediff>
-		<explosionCellMote>Mote_BlastExtinguisher</explosionCellMote>
+		<explosionCellFleck>BlastExtinguisher</explosionCellFleck>
 		<explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
 		<soundExplosion>Explosion_Stun</soundExplosion>   
 		<combatLogRules>Damage_Extinguish</combatLogRules>
