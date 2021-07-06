@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=====================================================================-->
+	<!--=============================== Misc ================================-->
+	<!--=====================================================================-->
+
+
+	<ThingDef Name="RttR_RawFishBase" Abstract="True" ParentName="OrganicProductBase">
+		<label>Base raw fish properties</label>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>2</daysToRotStart>
+				<rotDestroys>True</rotDestroys>
+			</li>
+		</comps>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<Flammability>0.5</Flammability>
+			<FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+
+		</statBases>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>DesperateOnly</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>		
+		</ingestible>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<generateCommonality>0</generateCommonality>
+	</ThingDef>
+
+
+	<!-- Fished by dragons -->
+
+
+	<ThingDef ParentName="RttR_RawFishBase">
+		<defName>RttR_RawFish</defName>
+		<label>raw fish</label>
+		<description>Raw fish. A resourceful dragon has fished this.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_Fish</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.03</Mass>
+
+			<MarketValue>2</MarketValue>
+		</statBases>
+		<ingestible>
+			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
+		</ingestible>
+		<tools>
+			<li>
+				<label>raw fish</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<equippedAngleOffset>-180</equippedAngleOffset>
+		<uiIconForStackCount>1</uiIconForStackCount>
+		<equipmentType>Primary</equipmentType>
+		<techLevel>Neolithic</techLevel>
+		<comps>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>RttR_GronckleIron</defName>
+		<label>gronckle iron</label>
+		<description>While Gronckles consume rocks for nutrition, they aren’t able to metabolize everything. Instead, they tend to consume the same basic elements of life as other living beings, while absorbing only trace amounts of the larger, more metallic elements. The remaining metal can be regurgitated as magma-either to defend itself or, in the case of tame gronckles, to provide their trainers with that most unusual of alloys, gronckle iron. Though generally similar to steel, gronckle iron has a few key characteristics. It’s lighter, brighter, and even a bit tougher, making it a favorite of blacksmiths everywhere. The key ingredient in the smelting process appears to be the gronckles themselves, as repeated attempts to synthesize the metal artificially have proved fruitless.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_GronckleIron</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Mass>0.13</Mass>
+			<Flammability>0</Flammability>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.60</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.30</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.30</BluntDamageMultiplier>
+		</statBases>
+		<useHitPoints>false</useHitPoints>
+
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<commonality>0</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(125,125,125)</color>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.1</MaxHitPoints>
+				<Beauty>1.3</Beauty>
+				<Flammability>0</Flammability>
+			</statFactors>
+
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>RttR_WoodLog</defName>
+		<label>nadder spikes</label>
+		<description>Aside from their potent flames, deadly nadders are famous for their other attack: launching tapered spikes from their tail in the direction of their enemies.  After they've been thrown, these spikes can be harvested and used as spearheads, spike traps, or very large needles. They can also be stacked on top of each other to form a kind of semi-flexible cord, which can be woven into thatching to make houses or, if you're really skilled, statues.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_NadderSpikes</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>5</Mass> 
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.9</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.45</BluntDamageMultiplier>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<stuffProps>
+			<stuffAdjective>nadder spike</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(133,97,67)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>0.65</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<tools>
+			<li>
+				<label>nadder spike</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>RttR_NightmareGel</defName>
+		<label>monstrous nightmare gel</label>
+		<description>A Nightmare's flaming body stems from its ability to secrete a napalm-like substance from its skin. This substance can be ignited at will, but a tame nightmare will also allow its rider to scrape this gel into containers to use in other ways. Flame traps, braziers, and cooking fires can all be powered by monstrous nightmare gel, while the more industrious vikings have learned to refine it into chemfuel and use it to travel the stars.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_NightmareFuel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>150</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tickerType>Normal</tickerType>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>RttR_FlightmareAlgae</defName>
+		<label>flightmare algae</label>
+		<description>A glowing algae that is most noted as a food source for the Flightmare, and appears to contribute to this dragon's bluish glow. Flightmares are adept at finding sources of this algae by digging around in dirt. Inedible for other creatures.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_Algae</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>150</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>1</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>RttR_RazorwhipSpikes</defName>
+		<label>razorwhip spikes</label>
+		<description>These long, deadly spikes make up the tail sheath of a razor whip, and can be launched at will in the direction of enemies, food, or targets.  Due to the highly toxic nature of the razor whip’s physiology, these spikes are unusually sterile.  Consequently, industrious colonists have turned these spikes into sterilized needles, implants, and staples to assist with the healing process.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_RazorwhipSpikes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>150</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>1</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>		
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>RttR_TripleStrykeVenom</defName>
+		<label>triple stryke venom</label>
+		<description>The triple stryke’s venom, while dangerous in the stinger of an angry dragon, is incredibly beneficial when isolated and distilled. The first type works as an analgesic, the second as an anti-anxiety agent with mild recreational potential, and the third, while painful, can act as a primitive antibiotic if handled correctly.  These properties have made triple strike venom a staple product of desert dwellers, who use It as a substitute for heal root.</description>
+		<graphicData>
+			<texPath>Things/Item/RttR_VenomVials</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>150</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>1</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>		
+	</ThingDef>
+
+
+
+
+</Defs>

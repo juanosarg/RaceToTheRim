@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+	<DamageDef>
+		<defName>RttR_GasExplosion</defName>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<label>toxic gas</label>
+		<hediff>Shredded</hediff>
+		<hasForcefulImpact>false</hasForcefulImpact>
+		<makesBlood>false</makesBlood>
+		<canInterruptJobs>false</canInterruptJobs>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been poisoned to death.</deathMessage>
+		<soundExplosion>Explosion_Smoke</soundExplosion>
+
+		<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.05</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>RttR_WaterExplosion</defName>
+		<label>water explosion</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<canInterruptJobs>false</canInterruptJobs>
+		<makesBlood>false</makesBlood>
+		<defaultDamage>10</defaultDamage>
+		<hediff>Burn</hediff>
+		<explosionCellMote>Mote_BlastExtinguisher</explosionCellMote>
+		<explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
+		<soundExplosion>Explosion_Stun</soundExplosion>   
+		<combatLogRules>Damage_Extinguish</combatLogRules>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>RttR_SiegeBlunt</defName>
+		<label>crush</label>
+		<workerClass>RttRAnimalBehaviours.DamageWorker_Siege</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been crushed to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSkin>Shredded</hediffSkin>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+	</DamageDef>
+	
+	<DamageDef ParentName="CutBase">
+		<defName>RttR_MechanoidScratch</defName>
+		<label>steel claws</label>
+		<workerClass>AnimalBehaviours.DamageWorker_ExtraDamageMechanoids</workerClass>
+	</DamageDef>
+	
+	<DamageDef ParentName="CutBase">
+		<defName>RttR_MechanoidBreath</defName>
+		<label>magnetic breath</label>
+		<workerClass>AnimalBehaviours.DamageWorker_ExtraDamageMechanoids</workerClass>
+	</DamageDef>
+	
+	<DamageDef>
+		<defName>RttR_Toxic</defName>
+		<label>triple stryke toxic sting</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>RttR_ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.012</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+	
+	<DamageDef>
+		<defName>RttR_Anesthesia</defName>
+		<label>triple stryke anesthetic sting</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>RttR_ReverseAnesthetic</hediff>
+				<severityPerDamageDealt>0.012</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+	
+	<DamageDef>
+		<defName>RttR_Dazing</defName>
+		<label>triple stryke hallucinogenic sting</label>
+		<workerClass>RttRAnimalBehaviours.DamageWorker_CauseDaze</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>		
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+
+
+
+
+</Defs>

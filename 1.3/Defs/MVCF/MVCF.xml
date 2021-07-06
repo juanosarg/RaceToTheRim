@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<MVCF.ModDef>
+		<defName>RttR_RaceToTheRim</defName>
+		<label>Race to the Rim</label>
+		<description>Adding animal ranged attacks for Race to the Rim creatures</description>
+		<Features>
+			<RangedAnimals>true</RangedAnimals>			
+			<IntegratedToggle>true</IntegratedToggle>
+		</Features>
+	</MVCF.ModDef>
+
+
+
+
+
+
+</Defs>
