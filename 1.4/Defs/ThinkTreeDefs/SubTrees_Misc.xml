@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <!--============= Satisfy basic needs ============-->
+  
+  <ThinkTreeDef>
+    <defName>RttR_SatisfyBasicNeedsWeird</defName>
+    <thinkRoot Class="ThinkNode_Tagger">
+      <tagToGive>SatisfyingNeeds</tagToGive>
+      <subNodes>
+        <li Class="ThinkNode_PrioritySorter">
+          <subNodes>
+            <li Class="RttRAnimalBehaviours.JobGiver_GetWeirdFood"/>
+            <li Class="JobGiver_GetRest"/>
+           
+          </subNodes>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef> 
+  
+  <ThinkTreeDef>
+    <defName>RttR_LayExplodingEggs</defName>
+    <insertTag>Animal_PreMain</insertTag>
+    <insertPriority>100</insertPriority>
+    <thinkRoot Class="AnimalBehaviours.JobGiver_LayExplodingEgg" />
+  </ThinkTreeDef>
+  
+ 
+
+</Defs>

@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="AnimalThingBase">
+
+		<defName>RttR_Gronckle</defName>
+		<label>gronckle</label>
+		<description>Most boulder class dragons are lithovores, and the iconic gronckle is no exception.  Rather than subsist on fish or meat as most dragons do, the gronckle eat rocks for nutrition. Consequently, they have spread to most mountainous regions of the Rim. Due to the high internal temperature of the gronckle's magma bloodstream, any rock they consume is quickly liquified and its metallic components can be regurgitated in the form of Gronckle Iron.\n\nSpecial Abilities: Periodically digs for rock chunks. Can be sheared for Gronckle Iron and Dragon Scales. Occasionally it will produce additional precious minerals when sheared.</description>
+		<statBases>
+			<MoveSpeed>1.75</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MarketValue>1000</MarketValue>
+			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+			<ToxicResistance>1</ToxicResistance>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+			<FilthRate>4</FilthRate>
+			<CaravanRidingSpeedFactor>1.8</CaravanRidingSpeedFactor>
+
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>24</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+
+		
+			<li Class="RttRAnimalBehaviours.CompProperties_EatWeirdFood">
+
+				<customThingToEat>
+					<li>ChunkSandstone</li>
+					<li>ChunkGranite</li>
+					<li>ChunkLimestone</li>
+					<li>ChunkSlate</li>
+					<li>ChunkMarble</li>
+					<li>GU_ChunkRoseQuartz</li>
+					<li>AB_ChunkCragstone</li>
+					<li>AB_ChunkObsidian</li>
+					<li>AB_ChunkMudstone</li>
+					<li>AB_ChunkSlimeStone</li>
+				</customThingToEat>
+				<nutrition>2</nutrition>
+				<fullyDestroyThing>true</fullyDestroyThing>
+				<digThingIfMapEmpty>true</digThingIfMapEmpty>
+				<thingToDigIfMapEmpty>ChunkSandstone</thingToDigIfMapEmpty>
+				<customAmountToDig>1</customAmountToDig>
+				
+			</li>
+			
+			
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
+				<resourceDef>RttR_GronckleIron</resourceDef>
+				<gatheringIntervalDays>1</gatheringIntervalDays>
+				<resourceAmount>25</resourceAmount>
+				<customResourceString>RttR_GronckleIron</customResourceString>
+				<hasAditional>true</hasAditional>
+				<additionalItemsProb>2</additionalItemsProb>
+				<additionalItemsNumber>10</additionalItemsNumber>
+				<additionalItems>
+					<li>Gold</li>
+					<li>Jade</li>
+					<li>Silver</li>
+					<li>Uranium</li>
+				</additionalItems>
+
+			</li>
+		
+			<li Class="CompProperties_Shearable">
+				<woolDef>RttR_GronckleDragonScales</woolDef>
+				<shearIntervalDays>2</shearIntervalDays>
+				<woolAmount>10</woolAmount>
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
+				<eggFertilizedDef>RttR_EggGronckleFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>30</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>1</max>
+				</eggCountRange>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RttR_GronckleBreath</defaultProjectile>
+				<warmupTime>2.5</warmupTime>
+				<burstShotCount>3</burstShotCount>
+				<minRange>2</minRange>
+				<range>18</range>
+				<forcedMissRadius>2</forcedMissRadius>
+				<soundCast>RttR_FireBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>gronckle breath</label>
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<race>
+			<wildBiomes>
+				<BorealForest>0.003</BorealForest>
+				<IceSheet>0.003</IceSheet>
+				<Tundra>0.003</Tundra>
+				<ColdBog>0.0003</ColdBog>
+				<SeaIce>0.0003</SeaIce>
+				<TemperateSwamp>0.003</TemperateSwamp>
+				<TropicalSwamp>0.003</TropicalSwamp>
+				<TemperateForest>0.025</TemperateForest>
+				<TropicalRainforest>0.003</TropicalRainforest>
+				<AridShrubland>0.025</AridShrubland>
+				<Desert>0.03</Desert>
+				<ExtremeDesert>0.03</ExtremeDesert>
+			</wildBiomes>
+			<thinkTreeMain>RttR_AnimalWeirdEater</thinkTreeMain>
+			<predator>true</predator>
+			<maxPreyBodySize>1.0</maxPreyBodySize>
+			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>2.5</baseBodySize>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseHealthScale>4</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<wildness>0.90</wildness>
+			<useMeatFrom>RttR_Fury</useMeatFrom>
+			<trainability>Advanced</trainability>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<packAnimal>true</packAnimal>
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+			<lifeExpectancy>275</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalJuvenile</def>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>RTTR_Pawn_Gronckle_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_Gronckle_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_Gronckle_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_Gronckle_Call</soundCall>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>15</minAge>
+					<soundWounded>RTTR_Pawn_Gronckle_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_Gronckle_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_Gronckle_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_Gronckle_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+
+
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RttR_Gronckle</defName>
+		<label>gronckle</label>
+		
+		<race>RttR_Gronckle</race>
+		<combatPower>450</combatPower>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		
+
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_B</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_C</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_D</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_E</texPath></li>
+		</alternateGraphics>
+
+		<lifeStages>
+			<li>
+				<label>hatchling gronckle</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
+					<drawSize>1.5</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>juvenile gronckle</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>adolescent gronckle</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Gronckle_A</texPath>
+					<drawSize>2.3</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Gronckle/RttR_Dessicated_Gronckle</texPath>
+					<drawSize>2.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+</Defs>

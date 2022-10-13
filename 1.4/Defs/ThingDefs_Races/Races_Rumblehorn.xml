@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="AnimalThingBase">
+
+		<defName>RttR_Rumblehorn</defName>
+		<label>rumblehorn</label>
+		<description>A titan of the fear class, rumblehorns use their massive horns and powerful charges to crash through anything and anyone that stands in their way. They are favored by the sort of trainer who defaults to the "charge first ask questions second" approach. Most commonly found in environments with lush vegetation, rumblehorns hunt fish by performing a cannonball dive into the water, then snapping up the stunned fish in their mouths.\n\nSpecial Abilities: Rumblehorns can tear down doors in two or three hits, so beware a rampaging rumblehorn!</description>
+		<statBases>
+			<MoveSpeed>4.5</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MarketValue>850</MarketValue>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+			<FilthRate>8</FilthRate>
+			<CaravanRidingSpeedFactor>1.8</CaravanRidingSpeedFactor>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+					<li>RttR_SiegeBlunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>10</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+					<li>RttR_SiegeBlunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>10</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			
+			<li>
+				<capacities>
+					<li>Bite</li>
+					<li>RttR_SiegeBlunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>32</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+
+				<customThingToDig>RttR_RawFish</customThingToDig>
+				<customAmountToDig>70</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
+
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>RttR_RumblehornDragonScales</woolDef>
+				<shearIntervalDays>2</shearIntervalDays>
+				<woolAmount>10</woolAmount>
+			</li>
+			
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
+				<eggFertilizedDef>RttR_EggRumblehornFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>50</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>1</max>
+				</eggCountRange>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RttR_FlameBreath</defaultProjectile>
+				<warmupTime>1</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>1</minRange>
+				<range>9</range>
+				<forcedMissRadius>4</forcedMissRadius>
+				<soundCast>RttR_FireBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>rumblehorn breath</label>
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<race>
+			<wildBiomes>
+				
+				<TemperateSwamp>0.025</TemperateSwamp>
+				<TropicalSwamp>0.025</TropicalSwamp>
+				<TemperateForest>0.01</TemperateForest>
+				<TropicalRainforest>0.01</TropicalRainforest>
+				<AridShrubland>0.003</AridShrubland>
+				
+			</wildBiomes>
+			<predator>true</predator>
+			<maxPreyBodySize>1.0</maxPreyBodySize>
+			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>5</baseBodySize>
+			<baseHungerRate>0.2</baseHungerRate>
+			<baseHealthScale>6</baseHealthScale>
+			<useMeatFrom>RttR_Fury</useMeatFrom>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<wildness>0.8</wildness>
+			<trainability>Advanced</trainability>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<packAnimal>true</packAnimal>
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.6</manhunterOnDamageChance>
+			<nuzzleMtbHours>72</nuzzleMtbHours>
+			<lifeExpectancy>100</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalJuvenile</def>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>RTTR_Pawn_Rumblehorn_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_Rumblehorn_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_Rumblehorn_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_Rumblehorn_Call</soundCall>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>15</minAge>
+					<soundWounded>RTTR_Pawn_Rumblehorn_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_Rumblehorn_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_Rumblehorn_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_Rumblehorn_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+
+
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RttR_Rumblehorn</defName>
+		<label>rumblehorn</label>
+		
+		<race>RttR_Rumblehorn</race>
+		<combatPower>200</combatPower>
+		<ecoSystemWeight>1</ecoSystemWeight>
+
+
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_A</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_B</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_C</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_D</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_E</texPath>
+			</li>
+		</alternateGraphics>
+
+		<lifeStages>
+			<li>
+				<label>hatchling rumblehorn</label>
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_A</texPath>
+					<drawSize>2</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Dessicated_Rumblehorn</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>juvenile rumblehorn</label>
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_A</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Dessicated_Rumblehorn</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>adolescent rumblehorn</label>
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_A</texPath>
+					<drawSize>3.75</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Dessicated_Rumblehorn</texPath>
+					<drawSize>3.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Rumblehorn_A</texPath>
+					<drawSize>3.75</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Rumblehorn/RttR_Dessicated_Rumblehorn</texPath>
+					<drawSize>3.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+</Defs>

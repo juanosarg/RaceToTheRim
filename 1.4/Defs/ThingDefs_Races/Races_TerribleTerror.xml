@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="AnimalThingBase">
+
+		<defName>RttR_TerribleTerror</defName>
+		<label>terrible terror</label>
+		<description>Don't let their diminutive size and cuddly attitude fool you-terrible terrors are devious little tricksters! Though their nuzzles are both extra common and extra adorable, terrors are highly territorial and have an excellent memory both for the way back to their nest, and for the faces of any who've done them wrong. These little dragons are generally kept for their cuteness and message delivering abilities.\n\nSpecial Abilities: Terrible Terrors are excellent companions due to their nuzzling. Excellent pets! When tamed, Terrible Terrors will periodically refuel nearby campfires and torches.</description>
+		<statBases>
+			<MoveSpeed>3</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MarketValue>150</MarketValue>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+			<FilthRate>2</FilthRate>
+			<CaravanRidingSpeedFactor>1.6</CaravanRidingSpeedFactor>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>3</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>3</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>4</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+
+
+			<li Class="CompProperties_Shearable">
+				<woolDef>RttR_TerribleTerrorDragonScales</woolDef>
+				<shearIntervalDays>2</shearIntervalDays>
+				<woolAmount>10</woolAmount>
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+
+				<customThingToDig>RttR_RawFish</customThingToDig>
+				<customAmountToDig>3</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
+
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_Refueling">
+				<fuelingRate>1000</fuelingRate>
+				<fuelingRadius>5</fuelingRadius>
+				<buildingsToAffect>
+					<li>TorchLamp</li>
+					<li>Campfire</li>
+				</buildingsToAffect>
+				<mustBeTamed>true</mustBeTamed>
+
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
+				<eggFertilizedDef>RttR_EggTerribleTerrorFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>20</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>1</max>
+				</eggCountRange>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RttR_TerribleTerrorBreath</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>2</minRange>
+				<range>5</range>
+				
+				<soundCast>RttR_FireBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>terrible terror breath</label>
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<race>
+			<wildBiomes>
+				<BorealForest>0.0075</BorealForest>
+				<IceSheet>0.025</IceSheet>
+				<Tundra>0.003</Tundra>
+				<ColdBog>0.003</ColdBog>
+				<SeaIce>0.003</SeaIce>
+				<TemperateSwamp>0.003</TemperateSwamp>
+				<TropicalSwamp>0.003</TropicalSwamp>
+				<TemperateForest>0.025</TemperateForest>
+				<TropicalRainforest>0.025</TropicalRainforest>
+				
+			</wildBiomes>
+			<predator>true</predator>
+			<maxPreyBodySize>0.2</maxPreyBodySize>
+			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>0.4</baseBodySize>
+			<baseHungerRate>0.05</baseHungerRate>
+			<baseHealthScale>1.5</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<wildness>0.4</wildness>
+			<trainability>Advanced</trainability>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<useMeatFrom>RttR_Fury</useMeatFrom>
+			<packAnimal>false</packAnimal>
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
+			<nuzzleMtbHours>6</nuzzleMtbHours>
+			<lifeExpectancy>65</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalJuvenile</def>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>RTTR_Pawn_DeadlyNadder_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_DeadlyNadder_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_DeadlyNadder_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_DeadlyNadder_Call</soundCall>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>15</minAge>
+					<soundWounded>RTTR_Pawn_DeadlyNadder_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_DeadlyNadder_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_DeadlyNadder_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_DeadlyNadder_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+
+
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		
+		
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RttR_TerribleTerror</defName>
+		<label>terrible terror</label>
+
+		<race>RttR_TerribleTerror</race>
+		<combatPower>20</combatPower>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		
+
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_B</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_C</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_D</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_E</texPath>
+			</li>
+
+		</alternateGraphics>
+
+		<lifeStages>
+			<li>
+				<label>hatchling terrible terror</label>
+				
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
+					<drawSize>0.6</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_Dessicated_TerribleTerror</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>juvenile terrible terror</label>
+				
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
+					<drawSize>0.8</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_Dessicated_TerribleTerror</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>adolescent terrible terror</label>
+				
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_Dessicated_TerribleTerror</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_TerribleTerror_A</texPath>
+					<drawSize>1.4</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_TerribleTerror/RttR_Dessicated_TerribleTerror</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+</Defs>

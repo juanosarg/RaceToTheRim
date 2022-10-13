@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Achievements Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs</xpath>
+					<value>
+
+						<AchievementsExpanded.AchievementTabDef>
+							<defName>RttR_Achievements</defName>
+							<label>Race to the Rim</label>
+						</AchievementsExpanded.AchievementTabDef>
+
+						<AchievementsExpanded.AchievementDef Name="RttR_AchievementParent" Abstract="true">					
+							<bgtexPath>Achievements/RttR_AchievementBackground</bgtexPath>
+							<tab>RttR_Achievements</tab>
+						</AchievementsExpanded.AchievementDef>
+
+
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementElusiveGiant</defName>
+							<label>Elusive Giant</label>
+							<description>Have a colonist develop a bond with a Rumblehorn</description>
+
+							<tracker Class="AchievementsExpanded.AnimalBondedTracker">
+								<kindDef>RttR_Rumblehorn</kindDef>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/RttR_AchievementElusiveGiant</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>						
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementNadderPlate</defName>
+							<label>Nadder Plate</label>
+							<description>Craft a plate armor out of Nadder dragon scales</description>
+
+							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+								<def>Apparel_PlateArmor</def>
+								<madeFrom>RttR_NadderDragonScales</madeFrom>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/RttR_AchievementNadderPlate</texPath>
+							<points>50</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementWelcomeToBerk</defName>
+							<label>Welcome to Berk</label>
+							<description>Tame a Fury, a Gronckle, a Nadder, a Nightmare and a Zippleback</description>							
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<kindDefs>
+									<li>
+										<key>RttR_Fury</key>
+										<value>1</value>
+									</li>									
+									<li>
+										<key>RttR_Gronckle</key>
+										<value>1</value>
+									</li>									
+									<li>
+										<key>RttR_Nadder</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Nightmare</key>
+										<value>1</value>
+									</li>									
+									<li>
+										<key>RttR_Zippleback</key>
+										<value>1</value>
+									</li>
+								</kindDefs>
+								<requireAll>true</requireAll>
+							</tracker>
+							<texPath>Achievements/RttR_AchievementWelcomeToBerk</texPath>
+							<points>75</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementCuteButDeadly</defName>
+							<label>Cute but Deadly</label>
+							<description>Tame a Terrible Terror</description>							
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<kindDefs>
+									<li>
+										<key>RttR_TerribleTerror</key>
+										<value>1</value>
+									</li>									
+
+								</kindDefs>
+
+							</tracker>
+							<texPath>Achievements/RttR_AchievementCuteButDeadly</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementGronckle</defName>
+							<label>Oh, the Irony</label>
+							<description>Hoard a total of 1000 Gronckle Iron</description>							
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>RttR_GronckleIron</def>
+								<count>1000</count>
+							</tracker>
+							<texPath>Things/Item/RttR_GronckleIron/RttR_GronckleIron_c</texPath>
+							<points>20</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementByAlgaeLight</defName>
+							<label>Rim by Algae Light</label>
+							<description>Build a Flightmare algae lantern</description>							
+							<tracker Class="AchievementsExpanded.BuildingTracker">
+								<def>RttR_AlgaeLantern</def>
+								<count>1</count>
+							</tracker>
+							<texPath>Things/Item/RttR_AlgaeLamp</texPath>
+							<points>5</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementEasyFishing</defName>
+							<label>Easy Fishing</label>
+							<description>Have your dragons catch 500 fish for you </description>							
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>RttR_RawFish</def>
+								<count>500</count>
+							</tracker>
+							<texPath>Things/Item/RttR_Fish/RttR_Fish_c</texPath>
+							<points>20</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementTripleStryked</defName>
+							<label>Triple Struck</label>
+							<description>Have a single pawn affected by a Triple Stryke's three tail attacks</description>
+
+							<tracker Class="AchievementsExpanded.MultiHediffTracker">
+								<defs>
+									<li>
+										<key>RttR_DazeAffected</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_ReverseAnesthetic</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_ToxicBuildup</key>
+										<value>1</value>
+									</li>
+									
+								</defs>
+							</tracker>
+
+							<texPath>Achievements/RttR_AchievementTripleStryked</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementTheIronChair</defName>
+							<label>The Iron Chair</label>
+							<description>Craft a Dining Chair out of Nadder spikes</description>							
+							<tracker Class="AchievementsExpanded.BuildingTracker">
+								<def>DiningChair</def>
+								<madeFrom>RttR_WoodLog</madeFrom>
+								<count>1</count>
+							</tracker>
+							<texPath>Achievements/RttR_AchievementTheIronChair</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementApprenticeDragonslayer</defName>
+							<label>Apprentice Dragonslayer</label>
+							<description>Kill any dragon from Race to the Rim</description>							
+							<tracker Class="AchievementsExpanded.KillTrackerWithOr">
+								<kindDefList>								
+									<li>
+										<key>RttR_Fury</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Flightmare</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Gronckle</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Hotburple</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Nadder</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Nightmare</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Scauldron</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Zippleback</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_TerribleTerror</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Rumblehorn</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Stormcutter</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_Razorwhip</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>RttR_TripleStryke</key>
+										<value>1</value>
+									</li>	
+									<li>
+										<key>RttR_Skrill</key>
+										<value>1</value>
+									</li>										
+								</kindDefList>								
+							</tracker>
+							<texPath>Achievements/RttR_AchievementApprenticeDragonslayer</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+
+						<AchievementsExpanded.AchievementDef ParentName="RttR_AchievementParent">
+							<defName>RttR_AchievementMoreLikeIsleOfJerk</defName>
+							<label>More Like Isle of Jerk</label>
+							<description>Kill 5 dragons of the same dragon species</description>							
+							<tracker Class="AchievementsExpanded.KillTrackerWithOr">
+								<kindDefList>								
+									<li>
+										<key>RttR_Fury</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Flightmare</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Gronckle</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Hotburple</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Nadder</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Nightmare</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Scauldron</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Zippleback</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_TerribleTerror</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Rumblehorn</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Stormcutter</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_Razorwhip</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>RttR_TripleStryke</key>
+										<value>5</value>
+									</li>	
+									<li>
+										<key>RttR_Skrill</key>
+										<value>5</value>
+									</li>											
+								</kindDefList>								
+							</tracker>
+							<texPath>Achievements/RttR_AchievementMoreLikeIsleOfJerk</texPath>
+							<points>35</points>
+						</AchievementsExpanded.AchievementDef>
+
+
+
+
+					</value>
+				</li>
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

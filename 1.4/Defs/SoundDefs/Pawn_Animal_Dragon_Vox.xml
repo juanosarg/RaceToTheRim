@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SoundDef>
+    <defName>RTTR_Pawn_DeadlyNadder_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>DeadlyNadderRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_DeadlyNadder_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>DeadlyNadderRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_DeadlyNadder_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>DeadlyNadderRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Gronckle_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>GronckleRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Gronckle_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>GronckleRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Gronckle_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>GronckleRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Zippleback_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>HideousZipplebackRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Zippleback_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>HideousZipplebackRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Zippleback_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>HideousZipplebackRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Hotburple_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>HotburpleRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Hotburple_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>HotburpleRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Hotburple_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>HotburpleRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_MonstrousNightmare_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MonstrousNightmareRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_MonstrousNightmare_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MonstrousNightmareRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_MonstrousNightmare_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MonstrousNightmareRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>RTTR_Pawn_NightFury_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>NightFuryRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_NightFury_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>NightFuryRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_NightFury_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>NightFuryRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Razorwhip_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RazorwhipRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Razorwhip_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RazorwhipRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Razorwhip_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RazorwhipRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Rumblehorn_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RumblehornRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Rumblehorn_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RumblehornRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Rumblehorn_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RumblehornRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Scauldron_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>ScauldronRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Scauldron_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>ScauldronRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Scauldron_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>ScauldronRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Stormcutter_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>StormcutterRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Stormcutter_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>StormcutterRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_Stormcutter_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>StormcutterRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_TripleStryke_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>TripleStrykeRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_TripleStryke_Angry</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>TripleStrykeRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>0.7770588~0.937647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>RTTR_Pawn_TripleStryke_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>TripleStrykeRoar</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~28</volumeRange>
+        <pitchRange>1.137647~1.237647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  
+</Defs>

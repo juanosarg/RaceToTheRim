@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>RttR_NightmareGelToChemfuel</defName>
+		<label>make chemfuel from nightmare gel</label>
+		<description>Make a batch of chemfuel from nightmare gel.</description>
+		<jobString>Refining chemfuel from nightmare gel.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+				<li>BiofuelRefinery</li>	  
+		</recipeUsers>	
+		 <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>RttR_NightmareGel</li>
+				  </thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RttR_NightmareGel</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<Chemfuel>75</Chemfuel>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>RttR_NightmareGelToChemfuelManual</defName>
+		<label>make chemfuel from nightmare gel</label>
+		<description>Make a batch of chemfuel from nightmare gel. This is a manual process and it is very inefficient.</description>
+		<jobString>Extracting chemfuel from nightmare gel.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>5500</workAmount>
+		<recipeUsers>
+				<li>CraftingSpot</li>	  
+		</recipeUsers>	
+		 <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>RttR_NightmareGel</li>
+				  </thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RttR_NightmareGel</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<Chemfuel>45</Chemfuel>
+		</products>
+	</RecipeDef>
+	
+
+
+
+</Defs>

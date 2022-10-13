@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="AnimalThingBase">
+
+		<defName>RttR_Fury</defName>
+		<label>fury</label>
+		<description>Once called the unholy offspring of lightning and death itself, the elusive strike class Fury is the most sought after dragon in all its forms. Thought to be the most intelligent non-titan dragon, and known to the be fastest, the night furies, light furies, and night lights that roam the Rim are only seen by the very lucky, or the very damned.\n\nSpecial Abilities: Really fast mount. Can be sheared for Dragon Scales. Periodically digs for fish when hungry.</description>
+		<statBases>
+			<MoveSpeed>7</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MarketValue>1000</MarketValue>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+			<FilthRate>4</FilthRate>
+			<CaravanRidingSpeedFactor>2</CaravanRidingSpeedFactor>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>24</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+
+				<customThingToDig>RttR_RawFish</customThingToDig>
+				<customAmountToDig>30</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
+				<timeToDigForced>60000</timeToDigForced>
+
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>RttR_FuryDragonScales</woolDef>
+				<shearIntervalDays>2</shearIntervalDays>
+				<woolAmount>10</woolAmount>
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
+				<eggFertilizedDef>RttR_EggFuryFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>60</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>1</max>
+				</eggCountRange>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RttR_Furybreath</defaultProjectile>
+				<warmupTime>2</warmupTime>
+				<burstShotCount>4</burstShotCount>
+				<minRange>2</minRange>
+				<range>18</range>
+				<forcedMissRadius>2</forcedMissRadius>
+				<soundCast>RttR_FireBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>fury breath</label>
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<race>
+			<wildBiomes>
+				<BorealForest>0.0015</BorealForest>
+				<IceSheet>0.0015</IceSheet>
+				<Tundra>0.0015</Tundra>
+				<ColdBog>0.0015</ColdBog>
+				<SeaIce>0.0015</SeaIce>
+				<TemperateSwamp>0.0015</TemperateSwamp>
+				<TropicalSwamp>0.0015</TropicalSwamp>
+				<TemperateForest>0.0015</TemperateForest>
+				<TropicalRainforest>0.0015</TropicalRainforest>
+				<AridShrubland>0.0015</AridShrubland>
+				<Desert>0.0015</Desert>
+				<ExtremeDesert>0.0015</ExtremeDesert>
+			</wildBiomes>
+			<predator>true</predator>
+			<maxPreyBodySize>1.0</maxPreyBodySize>
+			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>3.5</baseBodySize>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseHealthScale>4</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<wildness>0.90</wildness>
+			
+			<trainability>Advanced</trainability>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<meatLabel>dragon meat</meatLabel>
+			<packAnimal>true</packAnimal>
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<lifeExpectancy>100</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalJuvenile</def>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>RTTR_Pawn_NightFury_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_NightFury_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_NightFury_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_NightFury_Call</soundCall>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>15</minAge>
+					<soundWounded>RTTR_Pawn_NightFury_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_NightFury_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_NightFury_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_NightFury_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+
+
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RttR_Fury</defName>
+		<label>fury</label>
+		<labelPlural>furies</labelPlural>
+		<race>RttR_Fury</race>
+		<combatPower>450</combatPower>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		
+
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_B</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_C</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_D</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_D</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_E</texPath></li>
+			<li><texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_E</texPath></li>
+		</alternateGraphics>
+
+		<lifeStages>
+			<li>
+				<label>hatchling fury</label>
+				<labelPlural>hatchling furies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
+					<drawSize>1.8</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Dessicated_Fury</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>juvenile fury</label>
+				<labelPlural>juvenile furies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
+					<drawSize>2.4</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Dessicated_Fury</texPath>
+					<drawSize>2.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>adolescent fury</label>
+				<labelPlural>adolescent furies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
+					<drawSize>2.75</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Dessicated_Fury</texPath>
+					<drawSize>2.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Fury_A</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Fury/RttR_Dessicated_Fury</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+</Defs>

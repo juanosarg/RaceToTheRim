@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+
+
+  <ThingDef ParentName="LampBase">
+    <defName>RttR_AlgaeLantern</defName>
+    <label>algae lantern</label>
+    <description>A lantern that converts the natural bioluminiscence of flightmare algae into useable light to grow plants by.</description>
+    <thingClass>Building_SunLamp</thingClass>
+    <graphicData>
+      <texPath>Things/Item/RttR_AlgaeLamp</texPath>
+    </graphicData>
+    <blockWind>true</blockWind>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToBuild>330</WorkToBuild>
+      <Mass>4.5</Mass>
+    </statBases>
+    <costList>
+      <Steel>40</Steel>
+	  <RttR_FlightmareAlgae>10</RttR_FlightmareAlgae>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <overlightRadius>7.0</overlightRadius>
+        <glowRadius>14</glowRadius>
+        <glowColor>(0,0,370,0)</glowColor>
+      </li>    
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>3</heatPerSecond>
+      </li>
+	   <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2.0</fuelConsumptionRate>
+        <fuelCapacity>20.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>RttR_FlightmareAlgae</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>1</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+    </comps>
+    <!-- Determined by trial and error
+    This value isn't perfect because these radii use different algorithms
+    but it matches in this case-->
+    <specialDisplayRadius>5.8</specialDisplayRadius>
+	<researchPrerequisites Inherit="False">
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+ 
+</Defs>

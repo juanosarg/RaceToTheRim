@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="AnimalThingBase">
+
+		<defName>RttR_Zippleback</defName>
+		<label>hideous zippleback</label>
+		<description>Fear class dragons hunt through misdirection and guile. The hideous zippleback uses both these tactics, as well as unique firebreathing technique that is surprisingly versatile.  While most dragons release gas in their throat before igniting and expelling it as flame, the zippleback has split this ability in two.  The right head breathes massive amounts of noxious green gas, while the left head creates a spark that ignites it for a powerful explosion. Though incredibly useful for blasting fish out of the water and raiders out of your bedroom, would be tamers are advised to invest heavily in non-flammable infrastructure to minimize the collateral damage.\n\nSpecial Abilities: Excellent fisher, will dig for huge amounts of fish when hungry. Can be harvested for Dragon Scales.</description>
+		<statBases>
+			<MoveSpeed>4</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MarketValue>1000</MarketValue>
+			<ToxicResistance>1</ToxicResistance>
+			<Flammability>0.0</Flammability>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+			<FilthRate>4</FilthRate>
+			<CaravanRidingSpeedFactor>1.8</CaravanRidingSpeedFactor>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>32</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>32</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+
+				<customThingToDig>RttR_RawFish</customThingToDig>
+				<customAmountToDig>50</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
+
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>RttR_ZipplebackDragonScales</woolDef>
+				<shearIntervalDays>2</shearIntervalDays>
+				<woolAmount>10</woolAmount>
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
+				<eggFertilizedDef>RttR_EggZipplebackFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>50</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>1</max>
+				</eggCountRange>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RttR_GasBall</defaultProjectile>
+				<warmupTime>5</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>5</minRange>
+				<range>25</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<forcedMissRadius>2</forcedMissRadius>
+				<soundCast>RttR_FireBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>zippleback gas breath</label>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>0.9</accuracyTouch>
+				<accuracyShort>0.9</accuracyShort>
+				<accuracyMedium>0.9</accuracyMedium>
+				<accuracyLong>0.9</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RttR_NadderBreath</defaultProjectile>
+				<warmupTime>3</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>5</minRange>
+				<range>25</range>		
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>				
+				<soundCast>RttR_FireBreathSound</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>zippleback fire breath</label>
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<race>
+			<wildBiomes>
+				<BorealForest>0.025</BorealForest>
+				<IceSheet>0.003</IceSheet>
+				<Tundra>0.003</Tundra>
+				<ColdBog>0.003</ColdBog>
+				<SeaIce>0.003</SeaIce>
+				<TemperateSwamp>0.025</TemperateSwamp>
+				<TropicalSwamp>0.025</TropicalSwamp>
+				<TemperateForest>0.015</TemperateForest>
+				<TropicalRainforest>0.02</TropicalRainforest>
+				<AridShrubland>0.003</AridShrubland>
+				<Desert>0.003</Desert>
+				<ExtremeDesert>0.003</ExtremeDesert>
+			</wildBiomes>
+			<predator>true</predator>
+			<maxPreyBodySize>1.0</maxPreyBodySize>
+			<body>RttR_WingedQuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>3.5</baseBodySize>
+			<baseHungerRate>0.45</baseHungerRate>
+			<baseHealthScale>4</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<wildness>0.90</wildness>
+			<useMeatFrom>RttR_Fury</useMeatFrom>
+			<trainability>Advanced</trainability>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<packAnimal>true</packAnimal>
+			<manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<lifeExpectancy>100</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalJuvenile</def>
+					<minAge>5</minAge>
+				</li>
+				<li>
+					<def>RttR_AnimalAdolescent</def>
+					<minAge>10</minAge>
+					<soundWounded>RTTR_Pawn_DeadlyNadder_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_DeadlyNadder_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_DeadlyNadder_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_DeadlyNadder_Call</soundCall>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>15</minAge>
+					<soundWounded>RTTR_Pawn_Zippleback_Wounded</soundWounded>
+					<soundDeath>RTTR_Pawn_Zippleback_Wounded</soundDeath>
+					<soundAngry>RTTR_Pawn_Zippleback_Angry</soundAngry>
+					<soundCall>RTTR_Pawn_Zippleback_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+
+
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RttR_Zippleback</defName>
+		<label>hideous zippleback</label>
+		
+		<race>RttR_Zippleback</race>
+		<combatPower>450</combatPower>
+		<ecoSystemWeight>1</ecoSystemWeight>
+
+
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_B</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_C</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_D</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_E</texPath>
+			</li>
+		</alternateGraphics>
+
+		<lifeStages>
+			<li>
+				<label>hatchling zippleback</label>
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
+					<drawSize>2.5</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Dessicated_Zippleback</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>juvenile zippleback</label>
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
+					<drawSize>3.5</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Dessicated_Zippleback</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<label>adolescent zippleback</label>
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
+					<drawSize>4.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Dessicated_Zippleback</texPath>
+					<drawSize>4.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				
+				<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Zippleback_A</texPath>
+					<drawSize>4.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/RttR_Zippleback/RttR_Dessicated_Zippleback</texPath>
+					<drawSize>4.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+</Defs>

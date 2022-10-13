@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <LifeStageDef>
+    <defName>RttR_AnimalJuvenile</defName>
+    <label>juvenile</label>
+    <voxPitch>1.2</voxPitch>
+    <bodySizeFactor>0.5</bodySizeFactor>
+    <foodMaxFactor>1.5</foodMaxFactor>
+    <healthScaleFactor>0.6</healthScaleFactor>
+    <hungerRateFactor>0.75</hungerRateFactor>
+    <marketValueFactor>0.75</marketValueFactor>
+    <meleeDamageFactor>0.75</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.9</MoveSpeed>
+    </statFactors>
+	<shearable>true</shearable>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>RttR_AnimalAdolescent</defName>
+    <label>adolescent</label>
+    <voxPitch>1.1</voxPitch>
+    <bodySizeFactor>0.85</bodySizeFactor>
+    <foodMaxFactor>1.25</foodMaxFactor>
+    <healthScaleFactor>0.8</healthScaleFactor>
+    <hungerRateFactor>0.85</hungerRateFactor>
+    <marketValueFactor>0.9</marketValueFactor>
+    <meleeDamageFactor>0.9</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.9</MoveSpeed>
+    </statFactors>
+	<reproductive>false</reproductive>
+    <milkable>true</milkable>
+    <shearable>true</shearable>
+  </LifeStageDef>
+</Defs>
