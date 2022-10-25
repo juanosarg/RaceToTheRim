@@ -22,6 +22,7 @@
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.05</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -79,6 +80,7 @@
 				<hediff>RttR_ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.012</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
@@ -99,6 +101,7 @@
 				<hediff>RttR_ReverseAnesthetic</hediff>
 				<severityPerDamageDealt>0.012</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
